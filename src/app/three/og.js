@@ -5,12 +5,19 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader';
+import ThunderBackground from './thunder';
 import Sparks from './sparks';
+import Clouds from './clouds';
+import Wave from './wave';
+import Cloud2 from './cloud';
 
 
 const backgrounds = [
+  <ThunderBackground key="thunder" style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }} />,
   <Sparks key="sparks" style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }} />,
-
+  <Clouds key="clouds" style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }} />,
+  <Wave key="wave" style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }} />,
+  <Cloud2 key="cloud" style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }} />,
 ];
 
 const ThreeScene = () => {

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import {FiCheckCircle} from '../assets/icons/vander'
+import {FaUserTie, FaUsersCog} from "react-icons/fa";
 
 export default function AboutThree(){
     const countryData = [
@@ -35,7 +35,7 @@ export default function AboutThree(){
                         <div className="relative overflow-hidden rounded-lg shadow-md dark:shadow-gray-800">
                             <div className="relative">
                                 <video autoPlay loop muted playsInline style={{ width: '100%', height: 'auto' }}>
-                                    <source src="/images/cdmx.webm" type="video/webm"/>
+                                    <source src="/images/cdmx.mp4" type="video/mp4"/>
                                 </video>
                                 <Link href="" className="absolute top-2 left-2 rounded-full p-0.5 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10"><Image src="/images/flags/usa.png" width={28} height={28} className="h-7 w-7 rounded-full" alt=""/></Link>
                             </div>
@@ -55,11 +55,11 @@ export default function AboutThree(){
                         <p className="text-slate-400 max-w-xl">Colonia Nápoles a prime territory nestled next to Mexico City most vibrant districts - Roma, Condesa, Polanco, where exclusivity meets convenience.</p>
                         <h1 className="mb-4 md:text-1xl md:leading-normal text-1xl leading-normal font-semibold"><br/>The Arena</h1>
                         <ul className="list-none text-slate-400 mt-4">
-                        <li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-10 w-10 me-2"/> World Trade Center: <br/> Iconic landmark in Latin America, playing a pivotal role in shaping the narrative for business titans.</li> 
-                        <li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-10 w-10 me-2"/> Operational year-round: <br/> The hub for trade fairs, exhibitions, congresses, concerts, private events, and much more.</li>
+                        <li className="mb-2 flex items-center"><FaUserTie className="text-amber-400 h-10 w-10 me-2"/> World Trade Center: <br/> Iconic landmark in Latin America, playing a pivotal role in shaping the narrative for business titans.</li> 
+                        <li className="mb-2 flex items-center"><FaUsersCog className="text-amber-400 h-10 w-10 me-2"/> Operational year-round: <br/> The hub for trade fairs, exhibitions, congresses, concerts, private events, and much more.</li>
                         </ul>
 
-                        <div className="mt-4">
+                        <div className="font-val mt-4">
                             <Link href="/aboutus" className="hover:text-amber-400 font-medium duration-500">Find Out More <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                         </div>
                     </div>

@@ -1,9 +1,11 @@
 "use client"
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import parse from 'node-html-parser';
 import { FaFacebook, FaLinkedin, RiTwitterXLine } from '../../assets/icons/vander';
+import { useRouter } from 'next/navigation';
 
 const Navbar = dynamic(() => import('../../components/navbar'));
 const Footer = dynamic(() => import('../../components/footer'));
@@ -11,10 +13,16 @@ import { blogData } from "../../data/data";
 
 export default function BlogDetails(props) {
   const data = blogData.find((blog) => blog.id === parseInt(props.params.id));
+  const router = useRouter();
+  const [shareUrl, setShareUrl] = useState('');
 
   useEffect(() => {
     document.documentElement.classList.add('dark');
-  }, []);
+    if (typeof window !== 'undefined') {
+      const currentUrl = `${process.env.NEXT_PUBLIC_BASE_URL}${router.asPath}`;
+      setShareUrl(currentUrl);
+    }
+  }, [router.asPath]);
 
   return (
     <>
@@ -29,14 +37,13 @@ export default function BlogDetails(props) {
                 </Link>
               ))}
               <h5 className="md:text-4xl text-3xl font-bold md:tracking-normal tracking-normal md:leading-normal leading-normal mt-3">{data?.title}</h5>
-              <p className="text-slate-400 text-lg mt-3">{data?.content}</p>
 
               <div className="flex items-center mt-5">
                 <Image src={data?.client} width={48} height={48} className="h-12 w-12 rounded-full" alt="" />
 
                 <div className="ms-2">
                   <h6><Link href="" className="font-medium hover:text-amber-400">{data?.author}</Link><Link href="" className="ms-1 text-green-600 font-medium"><i className="mdi mdi-circle-medium"></i>Follow</Link></h6>
-                  <span className="text-slate-400 text-sm">{data?.date}<span><i className="mdi mdi-circle-medium"></i>{data?.readingTime}</span></span>
+                  <span className="text-slate-400 text-sm">{data?.date}</span>
                 </div>
               </div>
             </div>
@@ -50,7 +57,7 @@ export default function BlogDetails(props) {
             <div className="lg:w-2/3 md:w-4/5">
               <Image src={data?.image} width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} className="rounded-md" alt="" />
 
-              <p className="text-slate-400 mt-4">{data?.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: parse(data?.content).toString() }} />
 
               {/* Display tags */}
               <div className="flex mt-4">
@@ -74,7 +81,7 @@ export default function BlogDetails(props) {
                 <ul className="list-none">
                   <li className="inline">
                     <Link
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-slate-400 hover:text-amber-400"
@@ -85,7 +92,7 @@ export default function BlogDetails(props) {
                   </li>
                   <li className="inline ml-4">
                     <Link
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}`}
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-slate-400 hover:text-amber-400"
@@ -96,7 +103,7 @@ export default function BlogDetails(props) {
                   </li>
                   <li className="inline ml-4">
                     <Link
-                      href={`https://www.linkedin.com/shareArticle?url=${encodeURIComponent(window.location.href)}`}
+                      href={`https://www.linkedin.com/shareArticle?url=${encodeURIComponent(shareUrl)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center text-slate-400 hover:text-amber-400"

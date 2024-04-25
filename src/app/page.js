@@ -10,7 +10,6 @@ const AiFeatures = dynamic(()=>import('./components/aiFeatures'))
 const AboutOne = dynamic(()=>import('./components/aboutOne'))
 const AboutTwo = dynamic(()=>import('./components/aboutTwo'))
 const Pricing = dynamic(()=>import('./components/pricing'))
-const Clients = dynamic(()=>import('./components/clients'))
 const Blogs = dynamic(() => import('./components/blogs'))
 const Features = dynamic(()=>import('./components/features'))
 const ThreeBg = dynamic(() => import('./three/page'), {
@@ -54,7 +53,6 @@ export default function IndexThree() {
           </div>
           <Pricing/>
         </div>
-        <Clients/>
         <Blogs/>
       </section>
       <Footer/>

@@ -7,7 +7,7 @@
    File: Main Css File
 */
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
-/* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+
 */
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1745,10 +1745,10 @@ video {
 }
 .text-amber-500{
   --tw-text-opacity: 1 !important;
-  color: rgb(245 158 11 / var(--tw-text-opacity)) !important;
+  color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
 }
 .text-amber-500\/10{
-  color: rgb(245 158 11 / 0.1) !important;
+  color: rgba(11 245 42 / 0.1) !important;
 }
 .text-gray-400{
   --tw-text-opacity: 1 !important;
@@ -1866,7 +1866,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-  font-family: var(--font-figtree) !important;
+  font-family: var(--font-arcade) !important;
 }
 
 /*********************************/
@@ -1961,23 +1961,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow, #topnav .has-submenu .submenu .has-submenu.active > .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover > .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .navbar-toggle{
@@ -2131,7 +2131,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   background-color: transparent;
   padding-left: 15px;
   padding-right: 15px;
-  font-family:var(--font-figtree) !important;
+  font-family:var(--font-val) !important;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
@@ -2245,13 +2245,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav.scroll .navigation-menu > li:hover > a, #topnav.scroll .navigation-menu > li.active > a{
   --tw-text-opacity: 1;
-  color: rgb(89 15 232 / var(--tw-text-opacity));
+  color: rgb(11 245 42  / var(--tw-text-opacity));
 }
 #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow{
   border-top-color: transparent !important;
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
   border-inline-start-color: transparent !important;
 }
 #topnav.defaultscroll.dark-menubar .logo{
@@ -2292,23 +2292,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow, #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow{
   border-top-color: transparent !important;
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
   border-inline-start-color: transparent !important;
 }
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow),:is(.dark  #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow){
-  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a, #topnav.nav-sticky .navigation-menu.nav-light > li.active > a{
   --tw-text-opacity: 1 !important;
-  color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
+  color: rgb(11 245 42  / var(--tw-text-opacity)) !important;
 }
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a),:is(.dark  #topnav.nav-sticky .navigation-menu.nav-light > li.active > a){
   --tw-text-opacity: 1 !important;
-  color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
+  color: rgb(11 245 42  / var(--tw-text-opacity)) !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow{
   border-top-color: transparent !important;
@@ -2442,11 +2442,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   }
   #topnav .navigation-menu > li .submenu li a:hover{
     --tw-text-opacity: 1 !important;
-    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
+    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
   }
   :is(.dark #topnav .navigation-menu > li .submenu li a:hover){
     --tw-text-opacity: 1 !important;
-    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
+    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
   }
   #topnav .navigation-menu > li .submenu li ul{
     margin: 0px;
@@ -2500,14 +2500,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   }
   #topnav .navigation-menu > li:hover > .menu-arrow{
     border-top-color: transparent !important;
-    border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+    border-inline-end-color: rgba(11, 245, 42, var(--tw-border-opacity)) !important;
     --tw-border-opacity: 1 !important;
-    border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
+    border-bottom-color: rgba(11, 245, 42, var(--tw-border-opacity)) !important;
     border-inline-start-color: transparent !important;
   }
   #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a{
     --tw-text-opacity: 1 !important;
-    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
+    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
   }
   :is(.dark #topnav .navigation-menu > li:hover > a),:is(.dark  #topnav .navigation-menu > li.active > a){
     --tw-text-opacity: 1 !important;
@@ -3428,7 +3428,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:border-amber-500:hover{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(245 158 11 / var(--tw-border-opacity)) !important;
+  border-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
 }
 
 .hover\:border-gray-800:hover{
@@ -3447,7 +3447,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:bg-amber-500:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(245 158 11 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(11 245 42  / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-gray-50:hover{
@@ -3479,7 +3479,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .focus\:border-amber-300:focus{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(252 211 77 / var(--tw-border-opacity)) !important;
+  border-color: rgb(34 211 77 / var(--tw-border-opacity)) !important;
 }
 
 .focus\:border-amber-400:focus{
@@ -3508,7 +3508,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .focus\:ring-amber-200:focus{
   --tw-ring-opacity: 1 !important;
-  --tw-ring-color: rgb(253 230 138 / var(--tw-ring-opacity)) !important;
+  --tw-ring-color: rgb(34 234 245 / var(--tw-ring-opacity)) !important;
 }
 
 .focus\:ring-opacity-50:focus{
@@ -3669,7 +3669,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .dark\:text-amber-500\/20){
-  color: rgb(245 158 11 / 0.2) !important;
+  color: rgb(11 245 42  / 0.2) !important;
 }
 
 :is(.dark .dark\:text-gray-400){
@@ -3760,7 +3760,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .dark\:hover\:bg-amber-400\/5:hover){
-  background-color: rgb(89 15 232 / 0.05) !important;
+  background-color: rgba(15, 232, 22, 0.05) !important;
 }
 
 :is(.dark .dark\:hover\:bg-slate-800:hover){

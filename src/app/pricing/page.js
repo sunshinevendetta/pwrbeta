@@ -41,13 +41,12 @@ export default function Pricings(){
             <AboutThree/>
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-6 text-center">
-                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">You dont have to choose between cost, time and quality</h3>
+                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Select Your Tickets</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Artificial intelligence makes it fast easy to create content for your blog, social media, website, and more!</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Every ticket gives you access to different levels, areas, side-events, expo events and activities related.</p>
                 </div>
                 <Pricing/>
             </div>
-            <ClientsTwo/>
         </section>
         <Footer/>
         </>

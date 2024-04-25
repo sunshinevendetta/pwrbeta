@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { TiUserAdd } from "react-icons/ti";
+import { MdVpnKey } from "react-icons/md";
 
 export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -108,19 +110,25 @@ export default function Navbar() {
                     </div>
                 </div>
                 <ul className="buy-button list-none mb-0">
-                    <li className="inline mb-0">
-                        <Link href="/login">
-                            <span className="py-[6px] px-4 md:inline hidden items-center justify-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400/5 hover:bg-amber-400 border border-amber-400/10 hover:border-amber-400 text-amber-400 hover:text-white font-semibold">Login</span>
-                            <span className="py-[6px] px-4 inline md:hidden items-center justify-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400 hover:bg-amber-500 border border-amber-400 hover:border-amber-500 text-white font-semibold">Login</span>
-                        </Link>
-                    </li>
-            
-                    <li className="md:inline hidden ps-1 mb-0 ">
-                        <Link href="/signup" target="_blank" className="py-[6px] px-4 inline-block items-center justify-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400 hover:bg-amber-500 border border-amber-400 hover:border-amber-500 text-white font-semibold">Signup</Link>
-                    </li>
-                </ul>
-                <div id="navigation" className={`${toggleMenu ? 'block' : ''}`}>
-                    <ul className="navigation-menu">
+  <li className="hidden md:inline ps-1 mb-0">
+    <Link href="/login">
+      <span className="inline-flex items-center justify-center py-[4px] px-4 font-arcade tracking-wider align-middle duration-500 text-sm text-center rounded bg-transparent hover:bg-amber-400 border border-transparent hover:border-amber-400 text-amber-400 hover:text-white font-semibold">
+        <MdVpnKey className="mr-1 text-white" />
+        <span className="hidden md:inline"></span>
+      </span>
+    </Link>
+  </li>
+
+  <li className="hidden md:inline ps-1 mb-0">
+    <Link href="/signup" target="_blank" className="inline-flex items-center justify-center py-[4px] px-4 font-arcade tracking-wider align-middle duration-500 text-sm text-center rounded bg-transparent hover:bg-amber-500 border border-transparent hover:border-amber-500 text-white font-semibold">
+      <TiUserAdd className="mr-1 text-white" />
+      <span className="hidden md:inline"></span>
+    </Link>
+  </li>
+</ul>
+
+                <div id="navigation" className= {`${toggleMenu ? 'block' : ''}`}>
+                    <ul className="font-val navigation-menu">
                     <li><Link href="/" className="parent-menu-item">Home</Link></li>
                     <li className="has-submenu parent-parent-menu-item">
                             <Link href="#">Event</Link><span className="menu-arrow"></span>
@@ -136,19 +144,19 @@ export default function Navbar() {
 
                                 <li className="has-submenu parent-menu-item"><Link href="#"> Hackathon </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
-                                    <li><Link href="/login" className="sub-menu-item"> Info</Link></li>
+                                    <li><Link href="/blog-detail/1" className="sub-menu-item"> Info</Link></li>
                                         <li><Link href="/login" className="sub-menu-item"> Login</Link></li>
                                     </ul> 
                                 </li>
                                 <li className="has-submenu parent-menu-item"><Link href="#"> Trading Arena </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
-                                    <li><Link href="/login" className="sub-menu-item"> Info</Link></li>
+                                    <li><Link href="/blog-detail/2" className="sub-menu-item"> Info</Link></li>
                                         <li><Link href="/login" className="sub-menu-item"> Login</Link></li>
                                     </ul> 
                                 </li>
                                 <li className="has-submenu parent-menu-item"><Link href="#"> Show your ART </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
-                                        <li><Link href="/login" className="sub-menu-item"> Info</Link></li>
+                                        <li><Link href="/blog-detail/3" className="sub-menu-item"> Info</Link></li>
                                         <li><Link href="/login" className="sub-menu-item"> Login</Link></li>
                                     </ul> 
                                 </li>

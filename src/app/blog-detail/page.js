@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { FaFacebook, FaLinkedin, RiTwitterXLine } from '../assets/icons/vander';
+import parse from 'node-html-parser';
+
 const Navbar = dynamic(() => import('../components/navbar'));
 const Footer = dynamic(() => import('../components/footer'));
 import { blogData } from "../data/data";
@@ -19,6 +21,7 @@ export default function BlogDetails({ params }) {
     }
   }, []);
 
+  // Finds the specific blog post based on the ID passed through params
   const data = blogData.find((blog) => blog.id === parseInt(params.id));
 
   return (
@@ -29,7 +32,7 @@ export default function BlogDetails({ params }) {
         <div className="container relative">
           <div className="md:flex justify-center">
             <div className="lg:w-2/3 md:w-4/5">
-              {/* Blog details */}
+              {/* Displays the tags related to the blog post */}
               {data?.tags.map((tag, index) => (
                 <Link key={index} href={`/tags/${tag}`} className="bg-amber-400 text-white text-[12px] font-semibold px-2.5 py-0.5 rounded h-5 mr-2">
                   {tag}
@@ -42,7 +45,8 @@ export default function BlogDetails({ params }) {
                 <Image src={data?.client} width={48} height={48} className="h-12 w-12 rounded-full" alt={data?.author} />
                 <div className="ms-2">
                   <h6><Link href={`/authors/${data?.author}`} className="font-medium hover:text-amber-400">{data?.author}</Link></h6>
-                  <span className="text-slate-400 text-sm">{data?.date} - {data?.readingTime}</span>
+                  {/* Displays the date of the post */}
+                  <span className="text-slate-400 text-sm">{data?.date}</span>
                 </div>
               </div>
             </div>

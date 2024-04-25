@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import {FiCheckCircle, MdKeyboardArrowRight} from '../assets/icons/vander'
+import {FiCheckCircle, GiBrainstorm, GiPowerGenerator, GiTakeMyMoney, GiTechnoHeart, MdKeyboardArrowRight} from '../assets/icons/vander'
+
 
 export default function AboutTwo(){
     return(
@@ -19,13 +20,13 @@ export default function AboutTwo(){
                         <h4 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Crafted for the bold, available for the <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">READY.</span></h4>
                         <p className="text-slate-400">Attendees: Open doors, no holds barred, everyone is welcome no matter their level of knowledge.</p>
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-5 w-5 me-2"/> Curious Minds</li>
-                            <li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-5 w-5 me-2"/> Investors</li>
-                            <li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-5 w-5 me-2"/>Tech Junkies</li>
-<li className="mb-2 flex items-center"><FiCheckCircle className="text-amber-400 h-5 w-5 me-2"/>Creatrors</li>
+                            <li className="mb-2 flex items-center"><GiBrainstorm className="text-amber-500 h-5 w-5 me-2"/> Curious Minds</li>
+                            <li className="mb-2 flex items-center"><GiTakeMyMoney className="text-amber-500 h-5 w-5 me-2"/> Investors</li>
+                            <li className="mb-2 flex items-center"><GiTechnoHeart className="text-amber-500 h-5 w-5 me-2"/>Tech Junkies</li>
+<li className="mb-2 flex items-center"><GiPowerGenerator className="text-amber-500 h-5 w-5 me-2"/>Creators</li>
 </ul>
 
-                        <div className="mt-4">
+                        <div className="font-val mt-4">
                             <Link href="" className="hover:text-amber-400 font-medium duration-500 inline-flex items-center">Find Out More <MdKeyboardArrowRight className="ms-1 text-[20px]"/></Link>
                         </div>
                     </div>
