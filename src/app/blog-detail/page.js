@@ -34,7 +34,7 @@ export default function BlogDetails({ params }) {
             <div className="lg:w-2/3 md:w-4/5">
               {/* Displays the tags related to the blog post */}
               {data?.tags.map((tag, index) => (
-                <Link key={index} href={`/tags/${tag}`} className="bg-amber-400 text-white text-[12px] font-semibold px-2.5 py-0.5 rounded h-5 mr-2">
+                <Link key={index} href={`/tags/${tag}`} className="bg-amber-400 text-white text-[10px] font-semibold px-2.5 py-0.5 rounded h-5 mr-2">
                   {tag}
                 </Link>
               ))}
@@ -42,11 +42,11 @@ export default function BlogDetails({ params }) {
               <p className="text-slate-400 text-lg mt-3">{data?.content}</p>
               {/* Author info */}
               <div className="flex items-center mt-5">
-                <Image src={data?.client} width={48} height={48} className="h-12 w-12 rounded-full" alt={data?.author} />
+                <Image src={data?.client} width={24} height={24} className="h-12 w-12 rounded-full" alt={data?.author} />
                 <div className="ms-2">
-                  <h6><Link href={`/authors/${data?.author}`} className="font-medium hover:text-amber-400">{data?.author}</Link></h6>
+                  <h6><Link href={`/authors/${data?.author}`} className="font-small hover:text-amber-400">{data?.author}</Link></h6>
                   {/* Displays the date of the post */}
-                  <span className="text-slate-400 text-sm">{data?.date}</span>
+                  <span className="text-slate-400 text-xs">{data?.date}</span>
                 </div>
               </div>
             </div>

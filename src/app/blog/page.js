@@ -66,7 +66,7 @@ export default function Blog() {
                                         <div className="mt-5 flex justify-between items-center">
                                             <span className="flex items-center">
                                                 <Image src={item.client} width={28} height={28} className="h-7 w-7 rounded-full" alt="" />
-                                                <Link href="" className="ms-1 text-slate-400 hover:text-amber-400 text-sm">{item.author}</Link>
+                                                <Link href="" className="ms-1 text-slate-400 hover:text-amber-400 text-xs">{item.author}</Link>
                                             </span>
 
                                             <span className="flex items-center"><FiCalendar className="h-4 w-4" /><span className="ms-1 text-slate-400 text-xs">{item.date}</span></span>

@@ -10,12 +10,12 @@ export default function Blogs() {
     <>
       <div className="container relative md:mt-24 mt-16">
         <div className="grid grid-cols-1 pb-6 text-center">
-          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">News</h3>
+          <h3 className="mb-4 md:text-4xl md:leading-normal text-2xl leading-normal font-semibold">News</h3>
 
           <p className="text-slate-400 max-w-xl mx-auto">Education is power, read the latest news and articles to start your journey</p>
         </div>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-4 mt-6 gap-6">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-2 mt-6 gap-6">
           {blogData.slice(0, 4).map((item, index) => {
             return (
               <div className="relative bg-white dark:bg-slate-900 p-4 rounded-md shadow dark:shadow-gray-700" key={index}>
@@ -51,15 +51,12 @@ export default function Blogs() {
                   <div className="mt-5 flex justify-between items-center">
                     <span className="flex items-center">
                       <Image src={item.client} width={28} height={28} className="h-7 w-7 rounded-full" alt="" />
-                      <Link href="" className="ms-1 text-slate-400 hover:text-amber-400 text-sm">
+                      <Link href="" className="ms-1 text-slate-400 hover:text-amber-400 text-xs">
                         {item.author}
                       </Link>
                     </span>
 
-                    <span className="flex items-center">
-                      <FiCalendar className="h-4 w-4" />
-                      <span className="ms-1 text-slate-400 text-xs">{item.date}</span>
-                    </span>
+                    
                   </div>
                 </div>
               </div>

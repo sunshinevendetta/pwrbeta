@@ -52,37 +52,37 @@ export default function Services() {
         },
         {
             icon: FaAward,
-            image: '/images/blog/6.jpg',
+            image: '/images/blog/award.jpg',
             title: 'Awards Ceremony',
             desc: 'The glory is yours in a live-streamed event celebrating the brightest ideas and crowning the rulers of innovation.'
         },
         {
             icon: RiLightbulbFlashFill,
-            image: '/images/blog/13.jpg',
+            image: '/images/blog/20.jpg',
             title: 'DeFi Innovations',
             desc: 'Pioneer decentralized finance solutions that prioritize security, inclusivity, and efficiency, reshaping how finance functions on a global scale.'
           },
           {
             icon: RiLightbulbFlashFill,
-            image: '/images/blog/14.jpg',
+            image: '/images/blog/21.jpg',
             title: 'Decentralized Social Media',
             desc: 'Create platforms that enhance user control, ensure privacy, and support free expression, transforming how people connect and communicate online.'
           },
           {
             icon: RiLightbulbFlashFill,
-            image: '/images/blog/15.jpg',
+            image: '/images/blog/22.jpg',
             title: 'Blockchain Gaming',
             desc: 'Develop blockchain-based games that provide true ownership, participatory governance, and a deeply immersive gaming experience.'
           },
           {
             icon: RiLightbulbFlashFill,
-            image: '/images/blog/16.jpg',
+            image: '/images/blog/23.jpg',
             title: 'Zk Tech',
             desc: 'Utilize zero-knowledge proofs to build solutions that significantly enhance privacy and security in digital transactions and interactions.'
           },
           {
             icon: RiLightbulbFlashFill,
-            image: '/images/blog/17.jpg',
+            image: '/images/blog/24.jpg',
             title: 'Web3 Appliances in Real Life',
             desc: 'Innovate with Web3 technologies to create real-life applications that seamlessly integrate the digital with the physical world, enhancing everyday experiences.'
           },          
@@ -114,8 +114,8 @@ export default function Services() {
         <section className="relative md:py-24 py-16">
           <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-6 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">SynthetIQ Artificial Intelligence Hackathon</h3>
-    <p className="text-slate-400 max-w-xl mx-auto">Engage with cutting-edge AI technologies to innovate solutions in data analysis, machine learning, and automation that transform industries and enhance daily living.</p>
+            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Anon Empire Web3 Hackathon</h3>
+    <p className="text-slate-400 max-w-xl mx-auto">Develop decentralized applications that promote user sovereignty and privacy.</p>
 </div>
 
             <Slider ref={sliderRef} {...settings}>

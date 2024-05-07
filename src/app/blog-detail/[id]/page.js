@@ -32,18 +32,18 @@ export default function BlogDetails(props) {
           <div className="md:flex justify-center">
             <div className="lg:w-2/3 md:w-4/5">
               {data?.tags.map((tag, index) => (
-                <Link key={index} href="" className="bg-amber-400 text-white text-[12px] font-semibold px-2.5 py-0.5 rounded h-5 mr-2">
+                <Link key={index} href="" className="bg-amber-400 text-white text-[10px] font-semibold px-2.5 py-0.5 rounded h-5 mr-2">
                   {tag}
                 </Link>
               ))}
               <h5 className="md:text-4xl text-3xl font-bold md:tracking-normal tracking-normal md:leading-normal leading-normal mt-3">{data?.title}</h5>
 
               <div className="flex items-center mt-5">
-                <Image src={data?.client} width={48} height={48} className="h-12 w-12 rounded-full" alt="" />
+                <Image src={data?.client} width={24} height={24} className="h-12 w-12 rounded-full" alt="" />
 
                 <div className="ms-2">
-                  <h6><Link href="" className="font-medium hover:text-amber-400">{data?.author}</Link><Link href="" className="ms-1 text-green-600 font-medium"><i className="mdi mdi-circle-medium"></i>Follow</Link></h6>
-                  <span className="text-slate-400 text-sm">{data?.date}</span>
+                  <h6><Link href="" className="font-small hover:text-amber-400">{data?.author}</Link><Link href="" className="ms-1 text-green-600 font-amall"><i className="mdi mdi-circle-medium"></i>Follow</Link></h6>
+                  <span className="text-slate-400 text-xs">{data?.date}</span>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function BlogDetails(props) {
               {/* Display tags */}
               <div className="flex mt-4">
                 {data?.tags.map((tag, index) => (
-                  <span key={index} className="bg-amber-400/10 text-amber-500 text-[12px] font-semibold px-2.5 py-0.5 rounded mr-2">
+                  <span key={index} className="bg-amber-400/10 text-white text-[12px] font-semibold px-2.5 py-0.5 rounded mr-2">
                     {tag}
                   </span>
                 ))}
