@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {IoIosSchool, GiInspiration, TbFriends,FaGamepad, GiSwordsPower, MdLocalGroceryStore} from "../assets/icons/vander"
 export default function AiFeatures(){
     const featureData = [
@@ -35,26 +36,35 @@ export default function AiFeatures(){
     ]
     return(
         <>
-        <div className="container relative md:mt-24 mt-16">
+        <div className="container relative md:mt-24 mt-16 hover-gradient-amber-7 text-white">
                 <div className="grid grid-cols-1 pb-6 text-center">
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Customized Realms</h3> <p className="text-slate-400 max-w-xl mx-auto">Immerse yourself in meticulously crafted realms designed to ignite your passion, expand your knowledge, and empower your journey. These transformative spaces serve as catalysts for unlocking your true potential and bringing groundbreaking ideas to life.</p>
                 </div>
 
-                <div className="grid md:grid-cols-3 grid-cols-1 mt-6 gap-6">
+                <div className="grid md:grid-cols-3 grid-cols-1 mt-6 gap-6 ">
                     {featureData.map((item,index)=>{
                         const Icon = item.icon
                         return(
-                            <div className="group flex duration-500 xl:p-3" key={index}>
-                                <div className="flex align-middle justify-center items-center w-14 h-14 mt-1 bg-amber-400/5 group-hover:bg-amber-400 group-hover:text-white border-2 border-amber-400/20 text-amber-400 rounded-lg text-2xl shadow-sm dark:shadow-gray-800 duration-500">
-                                    <Icon className="w-5 h-5"/>
+                            <div className="group flex duration-500 xl:p-3 " key={index}>
+                                <div className="flex align-middle justify-center items-center  w-14 h-14 mt-1 bg-green-400/5 group-hover:bg-amber-400 group-hover:text-white border-2 border-green-400/20 hover:border-green-600 text-green-400 rounded-lg text-2xl shadow-sm dark:shadow-gray-800 duration-500">
+                                    <Icon className="w-5 h-5 "/>
                                 </div>
                                 <div className="flex-1 ms-4">
-                                    <h4 className="mb-0 text-lg font-semibold">{item.title}</h4>
-                                    <p className="text-slate-400 mt-2">{item.desc}</p>
+                                  
+                                    <h4 className="mb-0 text-lg font-semibold hover:text-amber-400 ">{item.title}</h4>
+                                    
+                                    <p className="text-slate-400 mt-2 hover:text-amber-400">{item.desc}</p>
+                                    
                                 </div>
+                                
                             </div>
+                    
+                           
+
+                         
                         )
                     })}
+                     <Link href="/aboutus" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                 </div>
             </div>
         </>

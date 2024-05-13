@@ -131,7 +131,7 @@ export const blogData = [
           <p>Fractal is an avant-garde art contest that explores the transformative power of technology in art. With a total bounty of $10,000 where generative art, physical installations and interactive sculptures met.</p>
       
           <div class="text-center mt-3"><h2><br>Prizes</h2><br></div>
-          <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-71 gap-6">
             <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-3">
               <img src="/images/blog/fractal.jpg" alt="Generative Art" style="max-width: 100%;" />
               <br><strong><a href="/fractal"><h1>Fractal</h1></a></strong>

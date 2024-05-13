@@ -14,6 +14,8 @@ const Blogs = dynamic(() => import('./components/blogs'))
 const Features = dynamic(()=>import('./components/features'))
 const ThreeBg = dynamic(() => import('./three/page'), {
     ssr: false,});
+    
+
 
 export default function IndexThree() {
   const containerRef = useRef(null);

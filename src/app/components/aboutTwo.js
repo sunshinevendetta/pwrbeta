@@ -17,7 +17,7 @@ export default function AboutTwo(){
                     </div>
 
                     <div className="order-2 md:order-1">
-                        <h4 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Crafted for the bold, available for the <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text">READY.</span></h4>
+                        <h4 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Crafted for the bold, available for the <span className="bg-gradient-to-br from-green-400 to-fuchsia-600 text-transparent bg-clip-text hover-gradient-amber-6">READY.</span></h4>
                         <p className="text-slate-400">Attendees: Open doors, no holds barred, everyone is welcome no matter their level of knowledge.</p>
                         <ul className="list-none text-slate-400 mt-4">
                             <li className="mb-2 flex items-center"><GiBrainstorm className="text-amber-500 h-5 w-5 me-2"/> Curious Minds</li>
@@ -27,7 +27,7 @@ export default function AboutTwo(){
 </ul>
 
                         <div className="font-val mt-4">
-                            <Link href="" className="hover:text-amber-400 font-medium duration-500 inline-flex items-center">Find Out More <MdKeyboardArrowRight className="ms-1 text-[20px]"/></Link>
+                            <Link href="" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                         </div>
                     </div>
                 </div>

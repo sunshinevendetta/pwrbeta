@@ -7,8 +7,8 @@ import {FaUserTie, FaUsersCog} from "react-icons/fa";
 export default function AboutThree(){
     const countryData = [
         {
-            name:"Deutsche",
-            image:"/images/flags/germany.png"
+            name:"Español",
+            image:"/images/flags/mex.png"
         },
         {
             name:"Hindi",
@@ -19,8 +19,8 @@ export default function AboutThree(){
             image:"/images/flags/china.png"
         },
         {
-            name:"Español",
-            image:"/images/flags/mex.png"
+            name:"Deutsche",
+            image:"/images/flags/germany.png"
         },
         {
             name:"عربي",
@@ -31,13 +31,13 @@ export default function AboutThree(){
         <>
         <div className="container relative md:mt-24 mt-16">
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-6">
-                    <div className="relative overflow-hidden p-6 bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-slate-800">
+                    <div className="relative overflow-hidden p-6 bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-slate-800">
                         <div className="relative overflow-hidden rounded-lg shadow-md dark:shadow-gray-800">
                             <div className="relative">
                                 <video autoPlay loop muted playsInline style={{ width: '100%', height: 'auto' }}>
-                                    <source src="/images/cdmx.webm" type="video/webm"/>
+                                    <source src="/images/cdmx.mp4" type="video/mp4"/>
                                 </video>
-                                <Link href="" className="absolute top-2 left-2 rounded-full p-0.5 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10"><Image src="/images/flags/usa.png" width={28} height={28} className="h-7 w-7 rounded-full" alt=""/></Link>
+                                <Link href="" className="absolute top-2 left-2 rounded-full p-0.1 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10"><Image src="/images/flags/usa.png" width={28} height={28} className="h-7 w-7 rounded-full" alt=""/></Link>
                             </div>
                         </div>
                         
@@ -60,7 +60,7 @@ export default function AboutThree(){
                         </ul>
 
                         <div className="font-val mt-4">
-                            <Link href="/aboutus" className="hover:text-amber-400 font-medium duration-500">Find Out More <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
+                            <Link href="/aboutus" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                         </div>
                     </div>
                 </div>

@@ -1745,10 +1745,10 @@ video {
 }
 .text-amber-500{
   --tw-text-opacity: 1 !important;
-  color: rgb(245 158 11 / var(--tw-text-opacity)) !important;
+  color: rgb(22 163 74 / var(--tw-text-opacity)) !important;
 }
 .text-amber-500\/10{
-  color: rgb(245 158 11 / 0.1) !important;
+  color: rgba(11, 245, 105, 0.1) !important;
 }
 .text-gray-400{
   --tw-text-opacity: 1 !important;
@@ -3447,7 +3447,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:bg-amber-500:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(245 158 11 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(0 154 30 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-gray-50:hover{
@@ -3508,7 +3508,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .focus\:ring-amber-200:focus{
   --tw-ring-opacity: 1 !important;
-  --tw-ring-color: rgb(253 230 138 / var(--tw-ring-opacity)) !important;
+  --tw-ring-color: rgb(22 163 74 / var(--tw-ring-opacity)) !important;
 }
 
 .focus\:ring-opacity-50:focus{
@@ -4143,7 +4143,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .hover-gradient-amber-3 {
-  background: linear-gradient(75deg, #a200ff 0%, #bb00ff 25%, #1caf02 50%, #079511 100%);
+  background: linear-gradient(75deg, #a200ff 0%, #bb00ff 25%, #079511 50%, #1caf02 100%);
   background-size: 7000%;
   transition: background-position 0.7s ease;
   
@@ -4179,8 +4179,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   background-size: 7000%;
   transition: background-position 0.7s ease;
   
+  
+  
 }
 
 .hover-gradient-amber-6:hover {
   background-position: 100% 0;
+
 }

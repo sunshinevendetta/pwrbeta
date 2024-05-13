@@ -329,6 +329,10 @@ export default function Pricing() {
   <FiCheckCircle className="text-green-600 h-[18px] w-[18px] me-2" />
   <span className="text-slate-900 dark:text-white me-1 font-semibold">VIP Private Room for Business Meetings </span>
 </li>
+<li className="flex items-center mt-2">
+  <FiCheckCircle className="text-green-600 h-[18px] w-[18px] me-2" />
+  <span className="text-slate-900 dark:text-white me-1 font-semibold">Exclusive Secret After Event </span>
+</li>
 
 <li className="flex items-center mt-2">
 <FiCheckCircle className="text-green-600 h-[18px] w-[18px] me-2" />
@@ -432,12 +436,16 @@ export default function Pricing() {
 </li>
                         </ul>
                     </div>
+                    
                 </div>
+                 <Link href="/aboutus" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
+                
 
                 
 
                
             </div>
+            
 
             
         </>

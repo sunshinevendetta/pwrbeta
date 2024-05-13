@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {FiCheckCircle, MdKeyboardArrowRight} from '../assets/icons/vander'
+import { MdKeyboardArrowRight} from '../assets/icons/vander'
 import { TbFlagFilled } from "react-icons/tb";
 import { LuNetwork } from "react-icons/lu";
 import { TbWorldHeart } from "react-icons/tb";
@@ -16,7 +16,7 @@ export default function AboutOne(){
                 </div>
 
                 <div className="">
-                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Welcome to the <span className="bg-gradient-to-br from-amber-400 to-fuchsia-600 text-transparent bg-clip-text"> Gathering</span></h3>
+                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Welcome to the <span className="bg-gradient-to-br from-green-600 to-fuchsia-600 text-transparent bg-clip-text hover-gradient-amber-6"> Gathering</span></h3>
                     <p className="text-slate-400 max-w-xl">+10,000 human souls, ready to set the stage for an epic shift during the event.</p>
 
                     <ul className="list-none text-slate-400 mt-4">
@@ -26,7 +26,7 @@ export default function AboutOne(){
   </li>
   <li className="mb-2 flex items-center">
     <LuNetwork className="text-amber-400 h-5 w-5 me-2" />
-    Workshops & Activities: Held at the HIR Auditorium and Mixteca 1.
+    Workshops & Activities: Held at the HIR Auditorium and Mixteca 1 & 2.
   </li>
   <li className="mb-2 flex items-center">
     <TbWorldHeart className="text-amber-400 h-5 w-5 me-2" />
@@ -34,7 +34,7 @@ export default function AboutOne(){
   </li>
 </ul>
                     <div className="font-val mt-4">
-                        <Link href="" className="hover:text-amber-400 font-medium duration-500 inline-flex items-center">Find Out More <MdKeyboardArrowRight className="ms-1 text-[20px]"/></Link>
+                        <Link href="" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                     </div>
                 </div>
             </div>
