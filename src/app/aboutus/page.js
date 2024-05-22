@@ -11,7 +11,7 @@ const Blogs = dynamic(() => import('../components/blogs'))
 
 
 
-import '../../../node_modules/react-modal-video/css/modal-video.css'
+
 
 
 export default function AboutUs(){
