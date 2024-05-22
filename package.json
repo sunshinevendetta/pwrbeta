@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "install": "--force"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
