@@ -156,6 +156,10 @@ if (typeof window !== "undefined"){
                                 <li className="has-submenu parent-menu-item font-arcade text-sm"><Link href="#"> Hackathon </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
                                     <li><Link href="/blog-detail/1" className="sub-menu-item text-xs"> Info</Link></li>
+                                    <li><Link href="/synthetiq" className="sub-menu-item text-xs"> AI</Link></li>
+                                    <li><Link href="/anonempire" className="sub-menu-item text-xs"> Web3</Link></li>
+                                    <li><Link href="/lifecode" className="sub-menu-item text-xs"> Biohacking</Link></li>
+                                    <li><Link href="/automate" className="sub-menu-item text-xs"> Robotics</Link></li>
                                         <li><Link href="/login" className="sub-menu-item text-xs"> Login</Link></li>
                                     </ul> 
                                 </li>
@@ -165,9 +169,10 @@ if (typeof window !== "undefined"){
                                         <li><Link href="/login" className="sub-menu-item text-xs"> Login</Link></li>
                                     </ul> 
                                 </li>
-                                <li className="has-submenu parent-menu-item font-arcade text-sm"><Link href="#"> Show Art </Link><span className="submenu-arrow"></span>
+                                <li className="has-submenu parent-menu-item font-arcade text-sm"><Link href="#"> Art Contest </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
-                                        <li><Link href="/blog-detail/3" className="sub-menu-item text-xs"> Info</Link></li>
+                                        <li><Link href="/blog-detail/3" className="sub-menu-item text-xs"> Fractal</Link></li>
+                                        <li><Link href="/blog-detail/4" className="sub-menu-item text-xs"> Prism</Link></li>
                                         <li><Link href="/login" className="sub-menu-item text-xs"> Login</Link></li>
                                     </ul> 
                                 </li>

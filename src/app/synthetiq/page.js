@@ -114,55 +114,55 @@ export default function Services() {
       adaptiveHeight: true
     };
 
-    return (
-      <>
-        <NavLight />
-        <section className="relative md:py-24 py-16">
-          <div className="container relative md:mt-24 mt-16">
-            <div className="grid grid-cols-1 pb-6 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">SynthetIQ Artificial Intelligence Hackathon</h3>
-    <p className="text-slate-400 max-w-xl mx-auto">Engage with cutting-edge AI technologies to innovate solutions in data analysis, machine learning, and automation that transform industries and enhance daily living.</p>
+    return (<>
+      <NavLight />
+      <section className="relative md:py-24 py-16">
+        <div className="container relative md:mt-24 mt-16">
+          <div className="grid grid-cols-1 pb-6 text-center">
+          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">SynthetIQ Artificial Intelligence Hackathon</h3>
+  <p className="text-slate-400 max-w-xl mx-auto">Engage with cutting-edge AI technologies to innovate solutions in data analysis, machine learning, and automation that transform industries and enhance daily living.</p>
 </div>
 
-            <Slider ref={sliderRef} {...settings}>
-              {casesData.map((item, index) => {
-                const Icon = item.icon;
-                return (
-                  <div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
-                    <div className="relative overflow-hidden h-96">
-                      <Image src={item.image} alt={item.title} layout="fill" objectFit="cover" className="opacity-80" />
-                      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
-                        <Icon className="h-12 w-12 text-white mb-4" />
-                        <h4 className="text-xl font-bold text-white mb-2">{item.title}</h4>
-                        <p className="text-m text-white px-3 text-center">{item.desc}</p>
-                      </div>
+          <Slider ref={sliderRef} {...settings}>
+            {casesData.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                (<div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
+                  <div className="relative overflow-hidden h-96">
+                    <Image src={item.image} alt={item.title} className="opacity-80" fill style={{
+                      objectFit: "cover"
+                    }} />
+                    <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
+                      <Icon className="h-12 w-12 text-white mb-4" />
+                      <h4 className="text-xl font-bold text-white mb-2">{item.title}</h4>
+                      <p className="text-m text-white px-3 text-center">{item.desc}</p>
                     </div>
                   </div>
-                );
-              })}
-            </Slider>
-   
-  <div className="flex justify-center mt-4">
-    <input
-      type="range"
-      min={0}
-      max={casesData.length - 1}
-      value={slideIndex}
-      onChange={e => sliderRef.current.slickGoTo(parseInt(e.target.value, 10))}
-      className="slider"/>
-               
-  </div>
-  <div className="my-4 text-center">
-  <h5>Contest Guidelines</h5>
+                </div>)
+              );
+            })}
+          </Slider>
+ 
+<div className="flex justify-center mt-4">
+  <input
+    type="range"
+    min={0}
+    max={casesData.length - 1}
+    value={slideIndex}
+    onChange={e => sliderRef.current.slickGoTo(parseInt(e.target.value, 10))}
+    className="slider"/>
+             
+</div>
+<div className="my-4 text-center">
+<h5>Contest Guidelines</h5>
 </div>
 <Pricing />
 
-          </div>
-          <AINews />
-          <AboutThree />
-         
-        </section>
-        <Footer />
-      </>
-    );
+        </div>
+        <AINews />
+        <AboutThree />
+       
+      </section>
+      <Footer />
+    </>);
 }

@@ -72,42 +72,42 @@ export const blogData = [
       <div class="text-center mt-3"><h2><br>Decentralized Trading Arenas</h2><br></div>
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5">
-          <img src="/images/blog/lunar.jpg" alt="CEX Futures" style="max-width: 100%;" />
-          <br><strong><a href="/lunar"><h1>Lunar</h1></a></strong>
-          <br>Master the precision of predicting and capitalizing on future market movements within centralized exchanges.<br><br>Prize: $20,000.
+        <a href="/dexarena"><img src="/images/blog/lunar.jpg" alt="CEX Futures" style="max-width: 100%;" />
+          <br><strong><a href="/dexarena"><h1>Lunar</h1></a></strong>
+          <a href="/dexarena"><br>Master the precision of predicting and capitalizing on future market movements within centralized exchanges.<br><br>Prize: $20,000.
         </div>
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5">
-          <img src="/images/blog/solar.jpg" alt="CEX Spot" style="max-width: 100%;" />
-          <br><strong><a href="/solar"><h1>Solar</h1></a></strong>
-          <br>Master the art of spot trading on crypto using centralized platforms, where immediate market movements can dictate success. <br><br> Prize: $20,000.
+        <a href="/dexarena"><img src="/images/blog/solar.jpg" alt="CEX Spot" style="max-width: 100%;" />
+          <br><strong><a href="/dexarena"><h1>Solar</h1></a></strong>
+          <a href="/dexarena"><br>Master the art of spot trading on crypto using centralized platforms, where immediate market movements can dictate success. <br><br> Prize: $20,000.
         </div>
       </div>
 
       <div class="text-center mt-2"><h2><br>Centralized Trading Arenas</h2><br></div>
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-6">
-          <img src="/images/blog/comet.jpg" alt="Traditional Spot" style="max-width: 100%;" />
-          <br><strong><a href="/comet"><h1>Comet</h1></a></strong>
-          <br>Participants will trade in the realm of stocks, commodities, and fiat currencies, demonstrating their skill in navigating the traditional spot markets. This arena tests a trader's ability to utilize fundamental and technical analysis effectively. <br><br>Prize: $20,000.
+        <a href="/arena"> <img src="/images/blog/comet.jpg" alt="Traditional Spot" style="max-width: 100%;" />
+          <br><strong><a href="/arena"><h1>Comet</h1></a></strong>
+          <a href="/arena"> <br>Participants will trade in the realm of stocks, commodities, and fiat currencies, demonstrating their skill in navigating the traditional spot markets. This arena tests a trader's ability to utilize fundamental and technical analysis effectively. <br><br>Prize: $20,000.
         </div>
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-6">
-          <img src="/images/blog/stellar.jpg" alt="Traditional Futures" style="max-width: 100%;" />
-          <br><strong><a href="/stellar"><h1>Stellar</h1></a></strong>
-          <br>Here, the conventional futures market awaits, where understanding and forecasting market directions can yield significant returns. This arena demands a deep understanding of market indicators and economic factors influencing prices. <br><br> Prize: $20,000.
+        <a href="/arena"><img src="/images/blog/stellar.jpg" alt="Traditional Futures" style="max-width: 100%;" />
+          <br><strong><a href="/arena"><h1>Stellar</h1></a></strong>
+          <a href="/arena"><br>Here, the conventional futures market awaits, where understanding and forecasting market directions can yield significant returns. This arena demands a deep understanding of market indicators and economic factors influencing prices. <br><br> Prize: $20,000.
         </div>
         </div>
 
         <div class="text-center mt-2"><h2><br>Special Arenas</h2><br></div>
         <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5">
-          <img src="/images/blog/nova.jpg" alt="DEX Trading" style="max-width: 100%;" />
-          <br><strong><a href="/nova"><h1>Nova</h1></a></strong>
-          <br>Navigate the fluid landscape of decentralized exchanges and leverage cutting-edge strategies like flash loans and automated market makers execution in multi chain enviorements, the only rule is no bots. <br><br> Prize: $20,000.
+        <a href="/specialarena"><img src="/images/blog/nova.jpg" alt="DEX Trading" style="max-width: 100%;" />
+          <br><strong><a href="/specialarena"><h1>Nova</h1></a></strong>
+          <a href="/specialarena"> <br>Navigate the fluid landscape of decentralized exchanges and leverage cutting-edge strategies like flash loans and automated market makers execution in multi chain enviorements, the only rule is no bots. <br><br> Prize: $20,000.
         </div>
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-6">
-          <img src="/images/blog/mecha.jpg" alt="Mecha" style="max-width: 100%;" />
-          <br><strong><a href="/mecha"><h1>Mecha</h1></a></strong>
-          <br>Develop and deploy AI trading bots, showcasing your automated system outperforming humans and other AI teams/bots traders through analytical precision and speed. <br><br>Prize: $10,000.
+        <a href="/specialarena"><img src="/images/blog/mecha.jpg" alt="Mecha" style="max-width: 100%;" />
+          <br><strong><a href="/specialarena"><h1>Mecha</h1></a></strong>
+          <a href="/specialarena"><br>Develop and deploy AI trading bots, showcasing your automated system outperforming humans and other AI teams/bots traders through analytical precision and speed. <br><br>Prize: $10,000.
         </div>
 
 
@@ -152,9 +152,9 @@ export const blogData = [
           <p>Artists worldwide are invited to submit their works to 'Fractal' and 'Prism', with detailed guidelines provided to ensure clarity and support for all participants.</p></div>
       
           
-          <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5"><h2><br>Contest Details</h2><br>
+          <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5"><a href="/fractal"><h2><br>Contest Details</h2><br>
           <img src="/images/blog/artcu.jpg" alt="Curated Art" style="max-width: 100%;" /><br>
-          <p>Explore the detailed rules, eligibility criteria, and submission guidelines for both 'Fractal' and 'Prism', designed to foster creativity and ensure a high level of artistic and thematic relevance.</p></div>
+          <a href="/fractal"><p>Explore the detailed rules, eligibility criteria, and submission guidelines for both 'Fractal' and 'Prism', designed to foster creativity and ensure a high level of artistic and thematic relevance.</p></div>
         `,
         author: 'Admin',
         client: "/images/client/01.jpg",
@@ -171,20 +171,15 @@ export const blogData = [
       image:"/images/blog/prism.jpg",
       title: 'Prism: Art Contest',
       content: `
-        <div class="text-center mt-3"><h2><br>Welcome to Vivid</h2></div>
+        <div class="text-center mt-3"><h2><br>Welcome to Prism</h2></div>
         <p>Prism is an avant-garde art contest that explores the transformative power of technology in art. With a total bounty of $20,000, it's divided into 'Fractal' for generative art and 'Prism' for curated artworks, celebrating digital innovation's role in expanding creative boundaries.</p>
     
         <div class="text-center mt-3"><h2><br>Prizes</h2><br></div>
-        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
           <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-3">
             <img src="/images/blog/prism.jpg" alt="Generative Art" style="max-width: 100%;" />
             <br><strong><a href="/prism"><h1>Prism</h1></a></strong>
             <br>Generative artists use algorithms to create art that embodies the theme of acceleration. <br><br> Prize: $10,000.
-          </div>
-          <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-4">
-            <img src="/images/blog/prism.jpg" alt="Curated Art" style="max-width: 100%;" />
-            <br><strong><a href="/prism"><h1>Prism</h1></a></strong>
-            <br>Curated artworks that interpret acceleration through the integration of technology and art. <br><br>Prize: $10,000.
           </div>
         </div>
         <div class="text-center mt-3"><h2><br>Rules</h2><br></div>
@@ -200,16 +195,16 @@ export const blogData = [
         <p>Artists worldwide are invited to submit their works to 'Fractal' and 'Prism', with detailed guidelines provided to ensure clarity and support for all participants.</p></div>
     
         
-        <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5"><h2><br>Contest Details</h2><br>
+        <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-5"><a href="/prism"><h2><br>Contest Details</h2><br>
         <img src="/images/blog/artcu.jpg" alt="Curated Art" style="max-width: 100%;" /><br>
-        <p>Explore the detailed rules, eligibility criteria, and submission guidelines for both 'Fractal' and 'Prism', designed to foster creativity and ensure a high level of artistic and thematic relevance.</p></div>
+        <a href="/prism"><p>Explore the detailed rules, eligibility criteria, and submission guidelines for both 'Fractal' and 'Prism', designed to foster creativity and ensure a high level of artistic and thematic relevance.</p></div>
       `,
       author: 'Admin',
       client: "/images/client/01.jpg",
       date: 'Apr 13, 2024',
       tags: ['Art', 'Contest'],
       quote: {
-        text: 'Vivid invites artists to explore the acceleration theme through digital art, offering significant prizes and high-profile exhibition opportunities.',
+        text: 'Prism invites artists to explore the acceleration theme through digital art, offering significant prizes and high-profile exhibition opportunities.' ,
         author: 'Admin'
       }
     },

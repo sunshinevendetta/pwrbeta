@@ -10,7 +10,7 @@ const NavLight = dynamic(() => import('../components/navlight'));
 const Footer = dynamic(() => import('../components/footer'));
 const AboutThree = dynamic(() => import('../components/aboutThree'));
 const Pricing = dynamic(() => import('../components/pricinghackers'));
-const BioNews = dynamic(() => import('../components/bionews'));
+const RoboticNews = dynamic(() => import('../components/roboticnews'));
 
 import { FaFileContract, GiTeamIdea, GiStairsGoal, FaTools, GiTribunalJury, FaAward, RiLightbulbFlashFill, RiTeamFill } from '../assets/icons/vander';
 
@@ -96,8 +96,8 @@ export default function Services() {
         {
             icon: RiTeamFill,
             image: '/images/blog/12.jpg',
-            title: 'Biohacking Community',
-            desc: 'Join the vibrant community of biohackers and contribute to the advancement of human potential.'
+            title: 'Robotics Community',
+            desc: 'Join the vibrant community of builders and contribute to the advancement of human potential.'
         }
     ];
 
@@ -115,8 +115,7 @@ export default function Services() {
       adaptiveHeight: true
     };
 
-    return (
-      <>
+    return (<>
         <NavLight />
         <section className="relative md:py-24 py-16">
           <div className="container relative md:mt-24 mt-16">
@@ -128,16 +127,18 @@ export default function Services() {
               {casesData.map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
-                    <div className="relative overflow-hidden h-96">
-                      <Image src={item.image} alt={item.title} layout="fill" objectFit="cover" className="opacity-80" />
-                      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
-                        <Icon className="h-12 w-12 text-white mb-4" />
-                        <h4 className="text-xl font-bold text-white mb-2">{item.title}</h4>
-                        <p className="text-m text-white px-3 text-center">{item.desc}</p>
-                      </div>
-                    </div>
-                  </div>
+                    (<div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
+                        <div className="relative overflow-hidden h-96">
+                          <Image src={item.image} alt={item.title} className="opacity-80" fill style={{
+                              objectFit: "cover"
+                          }} />
+                          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
+                            <Icon className="h-12 w-12 text-white mb-4" />
+                            <h4 className="text-xl font-bold text-white mb-2">{item.title}</h4>
+                            <p className="text-m text-white px-3 text-center">{item.desc}</p>
+                          </div>
+                        </div>
+                    </div>)
                 );
               })}
             </Slider>
@@ -158,11 +159,10 @@ export default function Services() {
 <Pricing />
 
           </div>
-          <BioNews />
+          <RoboticNews />
           <AboutThree />
          
         </section>
         <Footer />
-      </>
-    );
+    </>);
 }

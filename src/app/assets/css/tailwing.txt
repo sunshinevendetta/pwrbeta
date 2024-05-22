@@ -7,7 +7,7 @@
    File: Main Css File
 */
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
-
+/* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1320,10 +1320,10 @@ video {
 }
 .border-gray-800{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
+  border-color: rgb(43 255 0 / var(--tw-border-opacity)) !important;
 }
 .border-gray-800\/10{
-  border-color: rgb(31 41 55 / 0.1) !important;
+  border-color: rgba(35, 55, 31, 0.1) !important;
 }
 .bg-amber-400{
   --tw-bg-opacity: 1 !important;
@@ -1340,7 +1340,7 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
 }
 .bg-gray-800\/5{
-  background-color: rgb(31 41 55 / 0.05) !important;
+  background-color: rgba(31, 55, 31, 0.05) !important;
 }
 .bg-gray-900{
   --tw-bg-opacity: 1 !important;
@@ -1745,10 +1745,10 @@ video {
 }
 .text-amber-500{
   --tw-text-opacity: 1 !important;
-  color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
+  color: rgb(22 163 74 / var(--tw-text-opacity)) !important;
 }
 .text-amber-500\/10{
-  color: rgba(11 245 42 / 0.1) !important;
+  color: rgba(11, 245, 105, 0.1) !important;
 }
 .text-gray-400{
   --tw-text-opacity: 1 !important;
@@ -1756,7 +1756,7 @@ video {
 }
 .text-gray-800{
   --tw-text-opacity: 1 !important;
-  color: rgb(31 41 55 / var(--tw-text-opacity)) !important;
+  color: rgb(43 255 0 / var(--tw-text-opacity)) !important;
 }
 .text-green-600{
   --tw-text-opacity: 1 !important;
@@ -1961,23 +1961,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav .has-submenu .submenu .has-submenu:hover > .submenu-arrow, #topnav .has-submenu .submenu .has-submenu.active > .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .has-submenu .submenu .has-submenu .submenu .has-submenu:hover > .submenu-arrow{
   border-top-color: transparent;
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity));
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity));
   border-inline-start-color: transparent;
 }
 #topnav .navbar-toggle{
@@ -2245,13 +2245,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav.scroll .navigation-menu > li:hover > a, #topnav.scroll .navigation-menu > li.active > a{
   --tw-text-opacity: 1;
-  color: rgb(11 245 42  / var(--tw-text-opacity));
+  color: rgb(89 15 232 / var(--tw-text-opacity));
 }
 #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow{
   border-top-color: transparent !important;
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
   border-inline-start-color: transparent !important;
 }
 #topnav.defaultscroll.dark-menubar .logo{
@@ -2292,23 +2292,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow, #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow{
   border-top-color: transparent !important;
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
   border-inline-start-color: transparent !important;
 }
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow),:is(.dark  #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow){
-  border-inline-end-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
   --tw-border-opacity: 1 !important;
-  border-bottom-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a, #topnav.nav-sticky .navigation-menu.nav-light > li.active > a{
   --tw-text-opacity: 1 !important;
-  color: rgb(11 245 42  / var(--tw-text-opacity)) !important;
+  color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
 }
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a),:is(.dark  #topnav.nav-sticky .navigation-menu.nav-light > li.active > a){
   --tw-text-opacity: 1 !important;
-  color: rgb(11 245 42  / var(--tw-text-opacity)) !important;
+  color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
 }
 #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow{
   border-top-color: transparent !important;
@@ -2442,11 +2442,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   }
   #topnav .navigation-menu > li .submenu li a:hover{
     --tw-text-opacity: 1 !important;
-    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
+    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
   }
   :is(.dark #topnav .navigation-menu > li .submenu li a:hover){
     --tw-text-opacity: 1 !important;
-    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
+    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
   }
   #topnav .navigation-menu > li .submenu li ul{
     margin: 0px;
@@ -2500,14 +2500,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   }
   #topnav .navigation-menu > li:hover > .menu-arrow{
     border-top-color: transparent !important;
-    border-inline-end-color: rgba(11, 245, 42, var(--tw-border-opacity)) !important;
+    border-inline-end-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
     --tw-border-opacity: 1 !important;
-    border-bottom-color: rgba(11, 245, 42, var(--tw-border-opacity)) !important;
+    border-bottom-color: rgb(89 15 232 / var(--tw-border-opacity)) !important;
     border-inline-start-color: transparent !important;
   }
   #topnav .navigation-menu > li:hover > a, #topnav .navigation-menu > li.active > a{
     --tw-text-opacity: 1 !important;
-    color: rgb(11 245 42 / var(--tw-text-opacity)) !important;
+    color: rgb(89 15 232 / var(--tw-text-opacity)) !important;
   }
   :is(.dark #topnav .navigation-menu > li:hover > a),:is(.dark  #topnav .navigation-menu > li.active > a){
     --tw-text-opacity: 1 !important;
@@ -3428,12 +3428,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:border-amber-500:hover{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(11 245 42  / var(--tw-border-opacity)) !important;
+  border-color: rgb(43 255 0 / var(--tw-border-opacity)) !important;
 }
 
 .hover\:border-gray-800:hover{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
+  border-color: rgb(43 255 0 / var(--tw-border-opacity)) !important;
 }
 
 .hover\:bg-amber-400:hover{
@@ -3447,7 +3447,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:bg-amber-500:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(11 245 42  / var(--tw-bg-opacity)) !important;
+  background-color: rgb(0 154 30 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-gray-50:hover{
@@ -3457,7 +3457,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .hover\:bg-gray-800:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(43 255 0 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:text-amber-400:hover{
@@ -3479,7 +3479,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .focus\:border-amber-300:focus{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(34 211 77 / var(--tw-border-opacity)) !important;
+  border-color: rgb(252 211 77 / var(--tw-border-opacity)) !important;
 }
 
 .focus\:border-amber-400:focus{
@@ -3508,7 +3508,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .focus\:ring-amber-200:focus{
   --tw-ring-opacity: 1 !important;
-  --tw-ring-color: rgb(34 234 245 / var(--tw-ring-opacity)) !important;
+  --tw-ring-color: rgb(22 163 74 / var(--tw-ring-opacity)) !important;
 }
 
 .focus\:ring-opacity-50:focus{
@@ -3616,7 +3616,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 :is(.dark .dark\:border-gray-800){
   --tw-border-opacity: 1 !important;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
+  border-color: rgb(43 255 0 / var(--tw-border-opacity)) !important;
 }
 
 :is(.dark .dark\:border-slate-800){
@@ -3669,7 +3669,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .dark\:text-amber-500\/20){
-  color: rgb(11 245 42  / 0.2) !important;
+  color: rgba(11, 245, 19, 0.2) !important;
 }
 
 :is(.dark .dark\:text-gray-400){
@@ -3708,17 +3708,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .dark\:shadow-gray-700){
-  --tw-shadow-color: #374151 !important;
+  --tw-shadow-color: #3b5137 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
 :is(.dark .dark\:shadow-gray-800){
-  --tw-shadow-color: #1f2937 !important;
+  --tw-shadow-color: #25371f !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
 :is(.dark .dark\:shadow-slate-700){
-  --tw-shadow-color: #334155 !important;
+  --tw-shadow-color: #385533 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
@@ -3760,7 +3760,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 :is(.dark .dark\:hover\:bg-amber-400\/5:hover){
-  background-color: rgba(15, 232, 22, 0.05) !important;
+  background-color: rgb(89 15 232 / 0.05) !important;
 }
 
 :is(.dark .dark\:hover\:bg-slate-800:hover){
@@ -4143,7 +4143,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .hover-gradient-amber-3 {
-  background: linear-gradient(75deg, #a200ff 0%, #bb00ff 25%, #1caf02 50%, #079511 100%);
+  background: linear-gradient(75deg, #a200ff 0%, #bb00ff 25%, #079511 50%, #1caf02 100%);
   background-size: 7000%;
   transition: background-position 0.7s ease;
   
@@ -4179,8 +4179,92 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   background-size: 7000%;
   transition: background-position 0.7s ease;
   
+  
+  
 }
 
 .hover-gradient-amber-6:hover {
   background-position: 100% 0;
+
+}
+
+.section-slider {
+	height: auto;
+	padding: 30px 0;
+}
+
+.gsap__slider {
+	height: 80vh;
+}
+
+.gsap__bl {
+	width: 100%;
+}
+
+.gsap__inner,
+.gsap__track {
+	display: flex;
+}
+
+.gsap__inner {
+	width: calc(100% + var(--indent));
+}
+
+.gsap__track {
+	will-change: transform;
+}
+
+.gsap__item {
+	position: relative;
+	flex: 0 0 auto;
+	width: 750px;
+	background: #000;
+	will-change: transform;
+}
+
+.gsap__item+.gsap__item {
+	margin-left: var(--indent);
+}
+
+.gsap__item img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 2;
+}
+
+.gsap__item-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: .4;
+	filter: blur(15px);
+	transform: scale(1.3);
+	z-index: 1;
+}
+
+.gsap__item-num {
+	position: absolute;
+	top: 15px;
+	left: 40px;
+	font-size: 50px;
+	color: var(--color-n3);
+	opacity: .5;
+	z-index: 3;
+}
+
+
+
+
+
+.gsap_slider .content,
+.gsap_h,
+.gsap__bl,
+.gsap__inner,
+.gsap__item {
+	height: 100%;
 }
