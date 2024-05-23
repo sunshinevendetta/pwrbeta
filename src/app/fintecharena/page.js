@@ -14,7 +14,6 @@ const AboutThree = dynamic(() => import('../components/aboutThree'));
 const Pricing = dynamic(() => import('../components/pricingtraders'));
 const TraderNews = dynamic(() => import('../components/tradernews'));
 const TradingSlider = dynamic(() => import('../components/tradingslider'));
-const FintechArena = dynamic(() => import('../components/fintechrules'));
 
 const Animations = () => {
   useEffect(() => {
@@ -25,13 +24,13 @@ const Animations = () => {
         trigger: ".green",
         target: "#myText",
         duration: 5,
-        text: "Fintech Arena"
+        text: "Decentralized Area"
       },
       {
         trigger: ".orange",
         target: "#myText2",
         duration: 5,
-        text: "Welcome to the Fintech Trading Arena, designed to challenge traders, using a combination of professional tools and strategies within a high-stakes risk-free simulated trading environment."
+        text: "Welcome to the Decentralized Trading Arena, designed to challenge traders, using a combination of professional tools and strategies within a high-stakes risk-free simulated trading environment."
       },
       {
         trigger: ".purple",
@@ -127,7 +126,7 @@ const Animations = () => {
           </div>
         </section>
 
-       <FintechArena />
+       
         <TradingSlider />
 
         <Pricing />

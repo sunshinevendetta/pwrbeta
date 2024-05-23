@@ -35,7 +35,7 @@ export default function AboutThree(){
                         <div className="relative overflow-hidden rounded-lg shadow-md dark:shadow-gray-800">
                             <div className="relative">
                                 <video autoPlay loop muted playsInline style={{ width: '100%', height: 'auto' }}>
-                                    <source src="/images/cdmx.mp4" type="video/mp4"/>
+                                    <source src="/images/cdmx.webm" type="video/webm"/>
                                 </video>
                                 <Link href="" className="absolute top-2 left-2 rounded-full p-0.1 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10"><Image src="/images/flags/usa.png" width={28} height={28} className="h-7 w-7 rounded-full" alt=""/></Link>
                             </div>

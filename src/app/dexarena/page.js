@@ -11,9 +11,10 @@ import Image from 'next/image';
 const NavLight = dynamic(() => import('../components/navlight'));
 const Footer = dynamic(() => import('../components/footer'));
 const AboutThree = dynamic(() => import('../components/aboutThree'));
-const Pricing = dynamic(() => import('../components/pricinghackers'));
-const Web3News = dynamic(() => import('../components/web3news'));
+const Pricing = dynamic(() => import('../components/pricingtraders'));
+const TraderNews = dynamic(() => import('../components/tradernews'));
 const TradingSlider = dynamic(() => import('../components/tradingslider'));
+const DexArena = dynamic(() => import('../components/dexarenarules'));
 
 const Animations = () => {
   useEffect(() => {
@@ -23,19 +24,19 @@ const Animations = () => {
       {
         trigger: ".green",
         target: "#myText",
-        duration: 1,
-        text: "Decentralized Area"
+        duration: 5,
+        text: "Decentralized Arena"
       },
       {
         trigger: ".orange",
         target: "#myText2",
-        duration: 3,
+        duration: 5,
         text: "Welcome to the Decentralized Trading Arena, designed to challenge traders, using a combination of professional tools and strategies within a high-stakes risk-free simulated trading environment."
       },
       {
         trigger: ".purple",
         target: "#myText3",
-        duration: 12,
+        duration: 7,
         text: "The winner will outsmart competitors and claim victory by demonstrating superior trading insight and strategy."
       }
     ];
@@ -62,12 +63,12 @@ const Animations = () => {
 
     gsap.to(".orange p", {
       scrollTrigger: ".orange",
-      duration: 1
+      duration: 5
     });
 
     gsap.to(".orange", {
       scrollTrigger: ".orange",
-      duration: 1
+      duration: 5
     });
 
     gsap.to(".purple", {
@@ -75,7 +76,7 @@ const Animations = () => {
         trigger: ".purple",
         toggleActions: "restart pause reverse pause"
       },
-      duration: 1,
+      duration: 10,
       backgroundColor: "#000",
       ease: "none"
     });
@@ -126,12 +127,12 @@ const Animations = () => {
           </div>
         </section>
 
-       
+       <DexArena />
         <TradingSlider />
 
         <Pricing />
       </div>
-      <Web3News />
+      <TraderNews />
       <AboutThree />
       <Footer />
     </>
