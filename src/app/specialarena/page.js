@@ -15,6 +15,7 @@ const Pricing = dynamic(() => import('../components/pricingtraders'));
 const TraderNews = dynamic(() => import('../components/tradernews'));
 const TradingSlider = dynamic(() => import('../components/tradingslider'));
 const SpecialRules = dynamic(() => import('../components/specialrules'));
+const Arenas = dynamic(() => import('../components/arenas'));
 
 const Animations = () => {
   useEffect(() => {
@@ -38,33 +39,35 @@ const Animations = () => {
         target: "#myText3",
         duration: 7,
         text: "The winner will outsmart competitors and claim victory by demonstrating superior trading insight and strategy."
-      },  
+      },
       {
         trigger: ".purple",
         target: "#myText4",
         duration: 7,
         text: "Rules"
-    },
+      },
     ];
 
     animations.forEach(animation => {
-      gsap.to(animation.target, {
-        duration: animation.duration,
-        text: animation.text,
-        scrollTrigger: {
-          trigger: animation.trigger,
-          start: "top center",
-          end: "bottom center",
-          toggleActions: "play none none reset"
-        }
-      });
-
-      document.querySelector(animation.target).addEventListener('click', () => {
+      if (document.querySelector(animation.target)) {
         gsap.to(animation.target, {
           duration: animation.duration,
-          text: animation.text
+          text: animation.text,
+          scrollTrigger: {
+            trigger: animation.trigger,
+            start: "top center",
+            end: "bottom center",
+            toggleActions: "play none none reset"
+          }
         });
-      });
+
+        document.querySelector(animation.target).addEventListener('click', () => {
+          gsap.to(animation.target, {
+            duration: animation.duration,
+            text: animation.text
+          });
+        });
+      }
     });
 
     gsap.to(".orange p", {
@@ -103,7 +106,7 @@ const Animations = () => {
       <div>
         <section className="panel green hover-gradient-amber-5 mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tradepass.jpg" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/specialpass.png" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
@@ -115,29 +118,27 @@ const Animations = () => {
 
         <section className="panel orange mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tradeteam.jpg" alt="Background Image" className="opacity-70" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/specialarena.png" alt="Background Image" className="opacity-70" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
-            <p id="myText2" className='mb-4  md:leading-normal text-lg leading-normal text-white hover-gradient-amber-5 text-center p-8'>Are you ready?</p>
+            <p id="myText2" className='mb-4 md:leading-normal text-lg leading-normal text-white hover-gradient-amber-5 text-center p-8'>Are you ready?</p>
           </div>
         </section>
 
         <section className="panel purple mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tooltrade.jpg" alt="Background Image" className="opacity-60 hover-gradient-amber-5 hoover:blur-xs rounded-lg z-0" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/specialtrade.png" alt="Background Image" className="opacity-60 hover-gradient-amber-5 hoover:blur-xs rounded-lg z-0" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
-            <h1 id='myText3' className="text-green-400 max-w-xl text-xl  hover-gradient-amber-5 z-0 mx-auto p-8 text-center">🏆</h1>
+            <h1 id='myText3' className="text-green-400 max-w-xl text-xl hover-gradient-amber-5 z-0 mx-auto p-8 text-center">🏆</h1>
           </div>
         </section>
+
         <SpecialRules />
-
-
-       
         <TradingSlider />
-
+        <Arenas />
         <Pricing />
       </div>
       <TraderNews />

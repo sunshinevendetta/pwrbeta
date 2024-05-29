@@ -11,7 +11,9 @@ const Footer = dynamic(() => import('../components/footer'));
 const AboutThree = dynamic(() => import('../components/aboutThree'));
 const Pricing = dynamic(() => import('../components/pricingartists'));
 const ArtNews = dynamic(() => import('../components/artnews'));
-
+const ArtContest = dynamic(() => import('../components/artcontest'));
+const Cloud = dynamic(() => import('../components/cloud'));
+const ArtRules = dynamic(() => import('../components/artrules'));
 import { FaFileContract, GiTeamIdea, GiStairsGoal, FaTools, GiTribunalJury, FaAward, RiLightbulbFlashFill, RiTeamFill } from '../assets/icons/vander';
 
 export default function Services() {
@@ -22,7 +24,7 @@ export default function Services() {
     const casesData = [
         {
             icon: FaFileContract,
-            image: '/images/blog/artist.jpg',
+            image: '/images/blog/artists.jpg',
             title: 'Sign-Up',
             desc: 'A unique artist pass, mintable for 0.001 ETH, serves as the entry ticket, if you are a student you do not need to pay for mint fees, just upload your institution ID or put the name of your institution to get the discount.'
         },
@@ -116,16 +118,17 @@ export default function Services() {
 
     return (<>
         <NavLight />
+        <Cloud />
         <section className="relative md:py-24 py-16">
           <div className="container relative md:mt-24 mt-16">
-            <div className="grid grid-cols-1 pb-6 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Fractal Art Contest</h3> <p className="text-slate-400 max-w-xl mx-auto">Explore the captivating fusion of math and art in our fractal contest. Create stunning algorithmic artworks embodying acceleration. Top prize: $10,000.</p>
+            <div className="grid  grid-cols-1 pb-6 text-center">
+            <h3 className="mb-4  md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Fractal Art Contest</h3> <p className="text-white rounded-xl  bg-black bg-opacity-50">Explore the captivating fusion of math and art in our fractal contest. Create stunning algorithmic artworks embodying acceleration. Top prize: $10,000.</p>
             </div>
             <Slider ref={sliderRef} {...settings}>
               {casesData.map((item, index) => {
                 const Icon = item.icon;
                 return (
-                    (<div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
+                    (<div className="relative blur-xl hover:blur-none p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
                         <div className="relative overflow-hidden h-96">
                           <Image src={item.image} alt={item.title} className="opacity-80" fill style={{
                               objectFit: "cover"
@@ -151,9 +154,11 @@ export default function Services() {
       className="slider"/>
                
   </div>
-  <div className="my-4 text-center">
+  <div className="my-4 rounded-xl  bg-black bg-opacity-50 text-center">
   <h5>Contest Guidelines</h5>
 </div>
+<ArtRules />
+<ArtContest />
 <Pricing />
 
           </div>

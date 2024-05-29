@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 
+
 const Navbar = dynamic(()=>import('./components/navbar'))
 const Footer = dynamic(() => import('./components/footer'))
 const BrandLogo = dynamic(()=>import('./components/brandLogo'))
@@ -54,6 +55,7 @@ export default function IndexThree() {
           <p className="text-slate-400 max-w-xl mx-auto">Choose from our range of ticket options designed to suit your needs and budget. Do not miss out on this transformative experience.</p> 
           </div>
           <Pricing/>
+   
         </div>
         <Blogs/>
       </section>

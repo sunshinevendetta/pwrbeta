@@ -30,12 +30,12 @@ export default function Pricing() {
   
     return (
       <>
-        <div className="max-w-3xl mx-auto  mt-6 gap-6">
+        <div className="max-w-3xl mx-auto bg-black bg-opacity-30 mt-6 gap-6">
           
 
     
 
-                <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                <div className="relative overflow-hidden rounded-md shadow bg-black bg-opacity-70">
         <div className="p-6">
           <h5 className="text-2xl leading-normal font-semibold">Hackers</h5>
           <p className="text-slate-400 mt-2">For those who dare to build the glory and prove they are number one</p>
@@ -69,8 +69,8 @@ export default function Pricing() {
     </div>
   </div>
 
-  <div className="p-6 bg-gray-50 dark:bg-slate-800">
-    <ul className="list-none text-slate-400">
+  <div className="p-6 bg-black bg-opacity-70 rounded-xl">
+    <ul className="list-none bg-black bg-opacity-30 text-slate-400">
     <li className="font-semibold text-slate-900 dark:text-white text-sm uppercase">Features:</li>
 
 <li className="flex items-center mt-2">

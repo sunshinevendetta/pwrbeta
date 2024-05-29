@@ -14,6 +14,8 @@ const AboutThree = dynamic(() => import('../components/aboutThree'));
 const Pricing = dynamic(() => import('../components/pricingtraders'));
 const TraderNews = dynamic(() => import('../components/tradernews'));
 const TradingSlider = dynamic(() => import('../components/tradingslider'));
+const FintechArena = dynamic(() => import('../components/fintechrules'));
+const Arenas = dynamic(() => import('../components/arenas'));
 
 const Animations = () => {
   useEffect(() => {
@@ -24,13 +26,13 @@ const Animations = () => {
         trigger: ".green",
         target: "#myText",
         duration: 5,
-        text: "Decentralized Area"
+        text: "Fintech Arena"
       },
       {
         trigger: ".orange",
         target: "#myText2",
         duration: 5,
-        text: "Welcome to the Decentralized Trading Arena, designed to challenge traders, using a combination of professional tools and strategies within a high-stakes risk-free simulated trading environment."
+        text: "Welcome to the Fintech Arena, designed to challenge traders, using a combination of professional tools and strategies within a high-stakes risk-free simulated trading environment."
       },
       {
         trigger: ".purple",
@@ -96,19 +98,19 @@ const Animations = () => {
       <div>
         <section className="panel green hover-gradient-amber-5 mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tradepass.jpg" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/fintechpass.png" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
             <h3 id="myText" className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold text-white">
-              Trading Arena
+              Trading Arenas Tournament
             </h3>
           </div>
         </section>
 
         <section className="panel orange mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tradeteam.jpg" alt="Background Image" className="opacity-70" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/fintech2.png" alt="Background Image" className="opacity-70" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
@@ -118,7 +120,7 @@ const Animations = () => {
 
         <section className="panel purple mx-auto text-center relative h-96">
           <div className="absolute inset-0">
-            <Image src="/images/blog/tooltrade.jpg" alt="Background Image" className="opacity-60 hover-gradient-amber-5 hoover:blur-xs rounded-lg z-0" fill style={{ objectFit: "cover" }} />
+            <Image src="/images/blog/fintech.png" alt="Background Image" className="opacity-60 hover-gradient-amber-5 hoover:blur-xs rounded-lg z-0" fill style={{ objectFit: "cover" }} />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 p-6 flex items-center justify-center flex-col">
@@ -126,8 +128,9 @@ const Animations = () => {
           </div>
         </section>
 
-       
+<FintechArena />
         <TradingSlider />
+        <Arenas />
 
         <Pricing />
       </div>

@@ -2,10 +2,40 @@ import requests
 from bs4 import BeautifulSoup
 
 # List of URLs to extract text from
-urls = [
-    # Place your list of URLs here, as strings
+urls =  [
+    "https://docs.biconomy.io/supportedNetworks",
+"https://docs.biconomy.io/FAQ",
+"https://docs.biconomy.io/audits",
+"https://docs.biconomy.io/audits",
+"https://docs.biconomy.io/contracts",
+"https://docs.biconomy.io/category/troubleshooting",
+"https://docs.biconomy.io/dashboard",
+"https://docs.biconomy.io/modules",
+"https://docs.biconomy.io/gas-estimations",
+"https://docs.biconomy.io/bundler",
+"https://docs.biconomy.io/paymaster",
+"https://docs.biconomy.io/account",
+"https://docs.biconomy.io/tutorials",
+"https://docs.biconomy.io/quickstart",
+"https://docs.biconomy.io/tutorials",
+"https://docs.biconomy.io/Bundler/integration",
+"https://docs.biconomy.io/Bundler/bundlermethods",
+"https://docs.biconomy.io/Bundler/api/",
+"https://docs.biconomy.io/GasEstimations/integration",
+"https://docs.biconomy.io/GasEstimations/methods",
+"https://docs.biconomy.io/Modules/ecdsa",
+"https://docs.biconomy.io/Modules/multichain",
+"https://docs.biconomy.io/Modules/sessionvalidationmodule",
+"https://docs.biconomy.io/Modules/BatchedSession",
+"https://docs.biconomy.io/Modules/abiSessionValidationModule",
+"https://docs.biconomy.io/dashboard/paymaster",
+"https://docs.biconomy.io/dashboard/paymasterRules",
+"https://docs.biconomy.io/dashboard/spendingLimits",
+"https://docs.biconomy.io/dashboard/organization",
+"https://docs.biconomy.io/dashboard/apis",
+"https://docs.biconomy.io/troubleshooting/commonerrors",
+"https://docs.biconomy.io/troubleshooting/polyfill"
 ]
-
 def fetch_text(url):
     """Fetches text content from a given URL"""
     try:
@@ -39,4 +69,4 @@ def save_text_to_file(filename, text):
 for url in urls:
     text = fetch_text(url)
     if text:
-        save_text_to_file("all_site_content.txt", text)
+        save_text_to_file("all_site_contentbicomy.txt", text)

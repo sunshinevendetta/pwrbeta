@@ -1,13 +1,13 @@
 'use client';
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 
 export default function RuleSection() {
   const [currentRuleIndex, setCurrentRuleIndex] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const rules = {
+
+  const rules = useMemo(() => ({
     Comet: [
       {
         title: 'Comet Category Overview',
@@ -55,7 +55,7 @@ export default function RuleSection() {
       },
       {
         title: 'Post-Ceremony Program',
-        text: 'Winners are given a platform to share their stories, strategies, and experiences through interviews and featured articles. These insights are published on "Trade Arena" and partner platforms, providing winners with visibility and recognition within the trading community. The ceremony and subsequent program offer ample opportunities for winners, participants, and partners to network, fostering connections that extend beyond the contest. Participants are encouraged to provide feedback on their "Trade Arena" experience, contributing to the continuous improvement of future contests.',
+        text: 'Winners share their profound stories and strategies in "Power 2 The People: Trade Arena Magazine" and partner platforms, gaining significant recognition. The ceremony and program offer deep opportunities for winners, participants, and partners to foster connections that extend beyond the contest.',
       }
     ],
     Stellar: [
@@ -105,33 +105,33 @@ export default function RuleSection() {
       },
       {
         title: 'Post-Ceremony Program',
-        text: 'Winners are given a platform to share their stories, strategies, and experiences through interviews and featured articles. These insights are published on "Trade Arena" and partner platforms, providing winners with visibility and recognition within the trading community. The ceremony and subsequent program offer ample opportunities for winners, participants, and partners to network, fostering connections that extend beyond the contest. Participants are encouraged to provide feedback on their "Trade Arena" experience, contributing to the continuous improvement of future contests.',
+        text: 'Winners share their profound stories and strategies in "Power 2 The People: Trade Arena Magazine" and partner platforms, gaining significant recognition. The ceremony and program offer deep opportunities for winners, participants, and partners to foster connections that extend beyond the contest.',
       }
     ]
-  };
+  }), []);
 
-  const showRule = (index) => {
+  const showRule = useCallback((index) => {
     setCurrentRuleIndex(index);
     gsap.fromTo('.rule-card', { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.5 });
-  };
+  }, []);
 
-  const hideRule = () => {
+  const hideRule = useCallback(() => {
     gsap.to('.rule-card', { opacity: 0, y: 50, duration: 0.5, onComplete: () => setCurrentRuleIndex(null) });
-  };
+  }, []);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (currentRuleIndex !== null) {
       const nextIndex = (currentRuleIndex + 1) % rules[selectedCategory].length;
       showRule(nextIndex);
     }
-  };
+  }, [currentRuleIndex, selectedCategory, showRule, rules]);
 
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     if (currentRuleIndex !== null) {
       const prevIndex = (currentRuleIndex - 1 + rules[selectedCategory].length) % rules[selectedCategory].length;
       showRule(prevIndex);
     }
-  };
+  }, [currentRuleIndex, selectedCategory, showRule, rules]);
 
   useEffect(() => {
     const handleKeydown = (e) => {
@@ -141,7 +141,7 @@ export default function RuleSection() {
 
     window.addEventListener('keydown', handleKeydown);
     return () => window.removeEventListener('keydown', handleKeydown);
-  }, [currentRuleIndex]);
+  }, [handleNext, handlePrev]);
 
   useEffect(() => {
     const handleSwipe = (e) => {
@@ -152,12 +152,12 @@ export default function RuleSection() {
 
     window.addEventListener('swiped', handleSwipe);
     return () => window.removeEventListener('swiped', handleSwipe);
-  }, [currentRuleIndex]);
+  }, [handleNext, handlePrev]);
 
   return (
     <section className="panel green mx-auto text-center relative h-auto py-12">
       <div className="absolute inset-0">
-        <Image src="/images/blog/tradepass.jpg" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
+        <Image src="/images/blog/fintechfuture.png" alt="Background Image" className="opacity-30" fill style={{ objectFit: "cover" }} />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       <div className="relative z-10 p-6 flex items-center justify-center flex-col">

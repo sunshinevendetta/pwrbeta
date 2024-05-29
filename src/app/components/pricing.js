@@ -3,6 +3,8 @@ import Link from "next/link";
 import axios from "axios";
 import { FiCheckCircle, AiOutlineClose } from '../assets/icons/vander';
 
+
+
 export default function Pricing() {
     const [selectedCrypto, setSelectedCrypto] = useState('MXN');
     const [selectedCryptoBusiness, setSelectedCryptoBusiness] = useState('MXN');
@@ -57,8 +59,8 @@ export default function Pricing() {
   
     return (
       <>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
-          <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+        <div className="grid lg:grid-cols-4 bg-black bg-opacity-30  md:grid-cols-2 grid-cols-1 mt-6 gap-6">
+          <div className="relative  overflow-hidden rounded-md shadow bg-black bg-opacity-70">
             <div className="p-6">
               <h5 className="text-2xl leading-normal font-semibold">Only Expo</h5>
               <p className="text-slate-400 mt-2">For anyone to dare explore the new frontiers of evolution and get the power in their hands</p>
@@ -438,7 +440,6 @@ export default function Pricing() {
                     </div>
                     
                 </div>
-                 <Link href="/aboutus" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
                 
 
                 

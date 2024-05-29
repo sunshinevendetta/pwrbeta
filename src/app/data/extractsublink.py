@@ -46,13 +46,13 @@ def save_text_to_file(text, filename):
 # def save_text_to_pdf(text, filename):
 #     pdfkit.from_string(text, filename)
 
-main_url = "https://docs.pmnd.rs/react-three-fiber/getting-started/introduction/"
+main_url = "https://docs.biconomy.io/"
 all_links = get_all_website_links(main_url)
 all_text = ""
 
 for link in all_links:
     all_text += get_text_from_url(link) + "\n\n"
 
-save_text_to_file(all_text, "threejs.txt")
+save_text_to_file(all_text, "biconomy.txt")
 # Uncomment the next line if PDF output is needed
 # save_text_to_pdf(all_text, "website_content.pdf")

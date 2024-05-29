@@ -14,7 +14,7 @@ export default function Blogs() {
       <div className="container relative md:mt-24 mt-16">
         <div className="grid grid-cols-1 pb-6 text-center">
           <h3 className="mb-4 md:text-2xl md:leading-normal text-2xl leading-normal font-semibold">Art News</h3>
-          <p className="text-slate-400 max-w-xl mx-auto">Focused insights on Art to empower your innovations.</p>
+          <p className="text-white rounded-xl  bg-black bg-opacity-70">Focused insights on Art to empower your innovations.</p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6">
           {filteredBlogData.slice(0, 4).map((item, index) => {
@@ -30,7 +30,7 @@ export default function Blogs() {
                     ))}
                   </div>
                   <div className="mt-5">
-                    <Link href={`/blog-detail/${item.id}`} className="text-lg font-semibold hover:text-amber-400">
+                    <Link href={`/news/${item.id}`} className="text-lg font-semibold hover:text-amber-400">
                       {item.title}
                     </Link>
                   </div>

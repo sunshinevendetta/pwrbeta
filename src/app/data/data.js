@@ -86,14 +86,14 @@ export const blogData = [
       <div class="text-center mt-2"><h2><br>Centralized Trading Arenas</h2><br></div>
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-6">
-        <a href="/arena"> <img src="/images/blog/comet.jpg" alt="Traditional Spot" style="max-width: 100%;" />
-          <br><strong><a href="/arena"><h1>Comet</h1></a></strong>
-          <a href="/arena"> <br>Participants will trade in the realm of stocks, commodities, and fiat currencies, demonstrating their skill in navigating the traditional spot markets. This arena tests a trader's ability to utilize fundamental and technical analysis effectively. <br><br>Prize: $20,000.
+        <a href="/fintecharena"> <img src="/images/blog/comet.jpg" alt="Traditional Spot" style="max-width: 100%;" />
+          <br><strong><a href="/fintecharena"><h1>Comet</h1></a></strong>
+          <a href="/fintecharena"> <br>Participants will trade in the realm of stocks, commodities, and fiat currencies, demonstrating their skill in navigating the traditional spot markets. This arena tests a trader's ability to utilize fundamental and technical analysis effectively. <br><br>Prize: $20,000.
         </div>
         <div class="p-6 bg-black-200/40 to-transparent rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover-gradient-amber-6">
-        <a href="/arena"><img src="/images/blog/stellar.jpg" alt="Traditional Futures" style="max-width: 100%;" />
-          <br><strong><a href="/arena"><h1>Stellar</h1></a></strong>
-          <a href="/arena"><br>Here, the conventional futures market awaits, where understanding and forecasting market directions can yield significant returns. This arena demands a deep understanding of market indicators and economic factors influencing prices. <br><br> Prize: $20,000.
+        <a href="/fintecharena"><img src="/images/blog/stellar.jpg" alt="Traditional Futures" style="max-width: 100%;" />
+          <br><strong><a href="/fintecharena"><h1>Stellar</h1></a></strong>
+          <a href="/fintecharena"><br>Here, the conventional futures market awaits, where understanding and forecasting market directions can yield significant returns. This arena demands a deep understanding of market indicators and economic factors influencing prices. <br><br> Prize: $20,000.
         </div>
         </div>
 

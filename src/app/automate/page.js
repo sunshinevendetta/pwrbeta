@@ -11,6 +11,9 @@ const Footer = dynamic(() => import('../components/footer'));
 const AboutThree = dynamic(() => import('../components/aboutThree'));
 const Pricing = dynamic(() => import('../components/pricinghackers'));
 const RoboticNews = dynamic(() => import('../components/roboticnews'));
+const Hackathons    = dynamic(() => import('../components/hackathons'));
+const HackathonRules    = dynamic(() => import('../components/hackathonrules'));
+const Sparks = dynamic(() => import('../components/sparks'));
 
 import { FaFileContract, GiTeamIdea, GiStairsGoal, FaTools, GiTribunalJury, FaAward, RiLightbulbFlashFill, RiTeamFill } from '../assets/icons/vander';
 
@@ -116,18 +119,19 @@ export default function Services() {
     };
 
     return (<>
+    <Sparks />
         <NavLight />
         <section className="relative md:py-24 py-16">
           <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-6 text-center">
-              <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Automate Robotics Hackathon</h3>
-              <p className="text-slate-400 max-w-xl mx-auto">Win the challenge developing innovative robotics projects and solutions that can be applied to real-world scenarios today.</p>
+              <h3 className="mb-4 md:text-3xl md:leading-normal hover-gradient-amber-5 text-2xl leading-normal font-semibold">Automate Robotics Hackathon</h3>
+              <p className="text-white font-semibold max-w-xl mx-auto">Win the challenge developing innovative robotics projects and solutions that can be applied to real-world scenarios today.</p>
             </div>
             <Slider ref={sliderRef} {...settings}>
               {casesData.map((item, index) => {
                 const Icon = item.icon;
                 return (
-                    (<div className="relative p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
+                    (<div className="relative p-6 blur-xl hover:blur-none rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 hover:bg-amber-400 dark:hover:bg-amber-500 duration-500" key={index}>
                         <div className="relative overflow-hidden h-96">
                           <Image src={item.image} alt={item.title} className="opacity-80" fill style={{
                               objectFit: "cover"
@@ -156,6 +160,8 @@ export default function Services() {
   <div className="my-4 text-center">
   <h5>Contest Guidelines</h5>
 </div>
+<HackathonRules />
+<Hackathons />
 <Pricing />
 
           </div>

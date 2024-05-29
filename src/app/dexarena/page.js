@@ -15,6 +15,7 @@ const Pricing = dynamic(() => import('../components/pricingtraders'));
 const TraderNews = dynamic(() => import('../components/tradernews'));
 const TradingSlider = dynamic(() => import('../components/tradingslider'));
 const DexArena = dynamic(() => import('../components/dexarenarules'));
+const Arenas = dynamic(() => import('../components/arenas'));
 
 const Animations = () => {
   useEffect(() => {
@@ -129,7 +130,7 @@ const Animations = () => {
 
        <DexArena />
         <TradingSlider />
-
+<Arenas />
         <Pricing />
       </div>
       <TraderNews />

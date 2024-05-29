@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import {FiCheckCircle, GiBrainstorm, GiPowerGenerator, GiTakeMyMoney, GiTechnoHeart, MdKeyboardArrowRight} from '../assets/icons/vander'
-
+const ToggleButton = dynamic(() => import('./toggleButton'));
 
 export default function AboutTwo(){
     return(
@@ -23,11 +24,11 @@ export default function AboutTwo(){
                             <li className="mb-2 flex items-center"><GiBrainstorm className="text-amber-500 h-5 w-5 me-2"/> Curious Minds</li>
                             <li className="mb-2 flex items-center"><GiTakeMyMoney className="text-amber-500 h-5 w-5 me-2"/> Investors</li>
                             <li className="mb-2 flex items-center"><GiTechnoHeart className="text-amber-500 h-5 w-5 me-2"/>Tech Junkies</li>
-<li className="mb-2 flex items-center"><GiPowerGenerator className="text-amber-500 h-5 w-5 me-2"/>Creators</li>
-</ul>
+                            <li className="mb-2 flex items-center"><GiPowerGenerator className="text-amber-500 h-5 w-5 me-2"/>Creators</li>
+                        </ul>
 
-                        <div className="font-val mt-4">
-                            <Link href="" className="bg-red-500 font-arcade hover:bg-green-600 hover:text-amber-400 font-medium duration-500 text-white font-bold py-2 px-4 rounded">Join Now <i className="mdi mdi-chevron-right text-[20px] align-middle"></i></Link>
+                        <div className="font-sans mt-4">
+                            <ToggleButton />
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ def add_glitch_effects(text):
     return glitched
 
 # Example usage
-original_text = "1995 whispers a tale spun from the heart of raves golden era where beats were bold and spirits unbound. In this track, echoes of the past merge with the pulse of the present, crafting a timeless journey through dance and liberation. Each note, a footstep in clandestine warehouses each rhythm a heartbeat synchronized with the strobe's flicker. Here, amidst the embrace of house music's nascent bloom, the essence of unity and rebellion intertwines, casting spells of euphoria and fleeting freedom, 1995 isn't just a track; it's a portal to when the night was young, the future was wide open, and music was a revolution."
+original_text = "name: 'John', age: 30, phone: '123-456-7890', mail: 'Qo4nD@example.com', onchain: true."
 encrypted_text = encrypt_text(original_text)
 print("Original text:", original_text)
 print("Encrypted text:", encrypted_text)
