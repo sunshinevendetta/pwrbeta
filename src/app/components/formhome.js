@@ -103,7 +103,8 @@ export default function FormHome() {
           >
             {loading ? 'Submitting...' : 'Submit'}
           </button>
-          
+          {message && <p className="mt-4 text-green-500">{message}</p>}
+          {error && <p className="mt-4 text-red-500">{error}</p>}
         </div>
       </form>
     </div>
