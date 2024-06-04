@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { FaUserTie, FaUsersCog } from "react-icons/fa";
+
 const ToggleButton = dynamic(() => import('./toggleButton'));
 
 export default function AboutThree() {
@@ -38,6 +39,7 @@ export default function AboutThree() {
       domain: "https://pwr2tp.mx"
     }
   ];
+
   return (
     <>
       <div className="container relative md:mt-24 mt-16">
@@ -48,7 +50,7 @@ export default function AboutThree() {
                 <video autoPlay loop muted playsInline style={{ width: '100%', height: 'auto' }}>
                   <source src="/images/cdmx.webm" type="video/webm" />
                 </video>
-                <Link href="" className="absolute top-2 left-2 rounded-full p-0.1 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10">
+                <Link href="https://pwr2tp.mx" className="absolute top-2 left-2 rounded-full p-0.1 bg-white dark:bg-slate-900 shadow dark:shadow-slate-800 z-10">
                   <Image src="/images/flags/usa.webp" width={28} height={28} className="h-7 w-7 rounded-full" alt="" />
                 </Link>
               </div>
@@ -56,7 +58,11 @@ export default function AboutThree() {
 
             <div className="mt-6">
               {countryData.map((item, index) => (
-                <Link href="" className="py-[6px] px-2 inline-flex items-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400/5 hover:bg-amber-400 border border-amber-400/10 hover:border-amber-400 text-amber-400 hover:text-white font-semibold m-0.5" key={index}>
+                <Link
+                  href={item.domain}
+                  className="py-[6px] px-2 inline-flex items-center tracking-wider align-middle duration-500 text-sm text-center rounded bg-amber-400/5 hover:bg-amber-400 border border-amber-400/10 hover:border-amber-400 text-amber-400 hover:text-white font-semibold m-0.5"
+                  key={index}
+                >
                   <Image src={item.image} width={20} height={20} className="h-5 w-5 me-1" alt="" /> {item.name}
                 </Link>
               ))}
