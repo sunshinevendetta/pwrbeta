@@ -8,27 +8,36 @@ const ToggleButton = dynamic(() => import('./toggleButton'));
 export default function AboutThree() {
   const countryData = [
     {
+      name: "English",
+      image: "/images/flags/usa.webp",
+      domain: "https://pwr2tp.mx"
+    },
+    {
       name: "Español",
-      image: "/images/flags/mex.webp"
+      image: "/images/flags/mex.webp",
+      domain: "https://mx.pwr2tp.mx"
     },
     {
-      name: "Hindi",
-      image: "/images/flags/india.webp"
+      name: "हिंदी",
+      image: "/images/flags/india.webp",
+      domain: "https://pwr2tp.mx"
     },
     {
-      name: "中国人",
-      image: "/images/flags/china.webp"
+      name: "中文",
+      image: "/images/flags/china.webp",
+      domain: "https://pwr2tp.mx"
     },
     {
-      name: "Deutsche",
-      image: "/images/flags/germany.webp"
+      name: "Deutsch",
+      image: "/images/flags/germany.webp",
+      domain: "https://pwr2tp.mx"
     },
     {
-      name: "عربي",
-      image: "/images/flags/uae.webp"
+      name: "العربية",
+      image: "/images/flags/uae.webp",
+      domain: "https://pwr2tp.mx"
     }
   ];
-
   return (
     <>
       <div className="container relative md:mt-24 mt-16">
