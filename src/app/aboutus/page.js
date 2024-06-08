@@ -61,7 +61,7 @@ export default function AboutUs(){
         {
             image:'/images/team/fer.webp',
             name:"Fer Elosegui",
-            title:'C.B.D'
+            title:'Chief Of Business Development'
     },
     {
         image:'/images/team/kevin.webp',
