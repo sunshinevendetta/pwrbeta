@@ -51,7 +51,7 @@ const figtree= Figtree({
 })
 
 export const metadata = {
-  title: 'PWR2TPPL',
+  title: 'PWR2TPMX',
   description: 'Power 2 The People Event',
 }
 
