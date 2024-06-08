@@ -30,8 +30,8 @@ export default function AboutUs(){
         },
         {
             image:'/images/team/sv.webp',
-            name:"Omar Ceja",
-            title:'Lead Developer'
+            name:"SV",
+            title:'Event Director/Lead Developer'
         },
         {
             image:"/images/team/ricardo.webp",
@@ -61,7 +61,7 @@ export default function AboutUs(){
         {
             image:'/images/team/fer.webp',
             name:"Fer Elosegui",
-            title:'Sales'
+            title:'C.B.D'
     },
     {
         image:'/images/team/kevin.webp',
