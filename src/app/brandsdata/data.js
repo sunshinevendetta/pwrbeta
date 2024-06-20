@@ -340,7 +340,7 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asusrog/",
             "YouTube": "https://www.youtube.com/user/asusrog"
         },
-        "corporate_contact": "https://rog.asus.com/contact/ (shared with Asus)"
+        "corporate_contact": "https://rog.asus.com/contact/"
     },
     {
         "name": "MSI",
@@ -512,7 +512,7 @@ const cryptoData = [
     },
     {
         "name": "Alienware",
-        "official_link": "Alienware Official Website (https://www.alienware.com/)",
+        "official_link": "https://www.alienware.com/",
         "description": "Alienware is an American computer hardware subsidiary of Dell, specializing in high-performance gaming PCs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Alienware/",
@@ -520,11 +520,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/alienware/",
             "YouTube": "https://www.youtube.com/user/Alienware"
         },
-        "corporate_contact": "Dell Contact Info (https://www.dell.com/en-us/contact)"
+        "corporate_contact": "https://www.dell.com/en-us/contact"
     },
     {
         "name": "Razer",
-        "official_link": "Razer Official Website (https://www.razer.com/)",
+        "official_link": "https://www.razer.com/",
         "description": "Razer is a global gaming hardware manufacturing company known for its high-quality gaming peripherals and laptops.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/razer/",
@@ -532,11 +532,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/razer/",
             "YouTube": "https://www.youtube.com/user/cultofrazer"
         },
-        "corporate_contact": "Razer Contact Info (https://support.razer.com/contact-support)"
+        "corporate_contact": "https://support.razer.com/contact-support"
     },
     {
         "name": "Asus ROG",
-        "official_link": "ROG Official Website (https://rog.asus.com/)",
+        "official_link": "https://rog.asus.com/",
         "description": "Republic of Gamers (ROG) is a sub-brand of Asus dedicated to creating high-quality hardware for gaming enthusiasts and eSports players.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/asusrog/",
@@ -544,11 +544,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asusrog/",
             "YouTube": "https://www.youtube.com/user/asusrog"
         },
-        "corporate_contact": "Asus Corporate Contact (https://rog.asus.com/contact/) (shared with Asus)"
+        "corporate_contact": "https://rog.asus.com/contact/"
     },
     {
         "name": "MSI",
-        "official_link": "MSI Official Website (https://www.msi.com/)",
+        "official_link": "https://www.msi.com/",
         "description": "MSI (Micro-Star International) is a Taiwanese multinational information technology corporation that designs, manufactures, and provides computer hardware and related products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/MSIGaming/",
@@ -556,11 +556,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/msigaming/",
             "YouTube": "https://www.youtube.com/user/MSIGamingGlobal"
         },
-        "corporate_contact": "MSI Contact Info (https://www.msi.com/about/contact-us)"
+        "corporate_contact": "https://www.msi.com/about/contact-us"
     },
     {
         "name": "Corsair",
-        "official_link": "Corsair Official Website (https://www.corsair.com/)",
+        "official_link": "https://www.corsair.com/",
         "description": "Corsair is an American computer peripherals and hardware company that designs and supplies high-performance components to the PC gaming market.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Corsair/",
@@ -568,11 +568,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/corsair/",
             "LinkedIn": "https://www.linkedin.com/company/corsair/"
         },
-        "corporate_contact": "Corsair Corporate Contact (https://www.corsair.com/us/en/contact-us)"
+        "corporate_contact": "https://www.corsair.com/us/en/contact-us"
     },
     {
         "name": "Logitech G",
-        "official_link": "Logitech G Official Website (https://www.logitechg.com/)",
+        "official_link": "https://www.logitechg.com/",
         "description": "Logitech G is a brand of Logitech that designs and manufactures gaming peripherals and accessories.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/LogitechG/",
@@ -580,11 +580,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/logitechg/",
             "YouTube": "https://www.youtube.com/user/LogitechG"
         },
-        "corporate_contact": "Logitech Contact Info (https://www.logitech.com/en-us/about/contact.html)"
+        "corporate_contact": "https://www.logitech.com/en-us/about/contact.html"
     },
     {
         "name": "SteelSeries",
-        "official_link": "SteelSeries Official Website (https://steelseries.com/)",
+        "official_link": "https://steelseries.com/",
         "description": "SteelSeries is a Danish manufacturer of gaming peripherals and accessories, including headsets, keyboards, mice, and controllers.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/SteelSeries",
@@ -592,11 +592,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/steelseries",
             "YouTube": "https://www.youtube.com/user/steelseries"
         },
-        "corporate_contact": "SteelSeries Contact Info (https://steelseries.com/contact)"
+        "corporate_contact": "https://steelseries.com/contact"
     },
     {
         "name": "HyperX",
-        "official_link": "HyperX Official Website (https://www.hyperxgaming.com/)",
+        "official_link": "https://www.hyperxgaming.com/",
         "description": "HyperX is the gaming division of Kingston Technology Company, known for producing gaming storage devices, peripherals, and hardware.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/HyperX",
@@ -604,11 +604,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/hyperx/",
             "LinkedIn": "https://www.linkedin.com/company/hyperx/"
         },
-        "corporate_contact": "HyperX Contact (https://www.hyperxgaming.com/us/company/contact)"
+        "corporate_contact": "https://www.hyperxgaming.com/us/company/contact"
     },
     {
         "name": "Turtle Beach",
-        "official_link": "Turtle Beach Official Website (https://www.turtlebeach.com/)",
+        "official_link": "https://www.turtlebeach.com/",
         "description": "Turtle Beach Corporation is an American manufacturer of gaming headsets and audio accessories.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TurtleBeach/",
@@ -616,11 +616,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/turtlebeach/",
             "YouTube": "https://www.youtube.com/user/TurtleBeachVideos"
         },
-        "corporate_contact": "Turtle Beach Contact Info (https://www.turtlebeach.com/pages/contact-us)"
+        "corporate_contact": "https://www.turtlebeach.com/pages/contact-us"
     },
     {
         "name": "Astro Gaming",
-        "official_link": "Astro Gaming Official Website (https://www.astrogaming.com/)",
+        "official_link": "https://www.astrogaming.com/",
         "description": "Astro Gaming specializes in designing and producing high-end gaming headsets, controllers, and accessories.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/astrogaming/",
@@ -628,11 +628,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/astrogaming/",
             "YouTube": "https://www.youtube.com/user/AstroGaming"
         },
-        "corporate_contact": "Astro Gaming Contact Info (https://www.astrogaming.com/contact)"
+        "corporate_contact": "https://www.astrogaming.com/contact"
     },
     {
         "name": "Thrustmaster",
-        "official_link": "Thrustmaster Official Website (https://www.thrustmaster.com/)",
+        "official_link": "https://www.thrustmaster.com/",
         "description": "Thrustmaster is a manufacturer of high-tech video game accessories, including joysticks, gamepads, and steering wheels.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ThrustmasterOfficial/",
@@ -640,22 +640,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/Thrustmaster/",
             "YouTube": "https://www.youtube.com/user/ThrustmasterChannel"
         },
-        "corporate_contact": "Thrustmaster Contact Info (https://www.thrustmaster.com/en_US/contacts)"
+        "corporate_contact": "https://www.thrustmaster.com/en_US/contacts"
     },
     {
         "name": "Redragon",
-        "official_link": "Redragon Official Website (https://redragonusa.com/)",
+        "official_link": "https://redragonusa.com/",
         "description": "Redragon is an American-based manufacturer specializing in gaming peripherals, including keyboards, mice, and headsets.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/RedragonUSA/",
             "Twitter": "https://twitter.com/RedragonUSA",
             "Instagram": "https://www.instagram.com/redragonusa/"
         },
-        "corporate_contact": "Redragon Contact Info (https://redragonusa.com/pages/contact-us)"
+        "corporate_contact": "https://redragonusa.com/pages/contact-us"
     },
     {
         "name": "Cougar",
-        "official_link": "Cougar Gaming Official Website (https://cougargaming.com/)",
+        "official_link": "https://cougargaming.com/",
         "description": "Cougar is a brand under HEC Group, known for its high-performance gaming peripherals including cases, power supplies, and gaming chairs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/CougarGamingInt",
@@ -663,11 +663,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/cougargaming/",
             "YouTube": "https://www.youtube.com/c/CougarGaming"
         },
-        "corporate_contact": "Cougar Contact Info (https://cougargaming.com/wheretobuy/)"
+        "corporate_contact": "https://cougargaming.com/wheretobuy/"
     },
     {
         "name": "Roccat",
-        "official_link": "Roccat Official Website (https://www.roccat.com/)",
+        "official_link": "https://www.roccat.com/",
         "description": "Roccat GmbH is a German manufacturer of gaming peripherals including mice, keyboards, headsets, and mouse pads.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ROCCAT/",
@@ -675,11 +675,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/roccat/",
             "YouTube": "https://www.youtube.com/user/RoccatStudios"
         },
-        "corporate_contact": "Roccat Contact Info (https://www.roccat.com/pages/contact-us)"
+        "corporate_contact": "https://www.roccat.com/pages/contact-us"
     },
     {
         "name": "NZXT",
-        "official_link": "NZXT Official Website (https://www.nzxt.com/)",
+        "official_link": "https://www.nzxt.com/",
         "description": "NZXT is an American computer hardware manufacturer that produces computer cases, components, and related accessories for the gaming market.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/NZXT/?fref=ts",
@@ -687,11 +687,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/nzxt/",
             "LinkedIn": "https://www.linkedin.com/company/nzxt-inc-/"
         },
-        "corporate_contact": "NZXT Contact Info (https://www.nzxt.com/support)"
+        "corporate_contact": "https://www.nzxt.com/support"
     },
     {
         "name": "Aorus",
-        "official_link": "Aorus Official Website (https://www.aorus.com/)",
+        "official_link": "https://www.aorus.com/",
         "description": "Aorus is a premium gaming brand of hardware by Gigabyte, specializing in gaming laptops, motherboards, graphics cards, and peripherals.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AorusOfficial/",
@@ -699,11 +699,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/aorus_official/",
             "YouTube": "https://www.youtube.com/user/AorusOfficial"
         },
-        "corporate_contact": "Gigabyte Contact Info (https://www.gigabyte.com/Contact)"
+        "corporate_contact": "https://www.gigabyte.com/Contact"
     },
     {
         "name": "Predator (Acer)",
-        "official_link": "Predator Official Website (https://www.acer.com/ac/en/US/content/series/predator)",
+        "official_link": "https://www.acer.com/ac/en/US/content/series/predator",
         "description": "Predator is a line of gaming laptops, desktops, and peripherals designed and produced by Acer.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AcerPredatorOfficial",
@@ -711,11 +711,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/predator_gaming/",
             "YouTube": "https://www.youtube.com/user/predatorUS"
         },
-        "corporate_contact": "Acer Contact Info (https://www.acer.com/ac/en/US/content/contact)"
+        "corporate_contact": "https://www.acer.com/ac/en/US/content/contact"
     },
     {
         "name": "XPG (Adata)",
-        "official_link": "XPG Official Website (https://www.xpg.com/)",
+        "official_link": "https://www.xpg.com/",
         "description": "XPG is a gaming, eSports, and technology lifestyle brand of ADATA, offering products like SSDs, memory modules, and other gaming hardware.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/xpg.global/",
@@ -723,11 +723,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/xpg_global/",
             "YouTube": "https://www.youtube.com/XPG"
         },
-        "corporate_contact": "XPG Contact Info (https://www.xpg.com/us/feature/623)"
+        "corporate_contact": "https://www.xpg.com/us/feature/623"
     },
     {
         "name": "EVGA",
-        "official_link": "EVGA Official Website (https://www.evga.com/)",
+        "official_link": "https://www.evga.com/",
         "description": "EVGA is an American computer hardware company that produces NVIDIA-GPU-based video cards, Intel chipset-based motherboards, and other gaming-related accessories.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TEAMEVGA/",
@@ -735,26 +735,26 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/teamEVGA/",
             "YouTube": "https://www.youtube.com/user/TEAMEVGA"
         },
-        "corporate_contact": "EVGA Contact Info (https://www.evga.com/about/contactus)"
+        "corporate_contact": "https://www.evga.com/about/contactus"
     },
     {
         "name": "AVerMedia",
-        "official_link": "AVerMedia Official Website (https://www.avermedia.com/)",
+        "official_link": "https://www.avermedia.com/",
         "description": "AVerMedia Technologies, Inc. is a Taiwanese company that specializes in the research and development of multimedia and video processing hardware.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AmazonFireTablet/",
             "Twitter": "https://twitter.com/amazonfire",
             "Instagram": "https://www.instagram.com/amazon/",
             "YouTube": "https://www.youtube.com/user/avermediaglobal",
-            "Corporate Contact (Sales/B2B)": "AVerMedia Contact Info (https://www.avermedia.com/professional/contact_us)",
-            "Official Link": "Amazon Fire Tablets (https://www.amazon.com/Fire-Tablet)",
+            "Corporate Contact (Sales/B2B)": "https://www.avermedia.com/professional/contact_us",
+            "Official Link": "https://www.amazon.com/Fire-Tablet",
             "Description": "Amazon Fire tablets are affordable, high-performance tablets designed by Amazon for multimedia consumption, reading, and general tablet usage."
         },
-        "corporate_contact": "Amazon Business Contact (https://services.amazon.com/contact.html)"
+        "corporate_contact": "https://services.amazon.com/contact.html"
     },
     {
         "name": "Lenovo Tab",
-        "official_link": "Lenovo Tab Official Website (https://www.lenovo.com/us/en/tablets/)",
+        "official_link": "https://www.lenovo.com/us/en/tablets/",
         "description": "Lenovo Tab series tablets offer versatile performance, media capabilities, and a variety of sizes and performance levels for different user needs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/lenovo/",
@@ -762,11 +762,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/lenovo/",
             "LinkedIn": "https://www.linkedin.com/company/lenovo/"
         },
-        "corporate_contact": "Lenovo Contact Info (https://www.lenovo.com/us/en/contact/)"
+        "corporate_contact": "https://www.lenovo.com/us/en/contact/"
     },
     {
         "name": "Huawei MediaPad",
-        "official_link": "Huawei MediaPad Official Website (https://consumer.huawei.com/en/tablets/)",
+        "official_link": "https://consumer.huawei.com/en/tablets/",
         "description": "Huawei MediaPad tablets offer high resolution, excellent performance, and a rich multimedia experience.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Huawei",
@@ -774,11 +774,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/huawei/",
             "LinkedIn": "https://www.linkedin.com/company/huawei/"
         },
-        "corporate_contact": "Huawei Contact Info (https://www.huawei.com/en/contact-us)"
+        "corporate_contact": "https://www.huawei.com/en/contact-us"
     },
     {
         "name": "Asus ZenPad",
-        "official_link": "Asus ZenPad Official Website (https://www.asus.com/Tablets/ZenPad-Series-Products/)",
+        "official_link": "https://www.asus.com/Tablets/ZenPad-Series-Products/",
         "description": "Asus ZenPad tablets combine luxury, performance, and productivity in a sleek and stylish design.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/asus/",
@@ -786,22 +786,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asus/",
             "LinkedIn": "https://www.linkedin.com/company/asus/"
         },
-        "corporate_contact": "Asus Corporate Contact (https://www.asus.com/us/support/CallUs)"
+        "corporate_contact": "https://www.asus.com/us/support/CallUs"
     },
     {
         "name": "Google Pixel Slate",
-        "official_link": "Google Pixel Slate Official Website (https://store.google.com/us/product/pixel_slate)",
+        "official_link": "https://store.google.com/us/product/pixel_slate",
         "description": "Google Pixel Slate is a high-end tablet designed for productivity and entertainment, running Chrome OS for seamless integration with Google's ecosystem.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/madebygoogle/",
             "Twitter": "https://twitter.com/Google",
             "Instagram": "https://www.instagram.com/madebygoogle/"
         },
-        "corporate_contact": "Google Contact Info (https://support.google.com/pixelphone/)"
+        "corporate_contact": "https://support.google.com/pixelphone/"
     },
     {
         "name": "Acer Iconia",
-        "official_link": "Acer Iconia Official Website (https://www.acer.com/ac/en/US/content/group/tablets)",
+        "official_link": "https://www.acer.com/ac/en/US/content/group/tablets",
         "description": "Acer Iconia tablets offer a range of models designed for multimedia, productivity, and family-friendly entertainment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Acer/",
@@ -809,22 +809,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/acer/",
             "LinkedIn": "https://www.linkedin.com/company/acer/"
         },
-        "corporate_contact": "Acer Contact Info (https://www.acer.com/ac/en/US/content/contacts)"
+        "corporate_contact": "https://www.acer.com/ac/en/US/content/contacts"
     },
     {
         "name": "Sony Xperia Tablet",
-        "official_link": "Sony Xperia Tablet Official Website (https://www.sony.com/electronics/xperia-tablets)",
+        "official_link": "https://www.sony.com/electronics/xperia-tablets",
         "description": "Sony Xperia Tablets are designed for entertainment, productivity, and multimedia consumption with high-resolution displays and strong performance.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/sonymobile/",
             "Twitter": "https://twitter.com/sonyxperia",
             "Instagram": "https://www.instagram.com/sonyxperia/"
         },
-        "corporate_contact": "Sony Contact Info (https://www.sony.net/SonyInfo/)"
+        "corporate_contact": "https://www.sony.net/SonyInfo/"
     },
     {
         "name": "Dell Venue",
-        "official_link": "Dell Venue Official Website (https://www.dell.com/)",
+        "official_link": "https://www.dell.com/",
         "description": "Dell Venue tablets offer a combination of performance, portability, and versatility for both business and personal use.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Dell/",
@@ -832,11 +832,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/dell/",
             "LinkedIn": "https://www.linkedin.com/company/dell/"
         },
-        "corporate_contact": "Dell Contact Info (https://www.dell.com/en-us/contact)"
+        "corporate_contact": "https://www.dell.com/en-us/contact"
     },
     {
         "name": "LG G Pad",
-        "official_link": "LG G Pad Official Website (https://www.lg.com/us/tablets)",
+        "official_link": "https://www.lg.com/us/tablets",
         "description": "LG G Pad tablets provide an all-in-one solution for entertainment, productivity, and on-the-go computing.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/lgusa",
@@ -844,11 +844,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/lgusa/",
             "LinkedIn": "https://www.linkedin.com/company/lg-electronics/"
         },
-        "corporate_contact": "LG Contact Info (https://www.lg.com/global/support/contact)"
+        "corporate_contact": "https://www.lg.com/global/support/contact"
     },
     {
         "name": "Xiaomi Mi Pad",
-        "official_link": "Xiaomi Mi Pad Official Website (https://www.mi.com/global/tablet)",
+        "official_link": "https://www.mi.com/global/tablet",
         "description": "Xiaomi Mi Pad tablets offer powerful performance, high-resolution displays, and long battery life for multimedia and productivity needs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/XiaomiGlobal/",
@@ -856,11 +856,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/xiaomi.global/",
             "LinkedIn": "https://www.linkedin.com/company/xiaomi/"
         },
-        "corporate_contact": "Xiaomi Contact Info (https://www.mi.com/global/contact/)"
+        "corporate_contact": "https://www.mi.com/global/contact/"
     },
     {
         "name": "Nokia N1",
-        "official_link": "Nokia N1 Official Website (https://www.nokia.com/)",
+        "official_link": "https://www.nokia.com/",
         "description": "The Nokia N1 is an Android tablet with a high-resolution display, powerful performance, and sleek design.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Nokia",
@@ -868,11 +868,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/nokia/",
             "LinkedIn": "https://www.linkedin.com/company/nokia/"
         },
-        "corporate_contact": "Nokia Contact Info (https://www.nokia.com/contact/)"
+        "corporate_contact": "https://www.nokia.com/contact/"
     },
     {
         "name": "HP Slate",
-        "official_link": "HP Slate Official Website (https://www.hp.com/)",
+        "official_link": "https://www.hp.com/",
         "description": "HP Slate tablets offer a range of options for productivity, multimedia, and general use, featuring touchscreens and portability.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/HP/",
@@ -880,33 +880,33 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/hp/",
             "LinkedIn": "https://www.linkedin.com/company/hp/"
         },
-        "corporate_contact": "HP Contact Info (https://www.hp.com/us-en/contact-hp/contact.html)"
+        "corporate_contact": "https://www.hp.com/us-en/contact-hp/contact.html"
     },
     {
         "name": "Toshiba Excite",
-        "official_link": "Toshiba Excite Official Website (https://www.toshiba.com/)",
+        "official_link": "https://www.toshiba.com/",
         "description": "Toshiba Excite tablets offer high-resolution displays, powerful processing, and multimedia capabilities in a sleek design.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Toshiba/",
             "Twitter": "https://twitter.com/ToshibaUSA",
             "LinkedIn": "https://www.linkedin.com/company/toshiba/"
         },
-        "corporate_contact": "Toshiba Contact Info (https://www.toshiba.com/tai/contact-us.jsp)"
+        "corporate_contact": "https://www.toshiba.com/tai/contact-us.jsp"
     },
     {
         "name": "Alcatel A3",
-        "official_link": "Alcatel A3 Official Website (https://www.alcatelmobile.com/)",
+        "official_link": "https://www.alcatelmobile.com/",
         "description": "Alcatel A3 tablets combine affordability with functionality, offering features like high-resolution displays and long battery life.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/alcatelmobile/",
             "Twitter": "https://twitter.com/alcatelmobile",
             "Instagram": "https://www.instagram.com/alcatelmobile/"
         },
-        "corporate_contact": "Alcatel Contact Info (https://www.alcatelmobile.com/contact-us/)"
+        "corporate_contact": "https://www.alcatelmobile.com/contact-us/"
     },
     {
         "name": "Panasonic Toughpad",
-        "official_link": "Panasonic Toughpad Official Website (https://na.panasonic.com/us/computers-tablets-handhelds/tablets)",
+        "official_link": "https://na.panasonic.com/us/computers-tablets-handhelds/tablets",
         "description": "Panasonic Toughpad tablets are built for durability and performance, designed for use in tough environments and industrial applications.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Panasonic/",
@@ -914,38 +914,38 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/panasonic/",
             "LinkedIn": "https://www.linkedin.com/company/panasonic/"
         },
-        "corporate_contact": "Panasonic Contact Info (https://na.panasonic.com/us/support/enterprise)"
+        "corporate_contact": "https://na.panasonic.com/us/support/enterprise"
     },
     {
         "name": "ZTE Grand X",
-        "official_link": "ZTE Grand X Official Website (https://www.zte.com.cn/global/)",
+        "official_link": "https://www.zte.com.cn/global/",
         "description": "ZTE Grand X tablets offer a combination of performance and affordability, aimed at providing a solid multimedia experience.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ZTECorp/",
             "Twitter": "https://twitter.com/ZTEPress",
             "LinkedIn": "https://www.linkedin.com/company/zte-corporation/"
         },
-        "corporate_contact": "ZTE Contact Info (https://www.zte.com.cn/global/about/contact_us)"
+        "corporate_contact": "https://www.zte.com.cn/global/about/contact_us"
     },
     {
         "name": "Razer Edge",
-        "official_link": "Razer Edge Official Website (https://www.razer.com/gaming-tablets/razer-edge-pro)",
+        "official_link": "https://www.razer.com/gaming-tablets/razer-edge-pro",
         "description": "Razer Edge is a high-performance gaming tablet designed for gamers, offering powerful specs and a customizable interface.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/garmin",
             "Twitter": "https://twitter.com/garmin",
             "Instagram": "https://www.instagram.com/garmin/",
             "YouTube": "https://www.youtube.com/user/cultofrazer",
-            "Corporate Contact (Sales/B2B)": "Razer Contact Info (https://support.razer.com/contact-support)",
-            "Official Link": "Garmin Official Website (https://www.garmin.com/)",
+            "Corporate Contact (Sales/B2B)": "https://support.razer.com/contact-support",
+            "Official Link": "https://www.garmin.com/",
             "Description": "Garmin produces GPS technology and fitness devices like smartwatches, wearables, and navigational tools for various markets including automotive, aviation, marine, outdoor, and fitness.",
             "LinkedIn": "https://www.linkedin.com/company/garmin-international/"
         },
-        "corporate_contact": "Garmin Contact Info (https://www.garmin.com/en-US/company/contact/)"
+        "corporate_contact": "https://www.garmin.com/en-US/company/contact/"
     },
     {
         "name": "Fitbit",
-        "official_link": "Fitbit Official Website (https://www.fitbit.com/)",
+        "official_link": "https://www.fitbit.com/",
         "description": "Fitbit designs and produces health and fitness technology including smartwatches, fitness trackers, and health monitoring devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/fitbit",
@@ -953,11 +953,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/fitbit/",
             "LinkedIn": "https://www.linkedin.com/company/fitbit/"
         },
-        "corporate_contact": "Fitbit Contact Info (https://help.fitbit.com/)"
+        "corporate_contact": "https://help.fitbit.com/"
     },
     {
         "name": "Huawei Watch",
-        "official_link": "Huawei Watch Official Website (https://consumer.huawei.com/en/wearables/)",
+        "official_link": "https://consumer.huawei.com/en/wearables/",
         "description": "Huawei Watch products are smartwatches designed to offer a combination of technology, fitness tracking, and style.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Huawei",
@@ -965,11 +965,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/huawei/",
             "LinkedIn": "https://www.linkedin.com/company/huawei/"
         },
-        "corporate_contact": "Huawei Contact Info (https://www.huawei.com/en/contact-us)"
+        "corporate_contact": "https://www.huawei.com/en/contact-us"
     },
     {
         "name": "Fossil",
-        "official_link": "Fossil Official Website (https://www.fossil.com/)",
+        "official_link": "https://www.fossil.com/",
         "description": "Fossil Group is a global design, marketing, distribution, and innovation company specializing in lifestyle accessories including watches, jewelry, and wearables.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/fossil",
@@ -977,11 +977,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/fossil/",
             "LinkedIn": "https://www.linkedin.com/company/fossilgroup/"
         },
-        "corporate_contact": "Fossil Contact Info (https://www.fossilgroup.com/contact/)"
+        "corporate_contact": "https://www.fossilgroup.com/contact/"
     },
     {
         "name": "TicWatch",
-        "official_link": "TicWatch Official Website (https://www.mobvoi.com/)",
+        "official_link": "https://www.mobvoi.com/",
         "description": "Mobvoi's TicWatch is a line of smartwatches that integrate advanced AI technology to deliver innovative and functional wearable devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/MobvoiOfficia",
@@ -989,11 +989,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/mobvoi_official/",
             "LinkedIn": "https://www.linkedin.com/company/mobvoi/"
         },
-        "corporate_contact": "Mobvoi Contact Info (https://www.mobvoi.com/contact-us/)"
+        "corporate_contact": "https://www.mobvoi.com/contact-us/"
     },
     {
         "name": "Suunto",
-        "official_link": "Suunto Official Website (https://www.suunto.com/)",
+        "official_link": "https://www.suunto.com/",
         "description": "Suunto designs and manufactures sports watches, dive computers, and precision instruments for the active lifestyle market.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Suunto",
@@ -1001,11 +1001,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/suunto/",
             "LinkedIn": "https://www.linkedin.com/company/suunto/"
         },
-        "corporate_contact": "Suunto Contact Info (https://www.suunto.com/en-us/Contact-us/)"
+        "corporate_contact": "https://www.suunto.com/en-us/Contact-us/"
     },
     {
         "name": "Withings",
-        "official_link": "Withings Official Website (https://www.withings.com/)",
+        "official_link": "https://www.withings.com/",
         "description": "Withings creates smart health devices such as hybrid smartwatches, blood pressure monitors, and sleep trackers.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/withings",
@@ -1013,11 +1013,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/withings/",
             "LinkedIn": "https://www.linkedin.com/company/withings/"
         },
-        "corporate_contact": "Withings Contact Info (https://www.withings.com/us/en/contact)"
+        "corporate_contact": "https://www.withings.com/us/en/contact"
     },
     {
         "name": "Amazfit",
-        "official_link": "Amazfit Official Website (https://us.amazfit.com/)",
+        "official_link": "https://us.amazfit.com/",
         "description": "Amazfit produces wearables such as smartwatches and fitness trackers, combining a sleek design with functionality.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/amazfit.global",
@@ -1025,11 +1025,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/amazfit.global/",
             "LinkedIn": "https://www.linkedin.com/company/amazfit/"
         },
-        "corporate_contact": "Amazfit Contact Info (https://us.amazfit.com/pages/contact)"
+        "corporate_contact": "https://us.amazfit.com/pages/contact"
     },
     {
         "name": "Motorola",
-        "official_link": "Motorola Official Website (https://www.motorola.com/)",
+        "official_link": "https://www.motorola.com/",
         "description": "Motorola Mobility LLC is an American consumer electronics and telecommunications company and a subsidiary of Lenovo.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Motorola/",
@@ -1037,22 +1037,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/motorolaus/",
             "LinkedIn": "https://www.linkedin.com/company/motorola-solutions"
         },
-        "corporate_contact": "Motorola Contact Info (https://www.motorola.com/us/contactus)"
+        "corporate_contact": "https://www.motorola.com/us/contactus"
     },
     {
         "name": "Sony SmartWatch",
-        "official_link": "Sony SmartWatch Official Website (https://www.sony.com/electronics/smart-devices)",
+        "official_link": "https://www.sony.com/electronics/smart-devices",
         "description": "Sony SmartWatches offer a range of functionality including fitness tracking, notifications, and integration with Android smartphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/sonymobile/",
             "Twitter": "https://twitter.com/sonyxperia",
             "Instagram": "https://www.instagram.com/sonyxperia/"
         },
-        "corporate_contact": "Sony Contact Info (https://www.sony.net/SonyInfo/)"
+        "corporate_contact": "https://www.sony.net/SonyInfo/"
     },
     {
         "name": "LG Watch",
-        "official_link": "LG Watch Official Website (https://www.lg.com/)",
+        "official_link": "https://www.lg.com/",
         "description": "LG smartwatches combine technology and style, designed to enhance both productivity and fitness tracking.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/lgusa",
@@ -1060,11 +1060,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/lgusa/",
             "LinkedIn": "https://www.linkedin.com/company/lg-electronics/"
         },
-        "corporate_contact": "LG Contact Info (https://www.lg.com/global/support/contact)"
+        "corporate_contact": "https://www.lg.com/global/support/contact"
     },
     {
         "name": "Asus ZenWatch",
-        "official_link": "Asus ZenWatch Official Website (https://www.asus.com/Wearables/)",
+        "official_link": "https://www.asus.com/Wearables/",
         "description": "Asus ZenWatch is a line of premium smartwatches that offer a blend of style and functionality.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/asus/",
@@ -1072,7 +1072,7 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asus/",
             "LinkedIn": "https://www.linkedin.com/company/asus/"
         },
-        "corporate_contact": "Asus Corporate Contact (https://www.asus.com/us/support/CallUs)"
+        "corporate_contact": "https://www.asus.com/us/support/CallUs"
     },
     {
         "name": "Pebble",
@@ -1086,7 +1086,7 @@ const cryptoData = [
     },
     {
         "name": "Michael Kors",
-        "official_link": "Michael Kors Official Website (https://www.michaelkors.com/)",
+        "official_link": "https://www.michaelkors.com/",
         "description": "Michael Kors Access smartwatches combine luxury design with smart technology, offering a sophisticated option for wearable tech.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/michaelkors",
@@ -1094,11 +1094,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/michaelkors/",
             "LinkedIn": "https://www.linkedin.com/company/michael-kors/"
         },
-        "corporate_contact": "Michael Kors Contact Info (https://www.michaelkors.com/store-locator)"
+        "corporate_contact": "https://www.michaelkors.com/store-locator"
     },
     {
         "name": "Diesel",
-        "official_link": "Diesel Watches Official Website (https://www.diesel.com/)",
+        "official_link": "https://www.diesel.com/",
         "description": "Diesel produces smartwatches that blend modern technology with the rugged, bold design characteristic of the brand.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Diesel/",
@@ -1106,11 +1106,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/diesel/",
             "LinkedIn": "https://www.linkedin.com/company/diesel/"
         },
-        "corporate_contact": "Diesel Contact Info (https://www.diesel.com/corporate/contact-us)"
+        "corporate_contact": "https://www.diesel.com/corporate/contact-us"
     },
     {
         "name": "Casio",
-        "official_link": "Casio Official Website (https://world.casio.com/)",
+        "official_link": "https://world.casio.com/",
         "description": "Casio produces a range of smartwatches combining robust design with functionalities like GPS, heart monitoring, and various fitness tracking features.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/CasioUSA/",
@@ -1118,11 +1118,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/casio_us/",
             "LinkedIn": "https://www.linkedin.com/company/casio-america-inc-/"
         },
-        "corporate_contact": "Casio Contact Info (https://world.casio.com/corporate/en/contact/)"
+        "corporate_contact": "https://world.casio.com/corporate/en/contact/"
     },
     {
         "name": "Polar",
-        "official_link": "Polar Official Website (https://www.polar.com/)",
+        "official_link": "https://www.polar.com/",
         "description": "Polar develops smartwatches and fitness trackers known for their advanced heart rate monitoring and training features.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/PolarGlobal",
@@ -1130,11 +1130,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/polarglobal/",
             "LinkedIn": "https://www.linkedin.com/company/polar-electro-oy/"
         },
-        "corporate_contact": "Polar Contact Info (https://support.polar.com/us-en/contact_us)"
+        "corporate_contact": "https://support.polar.com/us-en/contact_us"
     },
     {
         "name": "Tag Heuer",
-        "official_link": "Tag Heuer Official Website (https://www.tagheuer.com/)",
+        "official_link": "https://www.tagheuer.com/",
         "description": "Tag Heuer produces luxury smartwatches that combine high-end materials and Swiss craftsmanship with advanced technology.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TAGHeuer/",
@@ -1142,11 +1142,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/tagheuer/",
             "LinkedIn": "https://www.linkedin.com/company/tag-heuer/"
         },
-        "corporate_contact": "Tag Heuer Contact Info (https://www.tagheuer.com/intl/en/contact-us/)"
+        "corporate_contact": "https://www.tagheuer.com/intl/en/contact-us/"
     },
     {
         "name": "Sony",
-        "official_link": "Sony Official Website (https://www.sony.com/)",
+        "official_link": "https://www.sony.com/",
         "description": "Sony is a Japanese multinational conglomerate corporation that produces a wide range of electronics products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Sony/",
@@ -1154,11 +1154,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/sony/",
             "LinkedIn": "https://www.linkedin.com/company/sony/"
         },
-        "corporate_contact": "Sony Contact Info (https://www.sony.com/electronics/contact-us)"
+        "corporate_contact": "https://www.sony.com/electronics/contact-us"
     },
     {
         "name": "Bose",
-        "official_link": "Bose Official Website (https://www.bose.com/)",
+        "official_link": "https://www.bose.com/",
         "description": "Bose is an American corporation which designs and sells audio equipment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Bose/",
@@ -1166,11 +1166,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/bose/",
             "YouTube": "https://www.youtube.com/user/Bose"
         },
-        "corporate_contact": "Bose Contact Info (https://www.bose.com/en_us/support/contact_us.html)"
+        "corporate_contact": "https://www.bose.com/en_us/support/contact_us.html"
     },
     {
         "name": "Sennheiser",
-        "official_link": "Sennheiser Official Website (https://en-us.sennheiser.com/)",
+        "official_link": "https://en-us.sennheiser.com/",
         "description": "Sennheiser is a German privately held audio company specializing in the design and production of a wide range of high fidelity products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Sennheiser/",
@@ -1178,11 +1178,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/sennheiser/",
             "YouTube": "https://www.youtube.com/sennheiserofficial"
         },
-        "corporate_contact": "Sennheiser Contact Info (https://en-us.sennheiser.com/service-support-contact-center)"
+        "corporate_contact": "https://en-us.sennheiser.com/service-support-contact-center"
     },
     {
         "name": "Beats",
-        "official_link": "Beats by Dre Official Website (https://www.beatsbydre.com/)",
+        "official_link": "https://www.beatsbydre.com/",
         "description": "Beats by Dre is a brand of audio products founded by Dr. Dre and Jimmy Iovine, now a subsidiary of Apple Inc.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/beatsbydre",
@@ -1190,11 +1190,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/beatsbydre/",
             "YouTube": "https://www.youtube.com/user/beatsbydrepl"
         },
-        "corporate_contact": "Beats Contact Info (https://www.beatsbydre.com/contactus)"
+        "corporate_contact": "https://www.beatsbydre.com/contactus"
     },
     {
         "name": "JBL",
-        "official_link": "JBL Official Website (https://www.jbl.com/)",
+        "official_link": "https://www.jbl.com/",
         "description": "JBL is an American company that manufactures audio equipment, including loudspeakers and headphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/JBL/",
@@ -1202,25 +1202,25 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/jblaudio/",
             "YouTube": "https://www.youtube.com/user/JBLAudio"
         },
-        "corporate_contact": "JBL Contact Info (https://support.jbl.com/)"
+        "corporate_contact": "https://support.jbl.com/"
     },
     {
         "name": "Apple AirPods",
-        "official_link": "Apple AirPods Official Website (https://www.apple.com/airpods/)",
+        "official_link": "https://www.apple.com/airpods/",
         "description": "AirPods are wireless Bluetooth earbuds created by Apple Inc.",
         "social_media_links": {},
-        "corporate_contact": "Apple Contact Info (https://www.apple.com/contact/)"
+        "corporate_contact": "https://www.apple.com/contact/"
     },
     {
         "name": "Samsung Galaxy Buds",
-        "official_link": "Samsung Galaxy Buds Official Website (https://www.samsung.com/global/galaxy/galaxy-buds/)",
+        "official_link": "https://www.samsung.com/global/galaxy/galaxy-buds/",
         "description": "Samsung Galaxy Buds are a line of wireless earbuds made by Samsung Electronics.",
         "social_media_links": {},
-        "corporate_contact": "Samsung Contact Info (https://www.samsung.com/us/support/contact/)"
+        "corporate_contact": "https://www.samsung.com/us/support/contact/"
     },
     {
         "name": "Jabra",
-        "official_link": "Jabra Official Website (https://www.jabra.com/)",
+        "official_link": "https://www.jabra.com/",
         "description": "Jabra is a brand specializing in audio equipment, including headphones, earphones, and hearing aids.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Jabra/",
@@ -1228,11 +1228,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/jabra/",
             "LinkedIn": "https://www.linkedin.com/company/jabra/"
         },
-        "corporate_contact": "Jabra Contact Info (https://www.jabra.com/about/contact)"
+        "corporate_contact": "https://www.jabra.com/about/contact"
     },
     {
         "name": "Plantronics",
-        "official_link": "Plantronics Official Website (https://www.plantronics.com/)",
+        "official_link": "https://www.plantronics.com/",
         "description": "Plantronics, now known as Poly, is an electronics company producing audio communications equipment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/plantronics",
@@ -1240,11 +1240,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/polycompany/",
             "LinkedIn": "https://www.linkedin.com/company/plantronics/"
         },
-        "corporate_contact": "Plantronics Contact Info (https://www.poly.com/us/en/support/contact)"
+        "corporate_contact": "https://www.poly.com/us/en/support/contact"
     },
     {
         "name": "Skullcandy",
-        "official_link": "Skullcandy Official Website (https://www.skullcandy.com/)",
+        "official_link": "https://www.skullcandy.com/",
         "description": "Skullcandy is an American company that designs, markets, and sells audio products such as headphones and earphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/skullcandy",
@@ -1252,11 +1252,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/skullcandy/",
             "YouTube": "https://www.youtube.com/user/skullcandyTV"
         },
-        "corporate_contact": "Skullcandy Contact Info (https://www.skullcandy.com/support/contact-us.html)"
+        "corporate_contact": "https://www.skullcandy.com/support/contact-us.html"
     },
     {
         "name": "AKG",
-        "official_link": "AKG Official Website (https://www.akg.com/)",
+        "official_link": "https://www.akg.com/",
         "description": "AKG Acoustics is an Austrian manufacturer of microphones, headphones, and wireless audio systems.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AKG/",
@@ -1264,11 +1264,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/AKGaudio/",
             "YouTube": "https://www.youtube.com/user/AKGAcoustics"
         },
-        "corporate_contact": "AKG Contact Info (https://www.akg.com/support-contact.html)"
+        "corporate_contact": "https://www.akg.com/support-contact.html"
     },
     {
         "name": "Audio-Technica",
-        "official_link": "Audio-Technica Official Website (https://www.audio-technica.com/)",
+        "official_link": "https://www.audio-technica.com/",
         "description": "Audio-Technica is a Japanese company that designs and manufactures professional audio equipment, including headphones and microphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AudioTechnicaUSA",
@@ -1276,11 +1276,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/audiotechnicausa/",
             "YouTube": "https://www.youtube.com/user/AudioTechnicaUSA"
         },
-        "corporate_contact": "Audio-Technica Contact Info (https://www.audio-technica.com/en-us/contacts)"
+        "corporate_contact": "https://www.audio-technica.com/en-us/contacts"
     },
     {
         "name": "Bang & Olufsen",
-        "official_link": "Bang & Olufsen Official Website (https://www.bang-olufsen.com/)",
+        "official_link": "https://www.bang-olufsen.com/",
         "description": "Bang & Olufsen is a high-end audio products manufacturer from Denmark, known for their design and performance in audio equipment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/bangolufsen",
@@ -1288,11 +1288,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/bangolufsen/",
             "LinkedIn": "https://www.linkedin.com/company/bang-&-olufsen/"
         },
-        "corporate_contact": "Bang & Olufsen Contact Info (https://www.bang-olufsen.com/en/contact)"
+        "corporate_contact": "https://www.bang-olufsen.com/en/contact"
     },
     {
         "name": "Jaybird",
-        "official_link": "Jaybird Official Website (https://www.jaybirdsport.com/)",
+        "official_link": "https://www.jaybirdsport.com/",
         "description": "Jaybird is an American consumer electronics company known for its wireless earphones and activity trackers.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/JaybirdSport",
@@ -1300,11 +1300,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/jaybirdsport/",
             "YouTube": "https://www.youtube.com/user/jaybirdtv"
         },
-        "corporate_contact": "Jaybird Contact Info (https://www.jaybirdsport.com/en-us/support/contact.html)"
+        "corporate_contact": "https://www.jaybirdsport.com/en-us/support/contact.html"
     },
     {
         "name": "Shure",
-        "official_link": "Shure Official Website (https://www.shure.com/)",
+        "official_link": "https://www.shure.com/",
         "description": "Shure is an American audio products corporation that manufactures microphones, wireless microphone systems, in-ear monitors, and headphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/shureinc",
@@ -1312,11 +1312,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/shure/",
             "YouTube": "https://www.youtube.com/user/shureinc"
         },
-        "corporate_contact": "Shure Contact Info (https://www.shure.com/en-US/about-us/contact-us)"
+        "corporate_contact": "https://www.shure.com/en-US/about-us/contact-us"
     },
     {
         "name": "Anker Soundcore",
-        "official_link": "Anker Soundcore Official Website (https://www.soundcore.com/)",
+        "official_link": "https://www.soundcore.com/",
         "description": "Anker Soundcore is a sub-brand of Anker Innovations, known for creating high-quality audio products such as speakers and earphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/SoundcoreAudio/",
@@ -1324,11 +1324,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/soundcoreaudio/",
             "YouTube": "https://www.youtube.com/user/AnkerOfficial"
         },
-        "corporate_contact": "Anker Contact Info (https://www.anker.com/contact)"
+        "corporate_contact": "https://www.anker.com/contact"
     },
     {
         "name": "Marshall",
-        "official_link": "Marshall Official Website (https://www.marshallheadphones.com/)",
+        "official_link": "https://www.marshallheadphones.com/",
         "description": "Marshall is a British company that designs and manufactures music amplifiers, speaker cabinets, and headphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/marshallheadphones",
@@ -1336,11 +1336,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/marshallamps/",
             "YouTube": "https://www.youtube.com/user/MarshallAmpUK"
         },
-        "corporate_contact": "Marshall Contact Info (https://www.marshallheadphones.com/se/en/support/contact.html)"
+        "corporate_contact": "https://www.marshallheadphones.com/se/en/support/contact.html"
     },
     {
         "name": "Razer",
-        "official_link": "Razer Official Website (https://www.razer.com/)",
+        "official_link": "https://www.razer.com/",
         "description": "Razer is a global gaming hardware manufacturing company known for its high-quality gaming peripherals and laptops.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/razer/",
@@ -1348,11 +1348,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/razer/",
             "YouTube": "https://www.youtube.com/user/cultofrazer"
         },
-        "corporate_contact": "Razer Contact Info (https://support.razer.com/contact-support)"
+        "corporate_contact": "https://support.razer.com/contact-support"
     },
     {
         "name": "HyperX",
-        "official_link": "HyperX Official Website (https://www.hyperxgaming.com/)",
+        "official_link": "https://www.hyperxgaming.com/",
         "description": "HyperX is the gaming division of Kingston Technology Company, known for producing gaming storage devices, peripherals, and hardware.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/HyperX",
@@ -1360,11 +1360,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/hyperx/",
             "LinkedIn": "https://www.linkedin.com/company/hyperx/"
         },
-        "corporate_contact": "HyperX Contact (https://www.hyperxgaming.com/us/company/contact)"
+        "corporate_contact": "https://www.hyperxgaming.com/us/company/contact"
     },
     {
         "name": "Logitech",
-        "official_link": "Logitech Official Website (https://www.logitech.com/)",
+        "official_link": "https://www.logitech.com/",
         "description": "Logitech is a Swiss-American manufacturer of computer peripherals and software, and develops products like keyboards, mice, headsets, and webcams.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Logitech",
@@ -1372,11 +1372,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/logitech/",
             "YouTube": "https://www.youtube.com/user/Logitech"
         },
-        "corporate_contact": "Logitech Contact Info (https://www.logitech.com/en-us/about/contact.html)"
+        "corporate_contact": "https://www.logitech.com/en-us/about/contact.html"
     },
     {
         "name": "Pioneer",
-        "official_link": "Pioneer Official Website (https://global.pioneer/en/)",
+        "official_link": "https://global.pioneer/en/",
         "description": "Pioneer is a Japanese multinational corporation that specializes in digital entertainment products, including headphones, speakers, and DJ equipment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/PioneerWorldwide/",
@@ -1384,11 +1384,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/pioneerdjglobal/",
             "LinkedIn": "https://www.linkedin.com/company/pioneer-electronics"
         },
-        "corporate_contact": "Pioneer Contact Info (https://global.pioneer/en/support/)"
+        "corporate_contact": "https://global.pioneer/en/support/"
     },
     {
         "name": "Dell",
-        "official_link": "Dell Official Website (https://www.dell.com/)",
+        "official_link": "https://www.dell.com/",
         "description": "Dell is an American multinational computer technology company that develops, sells, repairs, and supports computers and related products and services.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Dell/",
@@ -1396,11 +1396,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/dell/",
             "LinkedIn": "https://www.linkedin.com/company/dell/"
         },
-        "corporate_contact": "Dell Contact Info (https://www.dell.com/en-us/contact)"
+        "corporate_contact": "https://www.dell.com/en-us/contact"
     },
     {
         "name": "Asus",
-        "official_link": "Asus Official Website (https://www.asus.com/)",
+        "official_link": "https://www.asus.com/",
         "description": "Asus is a Taiwanese multinational company that manufactures computer and phone hardware and electronics.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/asus/",
@@ -1408,11 +1408,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asus/",
             "LinkedIn": "https://www.linkedin.com/company/asus/"
         },
-        "corporate_contact": "Asus Corporate Contact (https://www.asus.com/us/support/CallUs)"
+        "corporate_contact": "https://www.asus.com/us/support/CallUs"
     },
     {
         "name": "Acer",
-        "official_link": "Acer Official Website (https://www.acer.com/)",
+        "official_link": "https://www.acer.com/",
         "description": "Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Acer/",
@@ -1420,11 +1420,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/acer/",
             "LinkedIn": "https://www.linkedin.com/company/acer/"
         },
-        "corporate_contact": "Acer Contact Info (https://www.acer.com/ac/en/US/content/contacts)"
+        "corporate_contact": "https://www.acer.com/ac/en/US/content/contacts"
     },
     {
         "name": "Samsung",
-        "official_link": "Samsung Official Website (https://www.samsung.com/)",
+        "official_link": "https://www.samsung.com/",
         "description": "Samsung is a South Korean multinational conglomerate that produces a wide range of electronics products including smartphones and home appliances.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Samsung/",
@@ -1432,11 +1432,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/samsung/",
             "YouTube": "https://www.youtube.com/samsung"
         },
-        "corporate_contact": "Samsung Contact Info (https://www.samsung.com/us/support/contact/)"
+        "corporate_contact": "https://www.samsung.com/us/support/contact/"
     },
     {
         "name": "LG",
-        "official_link": "LG Official Website (https://www.lg.com/)",
+        "official_link": "https://www.lg.com/",
         "description": "LG Electronics is a South Korean multinational electronics company operating in four business units: Home Entertainment, Mobile Communications, Home Appliances & Air Solutions, and Vehicle Components.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/lgusa",
@@ -1444,11 +1444,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/lgusa/",
             "LinkedIn": "https://www.linkedin.com/company/lg-electronics/"
         },
-        "corporate_contact": "LG Contact Info (https://www.lg.com/global/support/contact)"
+        "corporate_contact": "https://www.lg.com/global/support/contact"
     },
     {
         "name": "BenQ",
-        "official_link": "BenQ Official Website (https://www.benq.com/)",
+        "official_link": "https://www.benq.com/",
         "description": "BenQ Corporation is a Taiwanese multinational company that sells and markets technology products, consumer electronics, computing, and communications devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/BenQGlobal",
@@ -1456,11 +1456,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/benqglobal/",
             "YouTube": "https://www.youtube.com/user/benqweb"
         },
-        "corporate_contact": "BenQ Contact Info (https://www.benq.com/en-us/support/contact-us.html)"
+        "corporate_contact": "https://www.benq.com/en-us/support/contact-us.html"
     },
     {
         "name": "MSI",
-        "official_link": "MSI Official Website (https://www.msi.com/)",
+        "official_link": "https://www.msi.com/",
         "description": "MSI (Micro-Star International) is a Taiwanese multinational information technology corporation that designs, manufactures, and provides computer hardware and related products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/MSIGaming/",
@@ -1468,11 +1468,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/msigaming/",
             "YouTube": "https://www.youtube.com/user/MSIGamingGlobal"
         },
-        "corporate_contact": "MSI Contact Info (https://www.msi.com/about/contact-us)"
+        "corporate_contact": "https://www.msi.com/about/contact-us"
     },
     {
         "name": "HP",
-        "official_link": "HP Official Website (https://www.hp.com/)",
+        "official_link": "https://www.hp.com/",
         "description": "HP Inc. is an American multinational information technology company that develops computers, printers, and related supplies.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/HP/",
@@ -1480,11 +1480,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/hp/",
             "LinkedIn": "https://www.linkedin.com/company/hp/"
         },
-        "corporate_contact": "HP Contact Info (https://www.hp.com/us-en/contact-hp/contact.html)"
+        "corporate_contact": "https://www.hp.com/us-en/contact-hp/contact.html"
     },
     {
         "name": "ViewSonic",
-        "official_link": "ViewSonic Official Website (https://www.viewsonic.com/)",
+        "official_link": "https://www.viewsonic.com/",
         "description": "ViewSonic is a multinational electronics company specializing in visual display technology, including monitors, projectors, and digital signage.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ViewSonicGlobal/",
@@ -1492,22 +1492,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/viewsonic/",
             "LinkedIn": "https://www.linkedin.com/company/viewsonic/"
         },
-        "corporate_contact": "ViewSonic Contact Info (https://www.viewsonic.com/us/about/contact-us)"
+        "corporate_contact": "https://www.viewsonic.com/us/about/contact-us"
     },
     {
         "name": "AOC",
-        "official_link": "AOC Official Website (https://www.aoc.com/)",
+        "official_link": "https://www.aoc.com/",
         "description": "AOC International is a multinational electronics company that designs and produces a wide range of display products including computer monitors and televisions.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AOCEurope/",
             "Twitter": "https://twitter.com/aoc_monitors",
             "Instagram": "https://www.instagram.com/aoceurope/"
         },
-        "corporate_contact": "AOC Contact Info (https://www.aoc.com/worldwide)"
+        "corporate_contact": "https://www.aoc.com/worldwide"
     },
     {
         "name": "Philips",
-        "official_link": "Philips Official Website (https://www.philips.com/)",
+        "official_link": "https://www.philips.com/",
         "description": "Philips is a Dutch multinational conglomerate with diversified products in healthcare, consumer lifestyle, and lighting.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Philips/",
@@ -1515,11 +1515,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/philipsglobal/",
             "LinkedIn": "https://www.linkedin.com/company/philips/"
         },
-        "corporate_contact": "Philips Contact Info (https://www.philips.com/global/c-w/contact.html)"
+        "corporate_contact": "https://www.philips.com/global/c-w/contact.html"
     },
     {
         "name": "Lenovo",
-        "official_link": "Lenovo Official Website (https://www.lenovo.com/)",
+        "official_link": "https://www.lenovo.com/",
         "description": "Lenovo is a Chinese multinational technology company that designs, manufactures, and sells personal computers, tablets, and smartphones.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/lenovo/",
@@ -1527,11 +1527,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/lenovo/",
             "LinkedIn": "https://www.linkedin.com/company/lenovo/"
         },
-        "corporate_contact": "Lenovo Contact Info (https://www.lenovo.com/us/en/contact/)"
+        "corporate_contact": "https://www.lenovo.com/us/en/contact/"
     },
     {
         "name": "Sony",
-        "official_link": "Sony Official Website (https://www.sony.com/)",
+        "official_link": "https://www.sony.com/",
         "description": "Sony is a Japanese multinational conglomerate corporation that produces a wide range of electronics products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Sony/",
@@ -1539,11 +1539,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/sony/",
             "LinkedIn": "https://www.linkedin.com/company/sony/"
         },
-        "corporate_contact": "Sony Contact Info (https://www.sony.com/electronics/contact-us)"
+        "corporate_contact": "https://www.sony.com/electronics/contact-us"
     },
     {
         "name": "Panasonic",
-        "official_link": "Panasonic Official Website (https://www.panasonic.com/)",
+        "official_link": "https://www.panasonic.com/",
         "description": "Panasonic is a Japanese multinational electronics company.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Panasonic/",
@@ -1551,22 +1551,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/panasonic/",
             "LinkedIn": "https://www.linkedin.com/company/panasonic/"
         },
-        "corporate_contact": "Panasonic Contact Info (https://na.panasonic.com/us/support/enterprise)"
+        "corporate_contact": "https://na.panasonic.com/us/support/enterprise"
     },
     {
         "name": "Toshiba",
-        "official_link": "Toshiba Official Website (https://www.toshiba.com/)",
+        "official_link": "https://www.toshiba.com/",
         "description": "Toshiba Corporation is a Japanese multinational conglomerate and is part of the Toshiba Group which provides diversified products and services.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Toshiba/",
             "Twitter": "https://twitter.com/ToshibaUSA",
             "LinkedIn": "https://www.linkedin.com/company/toshiba/"
         },
-        "corporate_contact": "Toshiba Contact Info (https://www.toshiba.com/tai/contact-us.jsp)"
+        "corporate_contact": "https://www.toshiba.com/tai/contact-us.jsp"
     },
     {
         "name": "Gigabyte",
-        "official_link": "Gigabyte Official Website (https://www.gigabyte.com/)",
+        "official_link": "https://www.gigabyte.com/",
         "description": "Gigabyte is a Taiwanese manufacturer and distributor of computer hardware.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/GIGABYTE/",
@@ -1574,11 +1574,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/GIGABYTE_Gaming/",
             "LinkedIn": "https://www.linkedin.com/company/gigabyte/"
         },
-        "corporate_contact": "Gigabyte Contact Info (https://www.gigabyte.com/Contact)"
+        "corporate_contact": "https://www.gigabyte.com/Contact"
     },
     {
         "name": "Huawei",
-        "official_link": "Huawei Official Website (https://www.huawei.com/)",
+        "official_link": "https://www.huawei.com/",
         "description": "Huawei is a Chinese multinational technology company that designs, develops, and sells telecommunications equipment and consumer electronics.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Huawei",
@@ -1586,22 +1586,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/huawei/",
             "LinkedIn": "https://www.linkedin.com/company/huawei/"
         },
-        "corporate_contact": "Huawei Contact Info (https://www.huawei.com/en/contact-us)"
+        "corporate_contact": "https://www.huawei.com/en/contact-us"
     },
     {
         "name": "Sceptre",
-        "official_link": "Sceptre Official Website (https://www.sceptre.com/)",
+        "official_link": "https://www.sceptre.com/",
         "description": "Sceptre is an American electronics manufacturer specializing in LED, LCD, 4K monitors, and HDTVs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/SceptreInc/",
             "Twitter": "https://twitter.com/Sceptre_Inc",
             "Instagram": "https://www.instagram.com/sceptre_inc/"
         },
-        "corporate_contact": "Sceptre Contact Info (https://www.sceptre.com/contact-us.html)"
+        "corporate_contact": "https://www.sceptre.com/contact-us.html"
     },
     {
         "name": "Alienware",
-        "official_link": "Alienware Official Website (https://www.alienware.com/)",
+        "official_link": "https://www.alienware.com/",
         "description": "Alienware is an American computer hardware subsidiary of Dell, specializing in high-performance gaming PCs.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Alienware/",
@@ -1609,26 +1609,26 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/alienware/",
             "YouTube": "https://www.youtube.com/user/Alienware"
         },
-        "corporate_contact": "Dell Contact Info (https://www.dell.com/en-us/contact)"
+        "corporate_contact": "https://www.dell.com/en-us/contact"
     },
     {
         "name": "Razer",
-        "official_link": "Razer Official Website (https://www.razer.com/)",
+        "official_link": "https://www.razer.com/",
         "description": "Razer is a global gaming hardware manufacturing company known for its high-quality gaming peripherals and laptops.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Netgear/",
             "Twitter": "https://twitter.com/NETGEAR",
             "Instagram": "https://www.instagram.com/netgear/",
             "YouTube": "https://www.youtube.com/netgear",
-            "Corporate Contact (Sales/B2B)": "Razer Contact Info (https://support.razer.com/contact-support)",
-            "Official Link": "Netgear Official Website (https://www.netgear.com/)",
+            "Corporate Contact (Sales/B2B)": "https://support.razer.com/contact-support",
+            "Official Link": "https://www.netgear.com/",
             "Description": "Netgear produces networking hardware for consumers, businesses, and service providers."
         },
-        "corporate_contact": "Netgear Contact Info (https://www.netgear.com/about/contact/)"
+        "corporate_contact": "https://www.netgear.com/about/contact/"
     },
     {
         "name": "Asus",
-        "official_link": "Asus Official Website (https://www.asus.com/)",
+        "official_link": "https://www.asus.com/",
         "description": "Asus is a Taiwanese multinational company that manufactures computer and phone hardware and electronics.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/asus/",
@@ -1636,11 +1636,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/asus/",
             "LinkedIn": "https://www.linkedin.com/company/asus/"
         },
-        "corporate_contact": "Asus Corporate Contact (https://www.asus.com/us/support/CallUs)"
+        "corporate_contact": "https://www.asus.com/us/support/CallUs"
     },
     {
         "name": "TP-Link",
-        "official_link": "TP-Link Official Website (https://www.tp-link.com/)",
+        "official_link": "https://www.tp-link.com/",
         "description": "TP-Link is a Chinese manufacturer of computer networking products.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TPLINK/",
@@ -1648,11 +1648,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/tplink_official/",
             "LinkedIn": "https://www.linkedin.com/company/tp-link-technologies-co-ltd-/"
         },
-        "corporate_contact": "TP-Link Contact Info (https://www.tp-link.com/us/contact/)"
+        "corporate_contact": "https://www.tp-link.com/us/contact/"
     },
     {
         "name": "Linksys",
-        "official_link": "Linksys Official Website (https://www.linksys.com/)",
+        "official_link": "https://www.linksys.com/",
         "description": "Linksys is an American company selling data networking hardware products to home users and small businesses.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Linksys",
@@ -1660,11 +1660,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/linksys/",
             "LinkedIn": "https://www.linkedin.com/company/linksys/"
         },
-        "corporate_contact": "Linksys Contact Info (https://www.linksys.com/us/support-article?articleNum=140007)"
+        "corporate_contact": "https://www.linksys.com/us/support-article?articleNum=140007"
     },
     {
         "name": "D-Link",
-        "official_link": "D-Link Official Website (https://www.dlink.com/)",
+        "official_link": "https://www.dlink.com/",
         "description": "D-Link Corporation is a Taiwanese multinational networking equipment manufacturing corporation.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/dlink",
@@ -1672,22 +1672,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/dlink/",
             "LinkedIn": "https://www.linkedin.com/company/d-link/"
         },
-        "corporate_contact": "D-Link Contact Info (https://www.dlink.com/en/contact-d-link)"
+        "corporate_contact": "https://www.dlink.com/en/contact-d-link"
     },
     {
         "name": "Google Nest Wifi",
-        "official_link": "Google Nest Wifi Official Website (https://store.google.com/product/nest_wifi/)",
+        "official_link": "https://store.google.com/product/nest_wifi/",
         "description": "Google Nest Wifi is a scalable system that provides whole-home Wi-Fi coverage and a consistently strong signal.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/madebygoogle/",
             "Twitter": "https://twitter.com/madebygoogle",
             "Instagram": "https://www.instagram.com/madebygoogle/"
         },
-        "corporate_contact": "Google Contact Info (https://support.google.com/googleplay/answer/7100415)"
+        "corporate_contact": "https://support.google.com/googleplay/answer/7100415"
     },
     {
         "name": "Eero",
-        "official_link": "Eero Official Website (https://eero.com/)",
+        "official_link": "https://eero.com/",
         "description": "Eero is a company that makes mesh Wi-Fi systems for improving home Wi-Fi coverage.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/eero",
@@ -1695,11 +1695,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/eeroinc/",
             "LinkedIn": "https://www.linkedin.com/company/eero-inc-"
         },
-        "corporate_contact": "Eero Contact Info (https://eero.com/support)"
+        "corporate_contact": "https://eero.com/support"
     },
     {
         "name": "Ubiquiti",
-        "official_link": "Ubiquiti Official Website (https://www.ui.com/)",
+        "official_link": "https://www.ui.com/",
         "description": "Ubiquiti Networks produces wireless data communication and wired products for enterprises and homes under multiple brand names.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ubnt/",
@@ -1707,11 +1707,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/ubiquiti/",
             "LinkedIn": "https://www.linkedin.com/company/ubiquiti-networks"
         },
-        "corporate_contact": "Ubiquiti Contact Info (https://www.ui.com/contact/)"
+        "corporate_contact": "https://www.ui.com/contact/"
     },
     {
         "name": "Huawei",
-        "official_link": "Huawei Official Website (https://www.huawei.com/)",
+        "official_link": "https://www.huawei.com/",
         "description": "Huawei is a Chinese multinational technology company that designs, develops, and sells telecommunications equipment and consumer electronics.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Huawei",
@@ -1719,11 +1719,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/huawei/",
             "LinkedIn": "https://www.linkedin.com/company/huawei/"
         },
-        "corporate_contact": "Huawei Contact Info (https://www.huawei.com/en/contact-us)"
+        "corporate_contact": "https://www.huawei.com/en/contact-us"
     },
     {
         "name": "Zyxel",
-        "official_link": "Zyxel Official Website (https://www.zyxel.com/)",
+        "official_link": "https://www.zyxel.com/",
         "description": "Zyxel is a Taiwanese manufacturer of networking devices, including routers, switches, and security solutions.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ZyxelUSA/",
@@ -1731,11 +1731,11 @@ const cryptoData = [
             "YouTube": "https://www.youtube.com/user/ZyxelUS",
             "LinkedIn": "https://www.linkedin.com/company/zyxel/"
         },
-        "corporate_contact": "Zyxel Contact Info (https://www.zyxel.com/us/en-us/form/zyxel-b2b)"
+        "corporate_contact": "https://www.zyxel.com/us/en-us/form/zyxel-b2b"
     },
     {
         "name": "Cisco",
-        "official_link": "Cisco Official Website (https://www.cisco.com/)",
+        "official_link": "https://www.cisco.com/",
         "description": "Cisco Systems is an American multinational technology conglomerate that develops, manufactures, and sells networking hardware, software, and telecommunications equipment.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Cisco/",
@@ -1743,11 +1743,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/cisco/",
             "LinkedIn": "https://www.linkedin.com/company/cisco/"
         },
-        "corporate_contact": "Cisco Contact Info (https://www.cisco.com/c/en/us/about/contact-cisco.html)"
+        "corporate_contact": "https://www.cisco.com/c/en/us/about/contact-cisco.html"
     },
     {
         "name": "Belkin",
-        "official_link": "Belkin Official Website (https://www.belkin.com/)",
+        "official_link": "https://www.belkin.com/",
         "description": "Belkin International, Inc. is an American manufacturer of consumer electronics that specializes in connectivity devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/belkin",
@@ -1755,11 +1755,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/belkin/",
             "LinkedIn": "https://www.linkedin.com/company/belkin/"
         },
-        "corporate_contact": "Belkin Contact Info (https://www.belkin.com/us/contact-us/)"
+        "corporate_contact": "https://www.belkin.com/us/contact-us/"
     },
     {
         "name": "Tenda",
-        "official_link": "Tenda Official Website (https://www.tendacn.com/)",
+        "official_link": "https://www.tendacn.com/",
         "description": "Tenda Technology is a Chinese manufacturer of networking devices, including routers, mesh systems, and adapters.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TendaTechnology",
@@ -1767,22 +1767,22 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/tendatechnology/",
             "YouTube": "https://www.youtube.com/user/TendaTechnology"
         },
-        "corporate_contact": "Tenda Contact Info (https://www.tendacn.com/us/contact.html)"
+        "corporate_contact": "https://www.tendacn.com/us/contact.html"
     },
     {
         "name": "Amped Wireless",
-        "official_link": "Amped Wireless Official Website (https://www.ampedwireless.com/)",
+        "official_link": "https://www.ampedwireless.com/",
         "description": "Amped Wireless specializes in developing high-power, long-range wireless solutions for the home and office.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/AmpedWireless",
             "Twitter": "https://twitter.com/ampedwireless",
             "Instagram": "https://www.instagram.com/ampedwireless/"
         },
-        "corporate_contact": "Amped Wireless Contact Info (https://www.ampedwireless.com/company/contact.html)"
+        "corporate_contact": "https://www.ampedwireless.com/company/contact.html"
     },
     {
         "name": "Motorola",
-        "official_link": "Motorola Official Website (https://motorolanetwork.com/)",
+        "official_link": "https://motorolanetwork.com/",
         "description": "Motorola Solutions produces a range of networking devices including routers, modems, and mesh systems.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/MotorolaMESH/",
@@ -1790,11 +1790,11 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/motorolaus/",
             "LinkedIn": "https://www.linkedin.com/company/motorola-solutions"
         },
-        "corporate_contact": "Motorola Contact Info (https://motorolanetwork.com/contacts)"
+        "corporate_contact": "https://motorolanetwork.com/contacts"
     },
     {
         "name": "Trendnet",
-        "official_link": "Trendnet Official Website (https://www.trendnet.com/)",
+        "official_link": "https://www.trendnet.com/",
         "description": "TRENDnet is a global manufacturer of consumer networking and surveillance devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/TRENDnet",
@@ -1802,32 +1802,32 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/trendnet/",
             "LinkedIn": "https://www.linkedin.com/company/trendnet/"
         },
-        "corporate_contact": "Trendnet Contact Info (https://www.trendnet.com/support/create_ticket.asp)"
+        "corporate_contact": "https://www.trendnet.com/support/create_ticket.asp"
     },
     {
         "name": "Arris",
-        "official_link": "Arris Official Website (https://www.arris.com/)",
+        "official_link": "https://www.arris.com/",
         "description": "Arris International PLC is a telecommunications equipment manufacturing company that provides services including data, video, and telephony systems for homes and businesses.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/ARRISGlobal/",
             "Twitter": "https://twitter.com/ARRIS",
             "LinkedIn": "https://www.linkedin.com/company/arris/"
         },
-        "corporate_contact": "Arris Contact Info (https://www.arris.com/contact-us/)"
+        "corporate_contact": "https://www.arris.com/contact-us/"
     },
     {
         "name": "Securifi",
-        "official_link": "Securifi Official Website (https://www.securifi.com/)",
+        "official_link": "https://www.securifi.com/",
         "description": "Securifi is known for its Almond routers and smart home devices.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/securifi",
             "Twitter": "https://twitter.com/securifi"
         },
-        "corporate_contact": "Securifi Contact Info (https://www.securifi.com/contact-us)"
+        "corporate_contact": "https://www.securifi.com/contact-us"
     },
     {
         "name": "Synology",
-        "official_link": "Synology Official Website (https://www.synology.com/)",
+        "official_link": "https://www.synology.com/",
         "description": "Synology Inc. is a Taiwanese corporation that specializes in network-attached storage appliances and IP surveillance solutions.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/Synology/",
@@ -1835,18 +1835,18 @@ const cryptoData = [
             "Instagram": "https://www.instagram.com/synology/",
             "LinkedIn": "https://www.linkedin.com/company/synology/"
         },
-        "corporate_contact": "Synology Contact Info (https://www.synology.com/en-global/company/contact_us)"
+        "corporate_contact": "https://www.synology.com/en-global/company/contact_us"
     },
     {
         "name": "Edimax",
-        "official_link": "Edimax Official Website (https://www.edimax.com/)",
+        "official_link": "https://www.edimax.com/",
         "description": "Edimax Technology is a Taiwanese manufacturer of data networking products, including routers, smart home devices, and network switches.",
         "social_media_links": {
             "Facebook": "https://www.facebook.com/westerndigital",
             "Twitter": "https://twitter.com/westerndigital",
             "LinkedIn": "https://www.linkedin.com/company/western-digital/",
             "YouTube": "https://www.youtube.com/user/edimaxUK",
-            "Corporate Contact (Sales/B2B)": "Edimax Contact Info (https://www.edimax.com/edimax/global/about/contact_us.jsp)",
+            "Corporate Contact (Sales/B2B)": "https://www.edimax.com/edimax/global/about/contact_us.jsp",
             "Official Link": "https://www.westerndigital.com/",
             "Description": "Western Digital is a leading global data storage company."
         },
@@ -5343,7 +5343,7 @@ const cryptoData = [
             "Twitter": "twitter.com/KamigamiRobots",
             "LinkedIn": "No official LinkedIn currently available"
         },
-        "corporate_contact": "Kamigami Contact: http://www.kamigamirobots.com/#contact"
+        "corporate_contact": "http://www.kamigamirobots.com/#contact"
     },
     {
         "name": "Cozmo 2.0",
@@ -6144,7 +6144,7 @@ const cryptoData = [
         "social_media_links": {
             "LinkedIn": "https://www.linkedin.com/company/hansen-medical/"
         },
-        "corporate_contact": "Acquired by Auris Health. Contact: https://www.hansenmedical.com/contact-us"
+        "corporate_contact": "https://www.hansenmedical.com/contact-us"
     },
     {
         "name": "Corindus Vascular Robotics",
