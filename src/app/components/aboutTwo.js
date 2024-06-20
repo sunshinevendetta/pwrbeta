@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import {FiCheckCircle, GiBrainstorm, GiPowerGenerator, GiTakeMyMoney, GiTechnoHeart, MdKeyboardArrowRight} from '../assets/icons/vander'
 const ToggleButton = dynamic(() => import('./toggleButton'));
 
+
 export default function AboutTwo(){
     return(
         <>
@@ -29,10 +30,12 @@ export default function AboutTwo(){
 
                         <div className="font-sans mt-4">
                             <ToggleButton />
+                           
                         </div>
                     </div>
                 </div>
             </div>
+           
         </>
     )
 }

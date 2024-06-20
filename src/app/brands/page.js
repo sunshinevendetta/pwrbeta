@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 
 const NavLight = dynamic(() => import('../components/navlight'));
 const Footer = dynamic(() => import('../components/footer'));
-import CryptoTable from '../components/cryptotable'; // Static import
+import CryptoTable from '../components/brands'; 
 
 export default function Services() {
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function Services() {
           <div className="grid grid-cols-1 text-center mt-6">
             <div>
               <h5 className="md:text-4xl text-3xl md:leading-normal leading-normal tracking-wider font-semibold text-white mb-0">
-                Tokens
+                Brands
               </h5>
             </div>
             <ul className="tracking-[0.5px] mb-0 inline-block mt-5">
@@ -40,7 +40,7 @@ export default function Services() {
                 className="inline-block capitalize text-[15px] font-medium duration-500 ease-in-out text-white"
                 aria-current="page"
               >
-                Cases
+                Brand List
               </li>
             </ul>
           </div>
