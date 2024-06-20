@@ -1,5 +1,5 @@
 // src/app/tokendata/data.js
-const cryptoData = [
+const cryptoData =[
     {
         "name": "Asus",
         "official_link": "https://www.asus.com/",
@@ -748,7 +748,7 @@ const cryptoData = [
             "YouTube": "https://www.youtube.com/user/avermediaglobal",
             "Corporate Contact (Sales/B2B)": "https://www.avermedia.com/professional/contact_us",
             "Official Link": "https://www.amazon.com/Fire-Tablet",
-            "Description": "Amazon Fire tablets are affordable, high-performance tablets designed by Amazon for multimedia consumption, reading, and general tablet usage."
+            "Description": "https://Amazon Fire tablets are affordable, high-performance tablets designed by Amazon for multimedia consumption, reading, and general tablet usage."
         },
         "corporate_contact": "https://services.amazon.com/contact.html"
     },
@@ -938,7 +938,7 @@ const cryptoData = [
             "YouTube": "https://www.youtube.com/user/cultofrazer",
             "Corporate Contact (Sales/B2B)": "https://support.razer.com/contact-support",
             "Official Link": "https://www.garmin.com/",
-            "Description": "Garmin produces GPS technology and fitness devices like smartwatches, wearables, and navigational tools for various markets including automotive, aviation, marine, outdoor, and fitness.",
+            "Description": "https://Garmin produces GPS technology and fitness devices like smartwatches, wearables, and navigational tools for various markets including automotive, aviation, marine, outdoor, and fitness.",
             "LinkedIn": "https://www.linkedin.com/company/garmin-international/"
         },
         "corporate_contact": "https://www.garmin.com/en-US/company/contact/"
@@ -1076,7 +1076,7 @@ const cryptoData = [
     },
     {
         "name": "Pebble",
-        "official_link": "Pebble no longer has an official website as the company has ceased operations and their software is now supported by the Rebble community.",
+        "official_link": "https://Pebble no longer has an official website as the company has ceased operations and their software is now supported by the Rebble community.",
         "description": "Pebble was one of the first companies to produce smartwatches that could integrate with both Android and iOS devices.",
         "social_media_links": {
             "Twitter": "https://twitter.com/Pebble",
@@ -1622,7 +1622,7 @@ const cryptoData = [
             "YouTube": "https://www.youtube.com/netgear",
             "Corporate Contact (Sales/B2B)": "https://support.razer.com/contact-support",
             "Official Link": "https://www.netgear.com/",
-            "Description": "Netgear produces networking hardware for consumers, businesses, and service providers."
+            "Description": "https://Netgear produces networking hardware for consumers, businesses, and service providers."
         },
         "corporate_contact": "https://www.netgear.com/about/contact/"
     },
@@ -1848,7 +1848,7 @@ const cryptoData = [
             "YouTube": "https://www.youtube.com/user/edimaxUK",
             "Corporate Contact (Sales/B2B)": "https://www.edimax.com/edimax/global/about/contact_us.jsp",
             "Official Link": "https://www.westerndigital.com/",
-            "Description": "Western Digital is a leading global data storage company."
+            "Description": "https://Western Digital is a leading global data storage company."
         },
         "corporate_contact": "https://www.westerndigital.com/company/contact-us"
     },
@@ -2049,7 +2049,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/company/istorage-limited",
             "Corporate Contact": "https://www.westerndigital.com/company/contact-us",
             "Official Link": "https://istorage-uk.com/",
-            "Description": "iStorage designs and produces secure encrypted portable data storage devices."
+            "Description": "https://iStorage designs and produces secure encrypted portable data storage devices."
         },
         "corporate_contact": "https://istorage-uk.com/about-us/contact-us/"
     },
@@ -2456,7 +2456,7 @@ const cryptoData = [
         "social_media_links": {
             "Twitter": "https://twitter.com/magnavox",
             "Facebook": "https://www.facebook.com/Magnavox/",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://www.magnavox.com/contact_us"
     },
@@ -2478,7 +2478,7 @@ const cryptoData = [
         "social_media_links": {
             "Twitter": "https://twitter.com/ElementUSA",
             "Facebook": "https://www.facebook.com/ElementElectronics",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://www.elementelectronics.com/contact/"
     },
@@ -2652,9 +2652,9 @@ const cryptoData = [
         "official_link": "https://minolta.com/",
         "description": "Minolta Co., Ltd. was a Japanese worldwide manufacturer of cameras, camera accessories, photocopiers, fax machines, and laser printers.",
         "social_media_links": {
-            "Twitter": "Not available",
+            "Twitter": "https://Not available",
             "Facebook": "https://www.facebook.com/MinoltaUSA",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://minolta.com/contact-us/"
     },
@@ -2663,9 +2663,9 @@ const cryptoData = [
         "official_link": "https://mamiyaleaf.com/",
         "description": "Mamiya is a Japanese medium format camera manufacturer now known as Phase One and Mamiya Leaf.",
         "social_media_links": {
-            "Twitter": "Not available",
-            "Facebook": "Not available",
-            "LinkedIn": "Not available"
+            "Twitter": "https://Not available",
+            "Facebook": "https://Not available",
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://mamiyaleaf.com/contact.html"
     },
@@ -2674,9 +2674,9 @@ const cryptoData = [
         "official_link": "http://www.franke-heidecke.net/",
         "description": "Rolleiflex is a brand of medium format roll film cameras manufactured by Franke & Heidecke.",
         "social_media_links": {
-            "Twitter": "Not available",
+            "Twitter": "https://Not available",
             "Facebook": "https://www.facebook.com/rolleiflex.page",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "http://www.franke-heidecke.net/"
     },
@@ -2696,9 +2696,9 @@ const cryptoData = [
         "official_link": "http://www.yashica.com/",
         "description": "Yashica was a Japanese manufacturer of cameras, originally founded in 1949.",
         "social_media_links": {
-            "Twitter": "Not available",
+            "Twitter": "https://Not available",
             "Facebook": "https://www.facebook.com/yashicaofficial/",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "http://www.yashica.com/contact.html"
     },
@@ -3457,7 +3457,7 @@ const cryptoData = [
         "social_media_links": {
             "Twitter": "https://twitter.com/HolyStoneDrone",
             "Facebook": "https://www.facebook.com/HolyStoneOfficial",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://www.holystone.com/pages/contact-us"
     },
@@ -3718,7 +3718,7 @@ const cryptoData = [
         "social_media_links": {
             "Twitter": "https://twitter.com/Clarisonic",
             "Facebook": "https://www.facebook.com/Clarisonic",
-            "LinkedIn": "Not available"
+            "LinkedIn": "https://Not available"
         },
         "corporate_contact": "https://www.clarisonic.com/customer-care/contact-us"
     },
@@ -3825,7 +3825,7 @@ const cryptoData = [
         "description": "Valve Index is a high-fidelity VR system developed by Valve Corporation, known for its advanced tracking and graphics.",
         "social_media_links": {
             "Twitter": "https://twitter.com/valvesoftware",
-            "Facebook": "Not available",
+            "Facebook": "https://Not available",
             "LinkedIn": "https://www.linkedin.com/company/valve-software"
         },
         "corporate_contact": "https://www.valvesoftware.com/en/contact"
@@ -3957,7 +3957,7 @@ const cryptoData = [
         "description": "StarVR One is a high-end VR headset designed for enterprise solutions, offering a wide field of view.",
         "social_media_links": {
             "Twitter": "https://twitter.com/StarVRCorp",
-            "Facebook": "Not available",
+            "Facebook": "https://Not available",
             "LinkedIn": "https://www.linkedin.com/company/starvr-corp/"
         },
         "corporate_contact": "https://www.starvr.com/contact"
@@ -4495,7 +4495,7 @@ const cryptoData = [
             "Twitter": "https://twitter.com/allenai_org",
             "LinkedIn": "https://www.linkedin.com/company/allen-institute-for-ai/"
         },
-        "corporate_contact": "info@allenai.org"
+        "corporate_contact": "https://info@allenai.org"
     },
     {
         "name": "MXNet",
@@ -4505,7 +4505,7 @@ const cryptoData = [
             "Twitter": "https://twitter.com/ApacheMXNet",
             "LinkedIn": "https://www.linkedin.com/company/apachemxnet/"
         },
-        "corporate_contact": "dev@mxnet.apache.org"
+        "corporate_contact": "https://dev@mxnet.apache.org"
     },
     {
         "name": "Caffe",
@@ -4515,7 +4515,7 @@ const cryptoData = [
             "Twitter": "https://twitter.com/CaffeFramework",
             "LinkedIn": "https://www.linkedin.com/company/caffe-framework/"
         },
-        "corporate_contact": "caffe-dev@googlegroups.com"
+        "corporate_contact": "https://caffe-dev@googlegroups.com"
     },
     {
         "name": "Theano",
@@ -4524,7 +4524,7 @@ const cryptoData = [
         "social_media_links": {
             "LinkedIn": "https://www.linkedin.com/groups/12423062/"
         },
-        "corporate_contact": "theano-dev@googlegroups.com"
+        "corporate_contact": "https://theano-dev@googlegroups.com"
     },
     {
         "name": "Chainer",
@@ -4534,14 +4534,14 @@ const cryptoData = [
             "Twitter": "https://twitter.com/chainer",
             "LinkedIn": "https://www.linkedin.com/company/chainer/"
         },
-        "corporate_contact": "chainer@preferred.jp"
+        "corporate_contact": "https://chainer@preferred.jp"
     },
     {
         "name": "Turi Create",
         "official_link": "https://apple.github.io/turicreate/",
         "description": "Turi Create is an open-source machine learning toolkit from Apple.",
         "social_media_links": {},
-        "corporate_contact": "turicreate@apple.com"
+        "corporate_contact": "https://turicreate@apple.com"
     },
     {
         "name": "Pioneer DJ",
@@ -4754,636 +4754,636 @@ const cryptoData = [
     },
     {
         "name": "OpenAI",
-        "official_link": "openai.com",
+        "official_link": "https://openai.com",
         "description": "OpenAI is an AI research and deployment company dedicated to ensuring that artificial general intelligence benefits all of humanity.",
         "social_media_links": {
-            "Twitter": "twitter.com/OpenAI",
-            "LinkedIn": "linkedin.com/company/openai/"
+            "Twitter": "https://twitter.com/OpenAI",
+            "LinkedIn": "https://linkedin.com/company/openai/"
         },
-        "corporate_contact": "OpenAI Contact"
+        "corporate_contact": "https://OpenAI Contact"
     },
     {
         "name": "Google Cloud AI",
-        "official_link": "cloud.google.com/products/ai",
+        "official_link": "https://cloud.google.com/products/ai",
         "description": "Google Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models.",
         "social_media_links": {
-            "Twitter": "twitter.com/googlecloud",
-            "LinkedIn": "linkedin.com/showcase/google-cloud/"
+            "Twitter": "https://twitter.com/googlecloud",
+            "LinkedIn": "https://linkedin.com/showcase/google-cloud/"
         },
-        "corporate_contact": "Contact Google Cloud"
+        "corporate_contact": "https://Contact Google Cloud"
     },
     {
         "name": "IBM Watson",
-        "official_link": "ibm.com/watson",
+        "official_link": "https://ibm.com/watson",
         "description": "IBM Watson offers AI and data capabilities to enable enterprises to predict and shape future business outcomes.",
         "social_media_links": {
-            "Twitter": "twitter.com/IBMWatson",
-            "LinkedIn": "linkedin.com/showcase/ibm-watson/"
+            "Twitter": "https://twitter.com/IBMWatson",
+            "LinkedIn": "https://linkedin.com/showcase/ibm-watson/"
         },
-        "corporate_contact": "IBM Watson Contact"
+        "corporate_contact": "https://IBM Watson Contact"
     },
     {
         "name": "Microsoft Azure AI",
-        "official_link": "azure.microsoft.com/en-us/services/machine-learning",
+        "official_link": "https://azure.microsoft.com/en-us/services/machine-learning",
         "description": "Azure AI offers a suite of machine learning and AI services to help you in building, deploying, and managing intelligent applications.",
         "social_media_links": {
-            "Twitter": "twitter.com/azure",
-            "LinkedIn": "linkedin.com/showcase/microsoft-azure/"
+            "Twitter": "https://twitter.com/azure",
+            "LinkedIn": "https://linkedin.com/showcase/microsoft-azure/"
         },
-        "corporate_contact": "Azure Contact"
+        "corporate_contact": "https://Azure Contact"
     },
     {
         "name": "Amazon Web Services AI",
-        "official_link": "aws.amazon.com/machine-learning",
+        "official_link": "https://aws.amazon.com/machine-learning",
         "description": "AWS AI and Machine Learning brings data science to your cloud, with powerful analytics services and easy-to-deploy machine learning models.",
         "social_media_links": {
-            "Twitter": "twitter.com/awscloud",
-            "LinkedIn": "linkedin.com/company/amazon-web-services/"
+            "Twitter": "https://twitter.com/awscloud",
+            "LinkedIn": "https://linkedin.com/company/amazon-web-services/"
         },
-        "corporate_contact": "AWS Contact"
+        "corporate_contact": "https://AWS Contact"
     },
     {
         "name": "NVIDIA AI Enterprise",
-        "official_link": "nvidia.com/en-us/data-center/products/nvidia-ai-enterprise",
+        "official_link": "https://nvidia.com/en-us/data-center/products/nvidia-ai-enterprise",
         "description": "NVIDIA AI Enterprise is an end-to-end, cloud-native suite of AI and data analytics software, optimized for NVIDIA GPUs.",
         "social_media_links": {
-            "Twitter": "twitter.com/NVIDIAAI",
-            "LinkedIn": "linkedin.com/showcase/nvidia-artificial-intelligence/"
+            "Twitter": "https://twitter.com/NVIDIAAI",
+            "LinkedIn": "https://linkedin.com/showcase/nvidia-artificial-intelligence/"
         },
-        "corporate_contact": "NVIDIA Contact"
+        "corporate_contact": "https://NVIDIA Contact"
     },
     {
         "name": "Baidu AI",
-        "official_link": "ai.baidu.com",
+        "official_link": "https://ai.baidu.com",
         "description": "Baidu AI provides comprehensive and innovative AI solutions, including natural language processing, image recognition, and autonomous driving.",
         "social_media_links": {
-            "Twitter": "twitter.com/Baidu_Inc",
-            "LinkedIn": "linkedin.com/company/baidu/"
+            "Twitter": "https://twitter.com/Baidu_Inc",
+            "LinkedIn": "https://linkedin.com/company/baidu/"
         },
-        "corporate_contact": "Baidu Contact"
+        "corporate_contact": "https://Baidu Contact"
     },
     {
         "name": "Alibaba Cloud AI",
-        "official_link": "alibabacloud.com/solutions/ai",
+        "official_link": "https://alibabacloud.com/solutions/ai",
         "description": "Alibaba Cloud AI offers artificial intelligence and machine learning solutions to transform businesses, with applications in various domains.",
         "social_media_links": {
-            "Twitter": "twitter.com/AlibabaCloudCom",
-            "LinkedIn": "linkedin.com/showcase/alibaba-cloud/"
+            "Twitter": "https://twitter.com/AlibabaCloudCom",
+            "LinkedIn": "https://linkedin.com/showcase/alibaba-cloud/"
         },
-        "corporate_contact": "Alibaba Cloud Contact"
+        "corporate_contact": "https://Alibaba Cloud Contact"
     },
     {
         "name": "H2O.ai",
-        "official_link": "h2o.ai",
+        "official_link": "https://h2o.ai",
         "description": "H2O.ai provides an open-source platform which allows data science and machine learning to be accessible to everyone, from startups to enterprise.",
         "social_media_links": {
-            "Twitter": "twitter.com/h2oai",
-            "LinkedIn": "linkedin.com/company/h2o-ai"
+            "Twitter": "https://twitter.com/h2oai",
+            "LinkedIn": "https://linkedin.com/company/h2o-ai"
         },
-        "corporate_contact": "H2O Contact"
+        "corporate_contact": "https://H2O Contact"
     },
     {
         "name": "C3 AI",
-        "official_link": "c3.ai",
+        "official_link": "https://c3.ai",
         "description": "C3.ai is a leading enterprise AI software provider that enables companies to develop AI applications at scale.",
         "social_media_links": {
-            "Twitter": "twitter.com/C3aiofficial",
-            "LinkedIn": "linkedin.com/company/c3-ai/"
+            "Twitter": "https://twitter.com/C3aiofficial",
+            "LinkedIn": "https://linkedin.com/company/c3-ai/"
         },
-        "corporate_contact": "C3.ai Contact"
+        "corporate_contact": "https://C3.ai Contact"
     },
     {
         "name": "DataRobot",
-        "official_link": "datarobot.com",
+        "official_link": "https://datarobot.com",
         "description": "DataRobot accelerates AI success for businesses by offering an enterprise AI platform that automates the end-to-end process for building, deploying, and maintaining AI and machine learning at scale.",
         "social_media_links": {
-            "Twitter": "twitter.com/DataRobot",
-            "LinkedIn": "linkedin.com/company/datarobot/"
+            "Twitter": "https://twitter.com/DataRobot",
+            "LinkedIn": "https://linkedin.com/company/datarobot/"
         },
-        "corporate_contact": "DataRobot Contact"
+        "corporate_contact": "https://DataRobot Contact"
     },
     {
         "name": "SAP AI Core",
-        "official_link": "sap.com/products/ai-core.html",
+        "official_link": "https://sap.com/products/ai-core.html",
         "description": "SAP AI Core is part of the SAP Business Technology Platform, offering capabilities to embed AI into applications leveraging proven governance and operations.",
         "social_media_links": {
-            "Twitter": "twitter.com/SAP",
-            "LinkedIn": "linkedin.com/company/sap/"
+            "Twitter": "https://twitter.com/SAP",
+            "LinkedIn": "https://linkedin.com/company/sap/"
         },
-        "corporate_contact": "SAP Contact"
+        "corporate_contact": "https://SAP Contact"
     },
     {
         "name": "Oracle AI",
-        "official_link": "oracle.com/artificial-intelligence",
+        "official_link": "https://oracle.com/artificial-intelligence",
         "description": "Oracle AI is built into the Oracle Cloud infrastructure to help enterprises build, deploy, and customize machine learning and AI-driven applications.",
         "social_media_links": {
-            "Twitter": "twitter.com/OracleAI",
-            "LinkedIn": "linkedin.com/company/oracle/"
+            "Twitter": "https://twitter.com/OracleAI",
+            "LinkedIn": "https://linkedin.com/company/oracle/"
         },
-        "corporate_contact": "Oracle Contact"
+        "corporate_contact": "https://Oracle Contact"
     },
     {
         "name": "Salesforce Einstein",
-        "official_link": "salesforce.com/products/einstein",
+        "official_link": "https://salesforce.com/products/einstein",
         "description": "Salesforce Einstein is a set of AI technologies that makes Salesforce Customer 360 smarter and more predictive.",
         "social_media_links": {
-            "Twitter": "twitter.com/Einstein_AI",
-            "LinkedIn": "linkedin.com/showcase/salesforceeinstein/"
+            "Twitter": "https://twitter.com/Einstein_AI",
+            "LinkedIn": "https://linkedin.com/showcase/salesforceeinstein/"
         },
-        "corporate_contact": "Salesforce Contact"
+        "corporate_contact": "https://Salesforce Contact"
     },
     {
         "name": "Infosys Nia",
-        "official_link": "infosys.com/nia",
+        "official_link": "https://infosys.com/nia",
         "description": "Infosys Nia is an artificial intelligence platform that collects and aggregates organizational data from people, processes, and legacy systems.",
         "social_media_links": {
-            "Twitter": "twitter.com/infosys",
-            "LinkedIn": "linkedin.com/company/infosys/"
+            "Twitter": "https://twitter.com/infosys",
+            "LinkedIn": "https://linkedin.com/company/infosys/"
         },
-        "corporate_contact": "Infosys Contact"
+        "corporate_contact": "https://Infosys Contact"
     },
     {
         "name": "Tencent AI Lab",
-        "official_link": "ai.tencent.com",
+        "official_link": "https://ai.tencent.com",
         "description": "Tencent AI Lab focuses on AI R&D that contributes to fundamental research and innovative application scenarios.",
         "social_media_links": {
-            "Twitter": "twitter.com/TencentGlobal",
-            "LinkedIn": "linkedin.com/company/tencent/mycompany/"
+            "Twitter": "https://twitter.com/TencentGlobal",
+            "LinkedIn": "https://linkedin.com/company/tencent/mycompany/"
         },
-        "corporate_contact": "Tencent Contact"
+        "corporate_contact": "https://Tencent Contact"
     },
     {
         "name": "Qualcomm AI",
-        "official_link": "qualcomm.com/research/artificial-intelligence",
+        "official_link": "https://qualcomm.com/research/artificial-intelligence",
         "description": "Qualcomm AI is designed to deliver intelligent experiences across various devices powered by its AI technology and solutions.",
         "social_media_links": {
-            "Twitter": "twitter.com/Qualcomm",
-            "LinkedIn": "linkedin.com/company/qualcomm/"
+            "Twitter": "https://twitter.com/Qualcomm",
+            "LinkedIn": "https://linkedin.com/company/qualcomm/"
         },
-        "corporate_contact": "Qualcomm Contact"
+        "corporate_contact": "https://Qualcomm Contact"
     },
     {
         "name": "Cisco AI",
-        "official_link": "cisco.com/c/en/us/solutions/analytics/artificial-intelligence",
+        "official_link": "https://cisco.com/c/en/us/solutions/analytics/artificial-intelligence",
         "description": "Cisco AI focuses on bringing AI capabilities to network analytics and operations to enhance the performance and security of enterprise systems.",
         "social_media_links": {
-            "Twitter": "twitter.com/Cisco",
-            "LinkedIn": "linkedin.com/company/cisco/"
+            "Twitter": "https://twitter.com/Cisco",
+            "LinkedIn": "https://linkedin.com/company/cisco/"
         },
-        "corporate_contact": "Cisco Contact"
+        "corporate_contact": "https://Cisco Contact"
     },
     {
         "name": "Intel AI",
-        "official_link": "intel.com/ai",
+        "official_link": "https://intel.com/ai",
         "description": "Intel AI is dedicated to advancing artificial intelligence across software, hardware, and algorithmic accelerations to unlock new capabilities.",
         "social_media_links": {
-            "Twitter": "twitter.com/Inteliot",
-            "LinkedIn": "linkedin.com/company/intel/"
+            "Twitter": "https://twitter.com/Inteliot",
+            "LinkedIn": "https://linkedin.com/company/intel/"
         },
-        "corporate_contact": "Intel Contact"
+        "corporate_contact": "https://Intel Contact"
     },
     {
         "name": "Fujitsu Zinrai",
-        "official_link": "fujitsu.com/global/services/ai",
+        "official_link": "https://fujitsu.com/global/services/ai",
         "description": "Fujitsu Zinrai offers AI-driven solutions that solve practical business challenges leveraging Fujitsu's AI technologies and cloud computing.",
         "social_media_links": {
-            "Twitter": "twitter.com/Fujitsu_Global",
-            "LinkedIn": "linkedin.com/company/fujitsu/"
+            "Twitter": "https://twitter.com/Fujitsu_Global",
+            "LinkedIn": "https://linkedin.com/company/fujitsu/"
         },
-        "corporate_contact": "Fujitsu Contact"
+        "corporate_contact": "https://Fujitsu Contact"
     },
     {
         "name": "AutoML",
-        "official_link": "automl.org",
+        "official_link": "https://automl.org",
         "description": "AutoML is an academic field and a set of tools and techniques that automate the process of applying machine learning to real-world problems.",
         "social_media_links": {
-            "Twitter": "twitter.com/automl_org",
-            "LinkedIn": "No official LinkedIn currently available"
+            "Twitter": "https://twitter.com/automl_org",
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
-        "corporate_contact": "AutoML Contact"
+        "corporate_contact": "https://AutoML Contact"
     },
     {
         "name": "RapidMiner",
-        "official_link": "rapidminer.com",
+        "official_link": "https://rapidminer.com",
         "description": "RapidMiner is a data science platform that provides instant access to powerful data mining and machine learning tools, enabling businesses to build predictive models.",
         "social_media_links": {
-            "Twitter": "twitter.com/rapidminer",
-            "LinkedIn": "linkedin.com/company/rapidminer/"
+            "Twitter": "https://twitter.com/rapidminer",
+            "LinkedIn": "https://linkedin.com/company/rapidminer/"
         },
-        "corporate_contact": "RapidMiner Contact"
+        "corporate_contact": "https://RapidMiner Contact"
     },
     {
         "name": "KNIME",
-        "official_link": "knime.com",
+        "official_link": "https://knime.com",
         "description": "KNIME Analytics Platform is a free and open-source data analytics, reporting, and integration platform to understand data and design data science workflows.",
         "social_media_links": {
-            "Twitter": "twitter.com/knime",
-            "LinkedIn": "linkedin.com/company/knime/"
+            "Twitter": "https://twitter.com/knime",
+            "LinkedIn": "https://linkedin.com/company/knime/"
         },
-        "corporate_contact": "KNIME Contact"
+        "corporate_contact": "https://KNIME Contact"
     },
     {
         "name": "Weka",
-        "official_link": "waikato.ac.nz/ml/weka",
+        "official_link": "https://waikato.ac.nz/ml/weka",
         "description": "Weka is a collection of machine learning algorithms for data mining tasks, developed by the University of Waikato.",
         "social_media_links": {
-            "Twitter": "twitter.com/WekaML",
-            "LinkedIn": "linkedin.com/groups/4690228/"
+            "Twitter": "https://twitter.com/WekaML",
+            "LinkedIn": "https://linkedin.com/groups/4690228/"
         },
-        "corporate_contact": "Weka Contact"
+        "corporate_contact": "https://Weka Contact"
     },
     {
         "name": "Google Colab",
-        "official_link": "colab.research.google.com",
+        "official_link": "https://colab.research.google.com",
         "description": "Google Colab is a free cloud service based on Jupyter Notebooks, designed for machine learning education and research, enabling users to write and execute code in Python.",
         "social_media_links": {
-            "Twitter": "twitter.com/GoogleColab",
-            "LinkedIn": "No official LinkedIn currently available"
+            "Twitter": "https://twitter.com/GoogleColab",
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
-        "corporate_contact": "Google Support"
+        "corporate_contact": "https://Google Support"
     },
     {
         "name": "Jupyter Notebooks",
-        "official_link": "jupyter.org",
+        "official_link": "https://jupyter.org",
         "description": "Jupyter Notebooks is an open-source web application that allows users to create and share documents containing live code, equations, visualizations, and narrative text.",
         "social_media_links": {
-            "Twitter": "twitter.com/ProjectJupyter",
-            "LinkedIn": "linkedin.com/company/project-jupyter/"
+            "Twitter": "https://twitter.com/ProjectJupyter",
+            "LinkedIn": "https://linkedin.com/company/project-jupyter/"
         },
-        "corporate_contact": "Jupyter Contact"
+        "corporate_contact": "https://Jupyter Contact"
     },
     {
         "name": "Amazon Echo Show",
-        "official_link": "amazon.com/echo-show",
+        "official_link": "https://amazon.com/echo-show",
         "description": "Amazon Echo Show is a smart display that integrates Alexa, offering voice interaction, video calls, streaming, and controlling smart devices.",
         "social_media_links": {
-            "Twitter": "twitter.com/amazonecho",
-            "LinkedIn": "linkedin.com/company/amazon/"
+            "Twitter": "https://twitter.com/amazonecho",
+            "LinkedIn": "https://linkedin.com/company/amazon/"
         },
-        "corporate_contact": "Amazon Business Contact"
+        "corporate_contact": "https://Amazon Business Contact"
     },
     {
         "name": "Google Nest Hub",
-        "official_link": "store.google.com/product/google_nest_hub",
+        "official_link": "https://store.google.com/product/google_nest_hub",
         "description": "Google Nest Hub is a smart display with Google Assistant that helps users manage their day, control smart home devices, and entertain themselves.",
         "social_media_links": {
-            "Twitter": "twitter.com/googlenest",
-            "LinkedIn": "linkedin.com/company/google/"
+            "Twitter": "https://twitter.com/googlenest",
+            "LinkedIn": "https://linkedin.com/company/google/"
         },
-        "corporate_contact": "Google Nest Support"
+        "corporate_contact": "https://Google Nest Support"
     },
     {
         "name": "Apple Siri",
-        "official_link": "apple.com/siri",
+        "official_link": "https://apple.com/siri",
         "description": "Siri is Apple\u2019s virtual assistant that uses voice queries and a natural-language interface to answer questions, make recommendations, and perform actions.",
         "social_media_links": {
-            "Twitter": "twitter.com/apple",
-            "LinkedIn": "linkedin.com/company/apple/"
+            "Twitter": "https://twitter.com/apple",
+            "LinkedIn": "https://linkedin.com/company/apple/"
         },
-        "corporate_contact": "Apple Business Contact"
+        "corporate_contact": "https://Apple Business Contact"
     },
     {
         "name": "Samsung Bixby",
-        "official_link": "samsung.com/apps/bixby",
+        "official_link": "https://samsung.com/apps/bixby",
         "description": "Samsung Bixby is an AI-based virtual assistant designed to help users interact with their devices and services using natural language and voice commands.",
         "social_media_links": {
-            "Twitter": "twitter.com/samsungbixby",
-            "LinkedIn": "linkedin.com/company/samsung-electronics/"
+            "Twitter": "https://twitter.com/samsungbixby",
+            "LinkedIn": "https://linkedin.com/company/samsung-electronics/"
         },
-        "corporate_contact": "Samsung Business Contact"
+        "corporate_contact": "https://Samsung Business Contact"
     },
     {
         "name": "Nest Learning Thermostat",
-        "official_link": "store.google.com/product/thermostat_e",
+        "official_link": "https://store.google.com/product/thermostat_e",
         "description": "Nest Learning Thermostat is a smart thermostat developed by Nest Labs that learns user preferences to optimize heating and cooling for energy efficiency.",
         "social_media_links": {
-            "Twitter": "twitter.com/googlenest",
-            "LinkedIn": "linkedin.com/company/google/"
+            "Twitter": "https://twitter.com/googlenest",
+            "LinkedIn": "https://linkedin.com/company/google/"
         },
-        "corporate_contact": "Google Nest Support"
+        "corporate_contact": "https://Google Nest Support"
     },
     {
         "name": "Ring Video Doorbell",
-        "official_link": "ring.com/products/video-doorbell-2",
+        "official_link": "https://ring.com/products/video-doorbell-2",
         "description": "Ring Video Doorbell is a smart doorbell that allows users to see, hear, and talk to visitors from their smartphone or tablet.",
         "social_media_links": {
-            "Twitter": "twitter.com/iRobot",
-            "LinkedIn": "linkedin.com/company/irobot/",
-            "Corporate Contact for Sales/B2B/Partnerships": "Ring Business Contact",
-            "Official Link": "store.irobot.com/roomba/roomba-i7",
-            "Description": "iRobot Roomba i7+ is a robotic vacuum cleaner that uses advanced sensors to navigate and clean autonomously, with a self-emptying base."
+            "Twitter": "https://twitter.com/iRobot",
+            "LinkedIn": "https://linkedin.com/company/irobot/",
+            "Corporate Contact for Sales/B2B/Partnerships": "https://Ring Business Contact",
+            "Official Link": "https://store.irobot.com/roomba/roomba-i7",
+            "Description": "https://iRobot Roomba i7+ is a robotic vacuum cleaner that uses advanced sensors to navigate and clean autonomously, with a self-emptying base."
         },
-        "corporate_contact": "iRobot Business Contact"
+        "corporate_contact": "https://iRobot Business Contact"
     },
     {
         "name": "DJI Mavic Air 2",
-        "official_link": "dji.com/mavic-air-2",
+        "official_link": "https://dji.com/mavic-air-2",
         "description": "DJI Mavic Air 2 is a compact drone that offers high-quality aerial photography and videography with intelligent shooting modes and long flight time.",
         "social_media_links": {
-            "Twitter": "twitter.com/DJIGlobal",
-            "LinkedIn": "linkedin.com/company/dji/"
+            "Twitter": "https://twitter.com/DJIGlobal",
+            "LinkedIn": "https://linkedin.com/company/dji/"
         },
-        "corporate_contact": "DJI Contact"
+        "corporate_contact": "https://DJI Contact"
     },
     {
         "name": "NVIDIA Jetson Xavier",
-        "official_link": "developer.nvidia.com/embedded/jetson-xavier",
+        "official_link": "https://developer.nvidia.com/embedded/jetson-xavier",
         "description": "NVIDIA Jetson Xavier is a computing platform designed for AI and machine learning applications, providing powerful performance for edge devices.",
         "social_media_links": {
-            "Twitter": "twitter.com/NVIDIAEmbedded",
-            "LinkedIn": "linkedin.com/showcase/nvidia-jetson/"
+            "Twitter": "https://twitter.com/NVIDIAEmbedded",
+            "LinkedIn": "https://linkedin.com/showcase/nvidia-jetson/"
         },
-        "corporate_contact": "NVIDIA Jetson Contact"
+        "corporate_contact": "https://NVIDIA Jetson Contact"
     },
     {
         "name": "Microsoft Cortana",
-        "official_link": "microsoft.com/en-us/cortana",
+        "official_link": "https://microsoft.com/en-us/cortana",
         "description": "Microsoft Cortana is an intelligent assistant that helps users with productivity by managing schedules, providing reminders, and integrating with Microsoft 365.",
         "social_media_links": {
-            "Twitter": "twitter.com/Microsoft",
-            "LinkedIn": "linkedin.com/company/microsoft/"
+            "Twitter": "https://twitter.com/Microsoft",
+            "LinkedIn": "https://linkedin.com/company/microsoft/"
         },
-        "corporate_contact": "Microsoft Contact"
+        "corporate_contact": "https://Microsoft Contact"
     },
     {
         "name": "Sony Aibo",
-        "official_link": "us.aibo.com",
+        "official_link": "https://us.aibo.com",
         "description": "Sony Aibo is an AI-powered robotic pet that uses sensors and learning algorithms to interact with its environment and owners in a lifelike manner.",
         "social_media_links": {
-            "Twitter": "twitter.com/SonyAIUSA",
-            "LinkedIn": "linkedin.com/company/sony/"
+            "Twitter": "https://twitter.com/SonyAIUSA",
+            "LinkedIn": "https://linkedin.com/company/sony/"
         },
-        "corporate_contact": "Sony Contact"
+        "corporate_contact": "https://Sony Contact"
     },
     {
         "name": "Bose Frames AR",
-        "official_link": "bose.com/en_us/products/frames.html",
+        "official_link": "https://bose.com/en_us/products/frames.html",
         "description": "Bose Frames AR are smart sunglasses that combine high-quality audio with augmented reality features to enhance the user\u2019s environment.",
         "social_media_links": {
-            "Twitter": "twitter.com/Bose",
-            "LinkedIn": "linkedin.com/company/bose-corporation/"
+            "Twitter": "https://twitter.com/Bose",
+            "LinkedIn": "https://linkedin.com/company/bose-corporation/"
         },
-        "corporate_contact": "Bose Contact"
+        "corporate_contact": "https://Bose Contact"
     },
     {
         "name": "Facebook Portal+",
-        "official_link": "portal.facebook.com/products/portal-plus",
+        "official_link": "https://portal.facebook.com/products/portal-plus",
         "description": "Facebook Portal+ is a video calling device that offers smart camera technology, integrated Alexa functionality, and high-fidelity audio.",
         "social_media_links": {
-            "Twitter": "twitter.com/facebook",
-            "LinkedIn": "linkedin.com/company/facebook/"
+            "Twitter": "https://twitter.com/facebook",
+            "LinkedIn": "https://linkedin.com/company/facebook/"
         },
-        "corporate_contact": "Facebook Business Contact"
+        "corporate_contact": "https://Facebook Business Contact"
     },
     {
         "name": "Segway Loomo",
-        "official_link": "loomo.segway.com",
+        "official_link": "https://loomo.segway.com",
         "description": "Segway Loomo is a personal transporter with advanced AI capabilities, offering autonomous driving, voice interaction, and a follow mode.",
         "social_media_links": {
-            "Twitter": "twitter.com/SegwayInc",
-            "LinkedIn": "linkedin.com/company/segway/"
+            "Twitter": "https://twitter.com/SegwayInc",
+            "LinkedIn": "https://linkedin.com/company/segway/"
         },
-        "corporate_contact": "Segway Contact"
+        "corporate_contact": "https://Segway Contact"
     },
     {
         "name": "Affectiva Emotion AI",
-        "official_link": "affectiva.com",
+        "official_link": "https://affectiva.com",
         "description": "Affectiva Emotion AI is a pioneer in AI software that uses facial coding and emotion recognition to humanize technology by understanding human emotions.",
         "social_media_links": {
-            "Twitter": "twitter.com/Affectiva",
-            "LinkedIn": "linkedin.com/company/affectiva/"
+            "Twitter": "https://twitter.com/Affectiva",
+            "LinkedIn": "https://linkedin.com/company/affectiva/"
         },
-        "corporate_contact": "Affectiva Contact"
+        "corporate_contact": "https://Affectiva Contact"
     },
     {
         "name": "Fitbit Sense",
-        "official_link": "fitbit.com/global/us/products/smartwatches/sense",
+        "official_link": "https://fitbit.com/global/us/products/smartwatches/sense",
         "description": "Fitbit Sense is a health smartwatch that tracks advanced health metrics including heart rate, stress levels, and skin temperature to help users manage their health.",
         "social_media_links": {
-            "Twitter": "twitter.com/fitbit",
-            "LinkedIn": "linkedin.com/company/fitbit/"
+            "Twitter": "https://twitter.com/fitbit",
+            "LinkedIn": "https://linkedin.com/company/fitbit/"
         },
-        "corporate_contact": "Fitbit Business Contact"
+        "corporate_contact": "https://Fitbit Business Contact"
     },
     {
         "name": "Garmin Venu",
-        "official_link": "garmin.com/en-US/p/643260",
+        "official_link": "https://garmin.com/en-US/p/643260",
         "description": "Garmin Venu is a GPS smartwatch featuring a stunning AMOLED display, advanced health monitoring, and fitness tracking capabilities.",
         "social_media_links": {
-            "Twitter": "twitter.com/garmin",
-            "LinkedIn": "linkedin.com/company/garmin-international/"
+            "Twitter": "https://twitter.com/garmin",
+            "LinkedIn": "https://linkedin.com/company/garmin-international/"
         },
-        "corporate_contact": "Garmin Contact"
+        "corporate_contact": "https://Garmin Contact"
     },
     {
         "name": "Peloton Bike+",
-        "official_link": "onepeloton.com/bike",
+        "official_link": "https://onepeloton.com/bike",
         "description": "Peloton Bike+ offers interactive, on-demand fitness classes with immersive sound and a rotating screen for floor-based workouts.",
         "social_media_links": {
-            "Twitter": "twitter.com/onepeloton",
-            "LinkedIn": "linkedin.com/company/peloton-interactive/"
+            "Twitter": "https://twitter.com/onepeloton",
+            "LinkedIn": "https://linkedin.com/company/peloton-interactive/"
         },
-        "corporate_contact": "Peloton Contact"
+        "corporate_contact": "https://Peloton Contact"
     },
     {
         "name": "DeepMind AlphaFold",
-        "official_link": "deepmind.com/research/case-studies/alphafold",
+        "official_link": "https://deepmind.com/research/case-studies/alphafold",
         "description": "AlphaFold is a groundbreaking AI system developed by DeepMind that predicts protein structures with high accuracy, advancing scientific research.",
         "social_media_links": {
-            "Twitter": "twitter.com/DeepMind",
-            "LinkedIn": "linkedin.com/company/deepmind/"
+            "Twitter": "https://twitter.com/DeepMind",
+            "LinkedIn": "https://linkedin.com/company/deepmind/"
         },
-        "corporate_contact": "DeepMind Contact"
+        "corporate_contact": "https://DeepMind Contact"
     },
     {
         "name": "Miko 3",
-        "official_link": "miko.ai",
+        "official_link": "https://miko.ai",
         "description": "Miko 3 is an AI-powered companion robot designed for kids, providing educational content and engaging interactions through voice and facial recognition.",
         "social_media_links": {
-            "Twitter": "twitter.com/mikorobot",
-            "LinkedIn": "www.linkedin.com/company/mikoai"
+            "Twitter": "https://twitter.com/mikorobot",
+            "LinkedIn": "https://www.linkedin.com/company/mikoai"
         },
-        "corporate_contact": "Miko Contact: miko.ai/contact-us"
+        "corporate_contact": "https://Miko Contact: miko.ai/contact-us"
     },
     {
         "name": "LEGO Mindstorms Robot Inventor",
-        "official_link": "lego.com/mindstorms",
+        "official_link": "https://lego.com/mindstorms",
         "description": "LEGO Mindstorms Robot Inventor is a customizable robotics kit that teaches coding and engineering through interactive building and programming tasks.",
         "social_media_links": {
-            "Twitter": "twitter.com/LEGO_Group",
-            "LinkedIn": "www.linkedin.com/company/lego-group/"
+            "Twitter": "https://twitter.com/LEGO_Group",
+            "LinkedIn": "https://www.linkedin.com/company/lego-group/"
         },
-        "corporate_contact": "LEGO Contact: www.lego.com/en-us/service/contactus"
+        "corporate_contact": "https://LEGO Contact: www.lego.com/en-us/service/contactus"
     },
     {
         "name": "Sphero Mini",
-        "official_link": "sphero.com/products/sphero-mini",
+        "official_link": "https://sphero.com/products/sphero-mini",
         "description": "Sphero Mini is a compact, programmable robotic ball that introduces kids to basic coding through fun games and activities.",
         "social_media_links": {
-            "Twitter": "twitter.com/Sphero",
-            "LinkedIn": "www.linkedin.com/company/sphero/"
+            "Twitter": "https://twitter.com/Sphero",
+            "LinkedIn": "https://www.linkedin.com/company/sphero/"
         },
-        "corporate_contact": "Sphero Contact: sphero.com/pages/contact-us"
+        "corporate_contact": "https://Sphero Contact: sphero.com/pages/contact-us"
     },
     {
         "name": "Wonder Workshop Dash",
-        "official_link": "makewonder.com",
+        "official_link": "https://makewonder.com",
         "description": "Wonder Workshop Dash is a robot that helps kids learn coding and problem-solving skills through interactive and hands-on activities.",
         "social_media_links": {
-            "Twitter": "twitter.com/WonderWorkshop",
-            "LinkedIn": "www.linkedin.com/company/wonder-workshop/"
+            "Twitter": "https://twitter.com/WonderWorkshop",
+            "LinkedIn": "https://www.linkedin.com/company/wonder-workshop/"
         },
-        "corporate_contact": "Wonder Workshop Contact: www.makewonder.com/contact-us/"
+        "corporate_contact": "https://Wonder Workshop Contact: www.makewonder.com/contact-us/"
     },
     {
         "name": "FurReal Cubby",
-        "official_link": "hasbro.com/brand/furreal",
+        "official_link": "https://hasbro.com/brand/furreal",
         "description": "FurReal Cubby is an interactive plush toy that responds to touch and voice with lifelike movements and sounds, providing a nurturing experience for kids.",
         "social_media_links": {
-            "Twitter": "twitter.com/Hasbro",
-            "LinkedIn": "www.linkedin.com/company/hasbro/"
+            "Twitter": "https://twitter.com/Hasbro",
+            "LinkedIn": "https://www.linkedin.com/company/hasbro/"
         },
-        "corporate_contact": "Hasbro Contact: www.hasbro.com/en-us/customer-service/contacts"
+        "corporate_contact": "https://Hasbro Contact: www.hasbro.com/en-us/customer-service/contacts"
     },
     {
         "name": "Cognitoys Dino",
-        "official_link": "cognitoys.com",
+        "official_link": "https://cognitoys.com",
         "description": "Cognitoys Dino is an AI-powered educational toy that engages children through interactive conversations and learning activities tailored to their age and interests.",
         "social_media_links": {
-            "Twitter": "twitter.com/Cognitoys",
-            "LinkedIn": "www.linkedin.com/company/cognitoys/"
+            "Twitter": "https://twitter.com/Cognitoys",
+            "LinkedIn": "https://www.linkedin.com/company/cognitoys/"
         },
-        "corporate_contact": "Cognitoys Contact: www.cognitoys.com/pages/contact"
+        "corporate_contact": "https://Cognitoys Contact: www.cognitoys.com/pages/contact"
     },
     {
         "name": "Anki Vector 2.0",
-        "official_link": "anki.com",
+        "official_link": "https://anki.com",
         "description": "Anki Vector 2.0 is a small, AI-powered robot with personality, capable of voice interaction, navigation, and face recognition.",
         "social_media_links": {
-            "Twitter": "twitter.com/anki",
-            "LinkedIn": "www.linkedin.com/company/anki-inc./"
+            "Twitter": "https://twitter.com/anki",
+            "LinkedIn": "https://www.linkedin.com/company/anki-inc./"
         },
-        "corporate_contact": "Anki Contact: support.digitaldreamlabs.com/support/home"
+        "corporate_contact": "https://Anki Contact: support.digitaldreamlabs.com/support/home"
     },
     {
         "name": "Ozobot Evo",
-        "official_link": "ozobot.com",
+        "official_link": "https://ozobot.com",
         "description": "Ozobot Evo is a programmable robot that helps kids learn coding through creative and interactive play, using color codes and programming languages.",
         "social_media_links": {
-            "Twitter": "twitter.com/Ozobot",
-            "LinkedIn": "www.linkedin.com/company/ozobot/"
+            "Twitter": "https://twitter.com/Ozobot",
+            "LinkedIn": "https://www.linkedin.com/company/ozobot/"
         },
-        "corporate_contact": "Ozobot Contact: ozobot.com/contact"
+        "corporate_contact": "https://Ozobot Contact: ozobot.com/contact"
     },
     {
         "name": "Pleo RB",
-        "official_link": "pleoworld.com",
+        "official_link": "https://pleoworld.com",
         "description": "Pleo RB is an advanced robotic dinosaur pet that mimics lifelike behaviors and interactions, designed for educational and recreational use.",
         "social_media_links": {
-            "Twitter": "twitter.com/PLEOWORLD",
-            "LinkedIn": "No official LinkedIn currently available"
+            "Twitter": "https://twitter.com/PLEOWORLD",
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
-        "corporate_contact": "Pleo Contact: www.pleoworld.com/about/contact/"
+        "corporate_contact": "https://Pleo Contact: www.pleoworld.com/about/contact/"
     },
     {
         "name": "Zoomer Playful Pup",
-        "official_link": "spinmaster.com",
+        "official_link": "https://spinmaster.com",
         "description": "Zoomer Playful Pup is an interactive robotic dog that responds to voice commands and touch, performing realistic movements and tricks.",
         "social_media_links": {
-            "Twitter": "twitter.com/SpinMaster",
-            "LinkedIn": "www.linkedin.com/company/spin-master/"
+            "Twitter": "https://twitter.com/SpinMaster",
+            "LinkedIn": "https://www.linkedin.com/company/spin-master/"
         },
-        "corporate_contact": "Spin Master Contact: www.spinmaster.com/contact-us.php"
+        "corporate_contact": "https://Spin Master Contact: www.spinmaster.com/contact-us.php"
     },
     {
         "name": "Sony Aibo ERS-1000",
-        "official_link": "us.aibo.com",
+        "official_link": "https://us.aibo.com",
         "description": "Sony Aibo ERS-1000 is an AI-powered robotic pet dog that interacts with its environment and owner through lifelike movements, sounds, and behaviors.",
         "social_media_links": {
-            "Twitter": "twitter.com/SecondGFirstA",
-            "LinkedIn": "www.linkedin.com/company/sony/"
+            "Twitter": "https://twitter.com/SecondGFirstA",
+            "LinkedIn": "https://www.linkedin.com/company/sony/"
         },
-        "corporate_contact": "Sony Contact: www.sony.com/electronics/support/contact-us"
+        "corporate_contact": "https://Sony Contact: www.sony.com/electronics/support/contact-us"
     },
     {
         "name": "WowWee Miposaur",
-        "official_link": "wowwee.com/miposaur",
+        "official_link": "https://wowwee.com/miposaur",
         "description": "WowWee Miposaur is a robotic dinosaur with gesture sense technology, allowing it to respond to hand motions, objects, and other Miposaur robots.",
         "social_media_links": {
-            "Twitter": "twitter.com/WowWee",
-            "LinkedIn": "www.linkedin.com/company/wowwee-group-limited"
+            "Twitter": "https://twitter.com/WowWee",
+            "LinkedIn": "https://www.linkedin.com/company/wowwee-group-limited"
         },
-        "corporate_contact": "WowWee Contact: wowwee.com/contact"
+        "corporate_contact": "https://WowWee Contact: wowwee.com/contact"
     },
     {
         "name": "SmartGurlz Maria",
-        "official_link": "smartgurlz.com",
+        "official_link": "https://smartgurlz.com",
         "description": "SmartGurlz Maria is an educational robot designed to teach girls coding through interactive storytelling and creative play with a robotic scooter.",
         "social_media_links": {
-            "Twitter": "twitter.com/smartgurlz",
-            "LinkedIn": "www.linkedin.com/company/smartgurlz/"
+            "Twitter": "https://twitter.com/smartgurlz",
+            "LinkedIn": "https://www.linkedin.com/company/smartgurlz/"
         },
-        "corporate_contact": "SmartGurlz Contact: www.smartgurlz.com/pages/contact"
+        "corporate_contact": "https://SmartGurlz Contact: www.smartgurlz.com/pages/contact"
     },
     {
         "name": "Robo Wunderkind Explorer",
-        "official_link": "robowunderkind.com",
+        "official_link": "https://robowunderkind.com",
         "description": "Robo Wunderkind Explorer is a modular robotics kit that enables kids to build and program robots, fostering creativity and problem-solving skills.",
         "social_media_links": {
-            "Twitter": "twitter.com/RoboWunderkind",
-            "LinkedIn": "www.linkedin.com/company/robowunderkind/"
+            "Twitter": "https://twitter.com/RoboWunderkind",
+            "LinkedIn": "https://www.linkedin.com/company/robowunderkind/"
         },
-        "corporate_contact": "Robo Wunderkind Contact: robowunderkind.com/pages/contact-us"
+        "corporate_contact": "https://Robo Wunderkind Contact: robowunderkind.com/pages/contact-us"
     },
     {
         "name": "Kamigami Scarrax",
-        "official_link": "kamigamirobots.com",
+        "official_link": "https://kamigamirobots.com",
         "description": "Kamigami Scarrax is a build-it-yourself robotic kit that offers interactive play and coding experiences, inspired by the movements of real insects.",
         "social_media_links": {
-            "Twitter": "twitter.com/KamigamiRobots",
-            "LinkedIn": "No official LinkedIn currently available"
+            "Twitter": "https://twitter.com/KamigamiRobots",
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
         "corporate_contact": "http://www.kamigamirobots.com/#contact"
     },
     {
         "name": "Cozmo 2.0",
-        "official_link": "anki.com",
+        "official_link": "https://anki.com",
         "description": "Cozmo 2.0 is a small AI-powered robot with a big personality, capable of learning, expressing emotions, and playing games with users.",
         "social_media_links": {
-            "Twitter": "twitter.com/anki",
-            "LinkedIn": "www.linkedin.com/company/anki-inc./"
+            "Twitter": "https://twitter.com/anki",
+            "LinkedIn": "https://www.linkedin.com/company/anki-inc./"
         },
-        "corporate_contact": "Anki Contact: support.digitaldreamlabs.com/support/home"
+        "corporate_contact": "https://Anki Contact: support.digitaldreamlabs.com/support/home"
     },
     {
         "name": "LittleBits Star Wars Droid",
-        "official_link": "littlebits.com",
+        "official_link": "https://littlebits.com",
         "description": "The LittleBits Star Wars Droid Inventor Kit allows kids to build and customize their own R2-D2 droid and control it through coding and electronic modules.",
         "social_media_links": {
-            "Twitter": "twitter.com/littleBits",
-            "LinkedIn": "www.linkedin.com/company/littlebits/"
+            "Twitter": "https://twitter.com/littleBits",
+            "LinkedIn": "https://www.linkedin.com/company/littlebits/"
         },
-        "corporate_contact": "LittleBits Contact: www.littlebits.com/contact"
+        "corporate_contact": "https://LittleBits Contact: www.littlebits.com/contact"
     },
     {
         "name": "Botley 2.0",
-        "official_link": "learningresources.com",
+        "official_link": "https://learningresources.com",
         "description": "Botley 2.0 is an educational robot designed to introduce coding to kids through interactive challenges and obstacle courses, encouraging STEM learning.",
         "social_media_links": {
-            "Twitter": "twitter.com/LearningHandsOn",
-            "LinkedIn": "www.linkedin.com/company/learning-resources/"
+            "Twitter": "https://twitter.com/LearningHandsOn",
+            "LinkedIn": "https://www.linkedin.com/company/learning-resources/"
         },
-        "corporate_contact": "Learning Resources Contact: www.learningresources.com/customer-service/contact-us"
+        "corporate_contact": "https://Learning Resources Contact: www.learningresources.com/customer-service/contact-us"
     },
     {
         "name": "Vex Robotics Kit",
-        "official_link": "vexrobotics.com",
+        "official_link": "https://vexrobotics.com",
         "description": "VEX Robotics Kits provide educational robotics kits that are versatile for classroom learning, competitive robotics, and hobbyist projects.",
         "social_media_links": {
-            "Twitter": "twitter.com/VEXRobotics",
-            "LinkedIn": "www.linkedin.com/company/vex-robotics/"
+            "Twitter": "https://twitter.com/VEXRobotics",
+            "LinkedIn": "https://www.linkedin.com/company/vex-robotics/"
         },
-        "corporate_contact": "VEX Robotics Contact: www.vexrobotics.com/contact-us"
+        "corporate_contact": "https://VEX Robotics Contact: www.vexrobotics.com/contact-us"
     },
     {
         "name": "MidJourney",
@@ -5391,7 +5391,7 @@ const cryptoData = [
         "description": "MidJourney is an AI-powered art generator that creates stunning visuals and digital artwork through natural language descriptions.",
         "social_media_links": {
             "Twitter": "https://twitter.com/midjourney",
-            "LinkedIn": "No official LinkedIn currently available"
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
         "corporate_contact": "https://www.midjourney.com/contact/"
     },
@@ -5441,7 +5441,7 @@ const cryptoData = [
         "description": "Artbreeder uses machine learning to allow users to create and evolve images, combining aspects of existing visuals to generate new artwork.",
         "social_media_links": {
             "Twitter": "https://twitter.com/Artbreeder",
-            "LinkedIn": "No official LinkedIn currently available"
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
         "corporate_contact": "https://www.artbreeder.com/contact"
     },
@@ -5451,7 +5451,7 @@ const cryptoData = [
         "description": "DeepArt applies neural networks to turn your photos into works of art by replicating the styles of famous artists or any chosen style.",
         "social_media_links": {
             "Twitter": "https://twitter.com/deepart_io",
-            "LinkedIn": "No official LinkedIn currently available"
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
         "corporate_contact": "https://deepart.io/contact/"
     },
@@ -5540,8 +5540,8 @@ const cryptoData = [
         "official_link": "https://deepdreamgenerator.com/",
         "description": "DeepDream Generator uses artificial intelligence to create dream-like, artistic images by enhancing and modifying photos based on deep learning algorithms.",
         "social_media_links": {
-            "Twitter": "No official Twitter currently available",
-            "LinkedIn": "No official LinkedIn currently available"
+            "Twitter": "https://No official Twitter currently available",
+            "LinkedIn": "https://No official LinkedIn currently available"
         },
         "corporate_contact": "https://deepdreamgenerator.com/contact"
     },
@@ -5853,7 +5853,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/company/irobot/",
             "Corporate Contact for Sales/B2B/Partnerships": "https://www.tm-robot.com/en/contact",
             "Official Link": "https://www.irobot.com/roomba",
-            "Description": "iRobot Roomba is a series of autonomous robotic vacuum cleaners that use sensors to navigate and clean floors, offering advanced cleaning and schedule options."
+            "Description": "https://iRobot Roomba is a series of autonomous robotic vacuum cleaners that use sensors to navigate and clean floors, offering advanced cleaning and schedule options."
         },
         "corporate_contact": "https://www.irobot.com/contact"
     },
@@ -5956,7 +5956,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/company/bobsweep/",
             "Corporate Contact for Sales/B2B/Partnerships": "https://www.bissell.com/contact-us",
             "Official Link": "https://www.bobsweep.com/",
-            "Description": "bObsweep robotic vacuums combine vacuuming, sweeping, mopping, and UV sterilization in one device, offering comprehensive cleaning solutions for homes."
+            "Description": "https://bObsweep robotic vacuums combine vacuuming, sweeping, mopping, and UV sterilization in one device, offering comprehensive cleaning solutions for homes."
         },
         "corporate_contact": "https://www.bobsweep.com/contact-us"
     },
@@ -5966,10 +5966,10 @@ const cryptoData = [
         "description": "Xiaomi Mi Robot is a smart vacuum cleaner with advanced navigation, strong suction, and smart app control, designed for efficient and thorough cleaning.",
         "social_media_links": {
             "Twitter": "https://twitter.com/ILIFErobot",
-            "LinkedIn": "No official LinkedIn currently available",
+            "LinkedIn": "https://No official LinkedIn currently available",
             "Corporate Contact for Sales/B2B/Partnerships": "https://www.mi.com/in/service/contact/",
             "Official Link": "https://www.iliferobot.com/",
-            "Description": "iLife A9 is a robotic vacuum offering features like smart navigation, strong suction power, and multiple cleaning modes to keep your home clean effortlessly."
+            "Description": "https://iLife A9 is a robotic vacuum offering features like smart navigation, strong suction power, and multiple cleaning modes to keep your home clean effortlessly."
         },
         "corporate_contact": "https://www.iliferobot.com/brand/contact.html"
     },
@@ -5982,7 +5982,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/company/irobot/",
             "Corporate Contact for Sales/B2B/Partnerships": "https://www.coredy.com/contact-us",
             "Official Link": "https://www.irobot.com/braava",
-            "Description": "iRobot Braava is a robotic mop designed to clean hard floors using precision jet spray and vibrating cleaning heads for spotless results."
+            "Description": "https://iRobot Braava is a robotic mop designed to clean hard floors using precision jet spray and vibrating cleaning heads for spotless results."
         },
         "corporate_contact": "https://www.irobot.com/contact"
     },
@@ -6025,7 +6025,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/company/intuitive-surgical/",
             "Corporate Contact for Sales/B2B/Partnerships": "https://www.aipersmart.com/contact_us.html",
             "Official Link": "https://www.intuitive.com/",
-            "Description": "Intuitive Surgical develops and produces the da Vinci surgical system, a robotic-assisted platform designed to enhance the capabilities of surgeons and improve outcomes for patients."
+            "Description": "https://Intuitive Surgical develops and produces the da Vinci surgical system, a robotic-assisted platform designed to enhance the capabilities of surgeons and improve outcomes for patients."
         },
         "corporate_contact": "https://www.intuitive.com/en-us/about-us/company/contact-us"
     },
@@ -6391,7 +6391,7 @@ const cryptoData = [
         "official_link": "http://moby.ihmc.us/",
         "description": "Moby is an open-source multi-body dynamics simulator designed for studying the kinematics and dynamics of articulated mechanisms such as robotic systems.",
         "social_media_links": {},
-        "corporate_contact": "No specific contact page available"
+        "corporate_contact": "https://No specific contact page available"
     },
     {
         "name": "Robot Studio",
@@ -6408,21 +6408,21 @@ const cryptoData = [
         "official_link": "https://sdurobotics.gitlab.io/RobWork",
         "description": "RobWork is a collection of C++ libraries for simulation and control of robot systems, enabling development of new software components for robot applications.",
         "social_media_links": {},
-        "corporate_contact": "No specific contact page available"
+        "corporate_contact": "https://No specific contact page available"
     },
     {
         "name": "Orca Robotics",
         "official_link": "http://orca-robotics.sourceforge.net/",
         "description": "Orca Robotics is a framework for developing component-based robotic systems, with a strong focus on providing interoperability.",
         "social_media_links": {},
-        "corporate_contact": "No specific contact page available"
+        "corporate_contact": "https://No specific contact page available"
     },
     {
         "name": "Player Project",
         "official_link": "http://playerstage.sourceforge.net/",
         "description": "The Player Project provides free software for robot and sensor applications, including Player (a networked robot control server), and Stage (2D robot simulator).",
         "social_media_links": {},
-        "corporate_contact": "No specific contact page available"
+        "corporate_contact": "https://No specific contact page available"
     },
     {
         "name": "MoveIt",
@@ -6433,7 +6433,7 @@ const cryptoData = [
             "LinkedIn": "https://www.linkedin.com/showcase/icub/",
             "Corporate Contact for Sales/B2B/Partnerships": "https://moveit.ros.org/contact/",
             "Official Link": "http://www.icub.org/",
-            "Description": "iCub is an open-source humanoid robot platform focused on research in embodied artificial intelligence and robotics."
+            "Description": "https://iCub is an open-source humanoid robot platform focused on research in embodied artificial intelligence and robotics."
         },
         "corporate_contact": "http://www.icub.org/contact_us.html"
     },
