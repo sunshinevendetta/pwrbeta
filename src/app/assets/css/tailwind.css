@@ -4223,3 +4223,46 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .blue {
   padding: 50px;
 }
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+        border-color: #00ff00;
+    }
+    50% {
+        box-shadow: 0 0 10px #800080, 0 0 20px #800080, 0 0 30px #800080, 0 0 40px #800080;
+        border-color: #800080;
+    }
+    100% {
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+        border-color: #00ff00;
+    }
+}
+
+.custom-container {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.marquee-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.marquee-item {
+    display: inline-block;
+    margin: 0 40px; /* Adjust spacing as needed */
+}
+
+.glow-border {
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(90deg, #00ff00, #800080);
+    border-image-slice: 1;
+    animation: glow 2s infinite alternate;
+}
+
+.logo-image {
+  @apply w-32 h-32 object-contain;
+}

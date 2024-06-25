@@ -1,151 +1,21 @@
-"use client";
+'use client';
 import React, { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import Web3 from "web3";
 
 // Dynamic imports for better performance
 const NavLight = dynamic(() => import('../components/navbar'));
 const Footer = dynamic(() => import('../components/footer'));
 
-// Base chain details
-const BASE_CHAIN_ID = '0x14a34'; // Base Sepolia chain ID
-const BASE_CHAIN_PARAMS = {
-  chainId: BASE_CHAIN_ID,
-  chainName: 'Base Sepolia',
-  nativeCurrency: {
-    name: 'ETH',
-    symbol: 'ETH',
-    decimals: 18,
-  },
-  rpcUrls: ['https://base-sepolia-rpc.publicnode.com'] // Replace with actual RPC URL
-};
-
-// Smart contract details
-const CONTRACT_ADDRESS = "0x32bDdf6D9aB4f97cC1C560C9A2b7b9bf676cB5Cf";
-const CONTRACT_ABI = [
-  {"inputs":[{"internalType":"string","name":"_termsBase64","type":"string"}],"stateMutability":"nonpayable","type":"constructor"},
-  {"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"}],"name":"Signed","type":"event"},
-  {"inputs":[],"name":"deposit","outputs":[],"stateMutability":"payable","type":"function"},
-  {"inputs":[{"internalType":"address","name":"user","type":"address"}],"name":"getSignature","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},
-  {"inputs":[],"name":"getSigners","outputs":[{"internalType":"address[]","name":"","type":"address[]"}],"stateMutability":"view","type":"function"},
-  {"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"hasSigned","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},
-  {"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
-  {"inputs":[],"name":"signTerms","outputs":[],"stateMutability":"nonpayable","type":"function"},
-  {"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"signers","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
-  {"inputs":[],"name":"termsBase64","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},
-  {"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"},
-  {"stateMutability":"payable","type":"receive"}
-];
-
 export default function Privacy() {
-  const [account, setAccount] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [hasSigned, setHasSigned] = useState(false);
   const [signers, setSigners] = useState([]);
   const [showSigners, setShowSigners] = useState(false);
-  const [signCheckMessage, setSignCheckMessage] = useState('');
 
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
     document.documentElement.classList.add('dark');
     document.documentElement.classList.remove('light');
   }, []);
-
-  const checkIfSigned = useCallback(async () => {
-    if (account && typeof window.ethereum !== 'undefined') {
-      try {
-        const web3 = new Web3(window.ethereum);
-        const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
-        const signed = await contract.methods.hasSigned(account).call();
-        setHasSigned(signed);
-        setSignCheckMessage(signed ? 'You have signed the terms.' : 'You have not signed the terms.');
-      } catch (error) {
-        console.error("Error checking signature: ", error);
-        setSignCheckMessage('Error checking signature.');
-      }
-    }
-  }, [account]);
-
-  const fetchSigners = useCallback(async () => {
-    if (account && typeof window.ethereum !== 'undefined') {
-      try {
-        const web3 = new Web3(window.ethereum);
-        const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
-        const signersList = await contract.methods.getSigners().call();
-        setSigners(signersList);
-        setShowSigners(true);
-      } catch (error) {
-        console.error("Error fetching signers: ", error);
-      }
-    }
-  }, [account]);
-
-  useEffect(() => {
-    if (account) {
-      checkIfSigned();
-      fetchSigners();
-    }
-  }, [account, checkIfSigned, fetchSigners]);
-
-  const connectWallet = async () => {
-    if (typeof window.ethereum !== 'undefined') {
-      try {
-        setIsLoading(true);
-        await window.ethereum.request({ method: 'eth_requestAccounts' });
-        const web3 = new Web3(window.ethereum);
-        const accounts = await web3.eth.getAccounts();
-        setAccount(accounts[0]);
-        await switchToBaseChain();
-      } catch (error) {
-        console.error("Error connecting to wallet: ", error);
-      } finally {
-        setIsLoading(false);
-      }
-    } else {
-      alert("Please install a MetaMask wallet to use this feature.");
-    }
-  };
-
-  const switchToBaseChain = async () => {
-    try {
-      await window.ethereum.request({
-        method: 'wallet_switchEthereumChain',
-        params: [{ chainId: BASE_CHAIN_ID }],
-      });
-    } catch (switchError) {
-      if (switchError.code === 4902) {
-        try {
-          await window.ethereum.request({
-            method: 'wallet_addEthereumChain',
-            params: [BASE_CHAIN_PARAMS],
-          });
-        } catch (addError) {
-          console.error("Error adding Base Sepolia chain: ", addError);
-        }
-      } else {
-        console.error("Error switching to Base Sepolia chain: ", switchError);
-      }
-    }
-  };
-
-  const signTerms = async () => {
-    if (account && typeof window.ethereum !== 'undefined') {
-      try {
-        setIsLoading(true);
-        const web3 = new Web3(window.ethereum);
-        const contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
-        await contract.methods.signTerms().send({ from: account });
-        setHasSigned(true);
-        fetchSigners();
-        console.log("Terms signed");
-      } catch (error) {
-        console.error("Error signing terms: ", error);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-  };
 
   return (
     <>
@@ -217,49 +87,16 @@ export default function Privacy() {
                 </p>
 
                 <div className="mt-8">
-                  {!account ? (
-                    <button onClick={connectWallet} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-amber-400 hover:bg-amber-500 border-amber-400 hover:border-amber-500 text-white rounded-md">
-                      {isLoading ? 'Connecting...' : 'Connect Wallet'}
-                    </button>
-                  ) : (
-                    <button onClick={signTerms} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-amber-400 hover:bg-amber-500 border-amber-400 hover:border-amber-500 text-white rounded-md">
-                      {isLoading ? 'Signing...' : 'Sign to Accept'}
-                    </button>
-                  )}
-                  {hasSigned && (
-                    <div className="mt-4 text-green-500">
-                      Signature recorded! You can now proceed.
-                      <Link href="https://members.pwr2tp.mx" className="ml-4 py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-green-400 hover:bg-green-500 border-green-400 hover:border-green-500 text-white rounded-md">Continue to Profile Creation</Link>
-                    </div>
-                  )}
-                </div>
-
-                <div className="mt-8">
-                  <button onClick={checkIfSigned} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-blue-400 hover:bg-blue-500 border-blue-400 hover:border-blue-500 text-white rounded-md">
-                    Check If Signed
-                  </button>
-                  {signCheckMessage && (
-                    <div className="mt-4 text-blue-500">
-                      {signCheckMessage}
-                    </div>
-                  )}
+                  <div className="mt-4">
+                    <h5 className="text-xl font-semibold mb-4"></h5>
+                    <ul className="list-disc text-slate-400 ml-5">
+                      {signers.map((signer, index) => (
+                        <li key={index}>{signer}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
                 
-                <div className="mt-8">
-                  <button onClick={fetchSigners} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-purple-400 hover:bg-purple-500 border-purple-400 hover:border-purple-500 text-white rounded-md">
-                    Fetch Signers
-                  </button>
-                  {showSigners && (
-                    <div className="mt-4">
-                      <h5 className="text-xl font-semibold mb-4">Signers List :</h5>
-                      <ul className="list-disc text-slate-400 ml-5">
-                        {signers.map((signer, index) => (
-                          <li key={index}>{signer}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
               </div>
             </div>
           </div>

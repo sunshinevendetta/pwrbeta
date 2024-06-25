@@ -1,5 +1,5 @@
 {
-  "name": "Power2PPL",
+  "name": "Power2TP",
   "version": "1.0.0",
   "description": "Power 2 The People Event",
   "private": true,
@@ -12,21 +12,21 @@
   },
   "dependencies": {
     "@aws-sdk/client-lambda": "^3.583.0",
-    "@ethersproject/providers": "^5.7.2",
+    "@headlessui/react": "^2.1.0",
     "@studio-freight/lenis": "^1.0.42",
-    "@web3-react/core": "^8.2.3",
-    "@web3-react/injected-connector": "^6.0.7",
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "gsap": "^3.12.5",
     "lodash": "^4.17.21",
     "next": "^14.1.4",
     "next-i18next": "^15.2.0",
+    "node-fetch": "^3.3.2",
     "node-html-parser": "^6.1.13",
     "nodemailer": "^6.9.13",
     "p5": "^1.9.2",
     "react": "latest",
     "react-dom": "latest",
+    "react-fast-marquee": "^1.6.4",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-scroll": "^1.8.9",
@@ -34,8 +34,7 @@
     "react-three-fiber": "^6.0.13",
     "react-type-animation": "^3.1.0",
     "slick-carousel": "^1.8.1",
-    "three": "^0.162.0",
-    "web3": "^4.9.0"
+    "three": "^0.162.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",

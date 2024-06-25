@@ -87,6 +87,18 @@ export default function Contact() {
                     Talk with us!
                   </h3>
                   <ContactForm />
+                  <div className="mt-4">
+                    <Link href="https://tally.so/r/mD104p" legacyBehavior>
+                      <a target="_blank" rel="noopener noreferrer" className="mt-4 bg-green-500 text-white font-bold py-2 px-4 rounded block text-center">
+                        Artists Form
+                      </a>
+                    </Link>
+                    <Link href="https://tally.so/r/waxd2E" legacyBehavior>
+                      <a target="_blank" rel="noopener noreferrer" className="mt-4 bg-purple-500 text-white font-bold py-2 px-4 rounded block text-center">
+                        Communities Form
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -110,8 +122,10 @@ export default function Contact() {
                 </p>
 
                 <div className="mt-5">
-                  <Link href="mailto:contacto@dfb.mx" className="hover:text-amber-400">
-                    contacto@dfb.mx
+                  <Link href="mailto:contacto@dfb.mx" legacyBehavior>
+                    <a target="_blank" rel="noopener noreferrer" className="hover:text-amber-400">
+                      contacto@dfb.mx
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -133,12 +147,11 @@ export default function Contact() {
 
                 <div className="mt-5">
                   <Link
-                    target="_blank"
                     href="https://maps.app.goo.gl/yo1StBahbJTmQMTu6"
-                    data-type="iframe"
-                    className="video-play-icon read-more lightbox hover:text-amber-400"
-                  >
-                    View on Google map
+                    legacyBehavior>
+                    <a target="_blank" rel="noopener noreferrer" className="video-play-icon read-more lightbox hover:text-amber-400">
+                      View on Google map
+                    </a>
                   </Link>
                 </div>
               </div>
