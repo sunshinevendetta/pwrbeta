@@ -52,10 +52,10 @@ export default function IndexThree() {
           <div className="grid grid-cols-1 pb-6 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Tickets</h3>
             <p className="text-slate-400 max-w-xl mx-auto">Choose from our range of ticket options designed to suit your needs and budget. Do not miss out on this transformative experience.</p>
-            <button className="px-6 py-3 mt-6 bg-purple-600 text-white font-semibold rounded-md hover:bg-green-700 focus:outline-none ">
-                            If you are an artist, student, hacker or trader click here to get a FREE TICKET
-                        </button></div>
-         
+            <button className="px-6 py-3 mt-6 bg-purple-600 text-white font-semibold rounded-md hover:bg-green-700 focus:outline-none" onClick={() => window.open('https://tally.so/r/mD104p', '_blank')}>
+              If you are an artist, student, hacker or trader click here to get a FREE TICKET
+            </button>
+          </div>
           <Pricing />
         </div>
         <Blogs />
