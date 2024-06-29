@@ -178,7 +178,6 @@ export default function Navbar() {
                   <span className="submenu-arrow"></span>
                   <ul className="submenu">
                     <li><Link href="/dexarena" className="sub-menu-item text-xs">Decentralized Arena</Link></li>
-                    <li><Link href="/fintecharena" className="sub-menu-item text-xs">Fintech Arena</Link></li>
                     <li><Link href="/specialarena" className="sub-menu-item text-xs">Special Arena</Link></li>
                     <li><Link href="/news/2" className="sub-menu-item text-xs">Info</Link></li>
                     <li><Link href="https://members.pwr2tp.mx" className="sub-menu-item text-xs">Login</Link></li>
