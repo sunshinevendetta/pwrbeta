@@ -111,19 +111,19 @@ const Sponsors = () => {
                 </Link>
                 <Link
                   className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
-                  href="/sponsorship-deals"
+                  href="/"
                 >
                   Sponsorship Deals
                 </Link>
                 <Link
                   className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
-                  href="/special-activations"
+                  href="/"
                 >
                   Special Activations
                 </Link>
                 <Link
                   className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
-                  href="/all"
+                  href="/"
                 >
                   See All
                 </Link>

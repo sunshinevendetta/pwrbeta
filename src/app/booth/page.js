@@ -9,7 +9,7 @@ const Footer = dynamic(() => import('../components/footer'), { ssr: false });
 const ExpoFloor = dynamic(() => import('../components/expoFloor'), { ssr: false });
 
 const teamMembers = [
-  'Alessia', 'Anana', 'Carlos', 'Eduardo', 'Elosegui', 'Javier', 'Joselo', 
+  'Alessia', 'Anana', 'Carlos', 'Eduardo', 'Elosegui', 'Israel', 'Javier', 'Joselo', 
   'NerdConf', 'Sunshine Vendetta', 'Porras', 'Revilla', 'Ricardo', 'No Team Member'
 ].sort();
 
