@@ -37,6 +37,7 @@
     "three": "^0.162.0"
   },
   "devDependencies": {
+    "@types/node": "20.14.10",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",

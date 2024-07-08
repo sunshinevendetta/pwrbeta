@@ -204,7 +204,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li><Link href="/pricing" className="sub-menu-item">Tickets</Link></li>
-            <li><Link href="https://sponsors.pwr2tp.mx" className="sub-menu-item">Sponsors</Link></li>
+            <li><Link href="/sponsor" className="sub-menu-item">Sponsors</Link></li>
             <li><Link href="/contact" className="sub-menu-item">Contact</Link></li>
           </ul>
         </div>
