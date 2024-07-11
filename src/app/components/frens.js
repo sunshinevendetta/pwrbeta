@@ -11,6 +11,9 @@ export default function AboutTwo() {
         { src: "/images/frens/espacio.webp", alt: "Espacio Cripto", link: "https://www.espaciocripto.io/" },
         { src: "/images/frens/logow.webp", alt: "Hyperbass", link: "https://hyperbass.xyz" },
         { src: "/images/frens/hola.webp", alt: "Hola Wave", link: "https://holawave.store/" },
+        { src: "/images/frens/estacion.webp", alt: "Estacion Conciencia", link: "https://www.instagram.com/estacionconciencia/" },
+        { src: "/images/frens/holaradio.webp", alt: "Hola Wave Radio", link: "https://www.instagram.com/holawave.radio/" },
+        { src: "/images/frens/exhale.webp", alt: "Exhale Core", link: "https://www.instagram.com/exhale_core/" },
         // Add more logos as needed
     ];
 

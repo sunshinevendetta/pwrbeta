@@ -34,7 +34,7 @@ const TradingSlider = () => {
             icon: FaFileContract,
             image: '/images/blog/tradepass.webp',
             title: 'Sign-Up',
-            desc: 'Entry fee of 0.005 ETH includes a trader badge +$10M virtual USD for trading in a risk-free, simulated trading environment.'
+            desc: 'Entry fee of 0.000 ETH includes a trader badge +$10M virtual USD for trading in a risk-free, simulated trading environment.'
         },
         {
             icon: GiTeamIdea,

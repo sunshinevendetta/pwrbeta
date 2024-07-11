@@ -27,7 +27,7 @@ export default function Services() {
             icon: FaFileContract,
             image: '/images/blog/artists.webp',
             title: 'Sign-Up',
-            desc: 'A unique artist pass, mintable for 0.001 ETH, serves as the entry ticket, if you are a student you do not need to pay for mint fees, just upload your institution ID or put the name of your institution to get the discount.'
+            desc: 'A unique artist pass, mintable for free serves as the entry ticket, if you are a student you do not need to pay for mint fees, just upload your institution ID or put the name of your institution to get the discount.'
         },
         {
             icon: GiTeamIdea,

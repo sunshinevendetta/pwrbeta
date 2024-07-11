@@ -125,7 +125,7 @@ export default function Terms() {
                 </ul>
 
                 <h5 className="text-xl font-semibold mb-4 mt-8">Registration Process :</h5>
-                <p className="text-slate-400">Participants need to sign up through an intuitive online registration process. The unique hacker pass, mintable for 0.001 ETH, serves as the entry ticket, emphasizing the event blockchain-centric ethos.</p>
+                <p className="text-slate-400">Participants need to sign up through an intuitive online registration process. The unique hacker pass, mintable for free, serves as the entry ticket, emphasizing the event blockchain-centric ethos.</p>
 
                 <h5 className="text-xl font-semibold mt-8">Rules :</h5>
 

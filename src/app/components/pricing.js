@@ -139,12 +139,12 @@ export default function Pricing() {
             <div className="flex mt-4">
               <span className="text-lg font-semibold">Ξ</span>
               <span className="text-5xl font-semibold mb-0 ms-1">
-                {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.0000' : selectedCategory === 'Traders' ? '0.005' : '0.025'}
+                {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.0000' : selectedCategory === 'Traders' ? '0.000' : '0.000'}
               </span>
               <span className="text-lg font-semibold ms-2">
-                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.00' : selectedCategory === 'Traders' ? (0.005 * ethPrice).toFixed(2) : (0.025 * ethPrice).toFixed(2)} USDC
-                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.000000' : selectedCategory === 'Traders' ? (0.005 * ethPrice / btcPrice).toFixed(6) : (0.025 * ethPrice / btcPrice).toFixed(6)} ₿
-                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.00' : selectedCategory === 'Traders' ? (0.005 * ethPrice * 20).toFixed(2) : (0.025 * ethPrice * 20).toFixed(2)} MXN
+                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.00' : selectedCategory === 'Traders' ? (0.000 * ethPrice).toFixed(2) : (0.025 * ethPrice).toFixed(2)} USDC
+                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.000000' : selectedCategory === 'Traders' ? (0.000 * ethPrice / btcPrice).toFixed(6) : (0.025 * ethPrice / btcPrice).toFixed(6)} ₿
+                / {selectedCategory === 'Hackers' || selectedCategory === 'Artist' ? '0.00' : selectedCategory === 'Traders' ? (0.000 * ethPrice * 20).toFixed(2) : (0.025 * ethPrice * 20).toFixed(2)} MXN
               </span>
             </div>
             <Link href={`https://tally.so/r/mD104p`}>

@@ -16,7 +16,7 @@ export const blogData = [
     <h3>Event Dynamics:</h3>
     <p>The <strong>48-hour marathon</strong> of innovation is set to challenge, inspire, and elevate. Participants will engage in a competitive environment where they will be tasked with developing groundbreaking technologies in AI, Web3, biohacking, and robotics. These areas are crucial for the technological and societal advances we aim to foster.</p>
     <h3>Registration Process:</h3>
-    <p>A unique hacker pass, mintable for 0.001 ETH, serves as the entry ticket, emphasizing the event's blockchain-centric ethos, if you are a student, no need to pay for mint fees, just upload your institution ID to get the free inscription.</p>
+    <p>A unique hacker pass, mintable for free, serves as the entry ticket, emphasizing the event's blockchain-centric ethos, if you are a student, no need to pay for mint fees, just upload your institution ID to get the free inscription.</p>
     <h3>Rules and Dynamics:</h3>
     <ul>
         <li><strong>Eligibility:</strong> Open to everyone passionate about technology, with minors requiring guardian consent, ensuring inclusivity at the core of "Accelerate."</li>
