@@ -14,6 +14,7 @@ export default function AboutTwo() {
         { src: "/images/frens/estacion.webp", alt: "Estacion Conciencia", link: "https://www.instagram.com/estacionconciencia/" },
         { src: "/images/frens/holaradio.webp", alt: "Hola Wave Radio", link: "https://www.instagram.com/holawave.radio/" },
         { src: "/images/frens/exhale.webp", alt: "Exhale Core", link: "https://www.instagram.com/exhale_core/" },
+        { src: "/images/frens/nautik.webp", alt: "Crypto Nautik", link: "https://www.cryptonautik.com" },
         // Add more logos as needed
     ];
 
