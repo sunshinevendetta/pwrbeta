@@ -37,16 +37,18 @@ const Sponsors = () => {
         </Head>
         <div className="flex-grow">
           <div className="flex justify-center p-6">
-            <WTCScene />
+            <div className="relative w-3/8">
+              <WTCScene />
+            </div>
           </div>
-          <div className="container mx-auto py-16 px-8">
+          <div className="container mx-auto py-8 px-8">
             <div className="text-center mb-12">
-              <h1 className="text-6xl font-bold mb-4">
-                <span className="text-transparent bg-clip-text gradient">
+              <h1 className="text-5xl font-bold mb-4">
+                <span className="text-transparent bg-gradient-to-r from-green-600 to-fuchsia-400 bg-clip-text gradient">
                   PWR2TP Sponsors Marketplace
                 </span>
               </h1>
-              <h2 className="text-3xl font-semibold text-gray-400">
+              <h2 className="text-2xl font-semibold text-gray-400">
                 Unlock Business Opportunities
               </h2>
             </div>
@@ -104,25 +106,25 @@ const Sponsors = () => {
               </div>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  className="w-56 p-3 rounded-lg transition-all hover:shadow-lg gradient border-white/10 border text-center"
+                  className="w-56 p-3 rounded-lg transition-all hover:shadow-lg gradient border-white/10 hover-gradient-amber-6 border text-center"
                   href="/booth"
                 >
                   Explore Booths
                 </Link>
                 <Link
-                  className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
+                  className="w-56 p-3 rounded-lg  transition-all hover:bg-white/[.06] border-white/10 hover-gradient-amber-6 border text-center"
                   href="/"
                 >
                   Sponsorship Deals
                 </Link>
                 <Link
-                  className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
+                  className="w-56 p-3 rounded-lg  transition-all hover:bg-white/[.06] border-white/10 hover-gradient-amber-6 border text-center"
                   href="/"
                 >
                   Special Activations
                 </Link>
                 <Link
-                  className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border text-center"
+                  className="w-56 p-3 rounded-lg  transition-all hover:bg-white/[.06] border-white/10 hover-gradient-amber-6 border text-center"
                   href="/"
                 >
                   See All

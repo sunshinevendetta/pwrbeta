@@ -10,7 +10,7 @@ const ExpoFloor = dynamic(() => import('../components/expoFloor'), { ssr: false 
 
 const teamMembers = [
   'Alessia', 'Anana', 'Carlos', 'Eduardo', 'Elosegui', 'Israel', 'Javier', 'Joselo', 
-  'NerdConf', 'Sunshine Vendetta', 'Porras', 'Revilla', 'Ricardo', 'No Team Member'
+  'NerdConf', 'Sunshine Vendetta','Paco', 'Porras', 'Revilla', 'Ricardo', 'Sebastian', 'No Team Member'
 ].sort();
 
 const BoothPage = () => {
@@ -93,7 +93,7 @@ const BoothPage = () => {
       </div>
       <div className="container mx-auto p-4">
         <h1 className="text-2xl font-bold mb-4 text-center text-white">Please Select Your Booth Size</h1>
-        <div className="flex flex-col items-center justify-center mb-8">
+        <div className=" w-3/4 mx-auto flex flex-col items-center justify-center mb-8">
           <ExpoFloor updateQuoteDetails={updateQuoteDetails} />
         </div>
         {quoteDetails.size && (
