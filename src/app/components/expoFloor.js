@@ -5,10 +5,9 @@ import { Suspense, useState, useEffect, useCallback, useMemo } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
-// Extend so OrbitControls can be used as a JSX element
+
 extend({ OrbitControls });
 
-// Loader component for loading state
 const Loader = () => {
   return <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>Loading...</div>;
 };
@@ -48,6 +47,7 @@ const Controls = () => {
   useEffect(() => {
     const controls = new OrbitControls(camera, gl.domElement);
     controls.enableDamping = true;
+    controls.enableRotate = false;
     return () => controls.dispose();
   }, [camera, gl]);
   return null;
@@ -131,12 +131,12 @@ const ExpoFloor = ({ updateQuoteDetails }) => {
           <button
             key={size.label}
             onClick={() => setCurrentBoothSize(size)}
-            className={`px-4 py-2 hover-gradient-amber-6 font-semibold rounded-md focus:outline-none ${currentBoothSize.label === size.label ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'} hover:bg-blue-500 hover:text-white transition-all duration-200`}
+            className={`px-4 py-2 hover-gradient-amber-6 font-semibold rounded-md  border border-green-500 focus:outline-none ${currentBoothSize.label === size.label ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'} hover:bg-blue-500 hover:text-white transition-all duration-200`}
           >
             {size.label}
           </button>
         ))}
-        <button onClick={handleResetClick} className="px-4 py-2 hover-gradient-amber-6 font-semibold rounded-md focus:outline-none bg-red-600 text-white hover:bg-red-500 transition-all duration-200">
+        <button onClick={handleResetClick} className="px-4 py-2 hover-gradient-amber-6 border border-red-100 font-semibold rounded-md focus:outline-none bg-red-600 text-white hover:bg-red-500 transition-all duration-200">
           Reset Selection
         </button>
       </div>
