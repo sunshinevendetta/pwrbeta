@@ -6,7 +6,7 @@ const ExtraTokenModal = ({ isOpen, onClose, language }) => {
     if (!isOpen) return null;
 
     const handleClaimTokens = () => {
-        window.open('https://xverse.pwr2tp.mx', '_blank');
+        window.open('https://ordinaleslatam.pwr2tp.mx', '_blank');
     };
 
     return (

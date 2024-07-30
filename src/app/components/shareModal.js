@@ -92,7 +92,7 @@ const ShareModal = ({ isOpen, onClose, className = '', language }) => {
     };
 
     const handleProceed = () => {
-        window.open('https://xverse.pwr2tp.mx', '_blank'); // Redirect to the specified domain
+        window.open('https://ordinaleslatam.pwr2tp.mx', '_blank'); // Redirect to the specified domain
         onClose();
     };
 
