@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from 'next/navigation';
 import Back from "../bg/page";
-import Navbar from "../components/navbar"; // Adjust the import path as necessary
-import ClaimSlider from "../components/ClaimSlider"; // Adjust the import path as necessary
+import Navbar from "../components/navbar";// Adjust the import path as necessary
+import ClaimSlider from "../components/claimSlide";
 
 export default function ResetPassword() {
     const [language, setLanguage] = useState('en');

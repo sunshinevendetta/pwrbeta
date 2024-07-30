@@ -98,7 +98,6 @@ const ClaimSlider = ({ language }) => {
     const [showFinalStep, setShowFinalStep] = useState(false);
     const [isShareModalOpen, setIsShareModalOpen] = useState(false);
     const [timeLeft, setTimeLeft] = useState(10); // Set the initial time (in seconds)
-    const [buttonText, setButtonText] = useState('');
     const sliderRef = useRef(null);
 
     useEffect(() => {
@@ -107,10 +106,6 @@ const ClaimSlider = ({ language }) => {
             return () => clearTimeout(timer);
         }
     }, [timeLeft]);
-
-    useEffect(() => {
-        setButtonText(language === 'en' ? 'Invite Frens!' : 'Invitar Amix');
-    }, [language]);
 
     const settings = {
         infinite: false,
@@ -136,10 +131,6 @@ const ClaimSlider = ({ language }) => {
         setIsShareModalOpen(false);
     };
 
-    const handleInvite = () => {
-        window.open('https://xverse.pwr2tp.mx', '_blank');
-    };
-
     return (
         <div className="w-full h-full">
             <Slider ref={sliderRef} {...settings}>
@@ -158,7 +149,7 @@ const ClaimSlider = ({ language }) => {
                                             className="mt-4 py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg"
                                             onClick={handleConnect}
                                         >
-                                            {buttonText}
+                                            {language === 'en' ? 'Invite' : 'Invitar'}
                                         </button>
                                     )}
                                 </div>
@@ -177,9 +168,6 @@ const ClaimSlider = ({ language }) => {
                                 <div className="flex flex-col items-center">
                                     <button className="py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg mb-2" onClick={openShareModal}>
                                         {language === 'en' ? 'Send to a Friend' : 'Enviar a un Amigo'}
-                                    </button>
-                                    <button className="py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg" onClick={handleInvite}>
-                                        {buttonText}
                                     </button>
                                 </div>
                             </div>
