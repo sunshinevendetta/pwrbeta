@@ -101,6 +101,9 @@ const Stands = () => {
 
       const animate = () => {
         requestAnimationFrame(animate);
+        if (model) {
+          model.rotation.y += 0.01; // Rotate the model 360 degrees
+        }
         controls.update();
         renderer.render(scene, camera);
       };
@@ -160,14 +163,23 @@ const Stands = () => {
   }, [selectedBooth]);
 
   return (
-    <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ width: '20%', backgroundColor: '#f0f0f0', overflowY: 'auto' }}>
+    <div style={{ display: 'flex', height: '100vh', backgroundColor: 'black' }}>
+      <div style={{ width: '20%', backgroundColor: 'black', overflowY: 'auto', color: 'green' }}>
         <h1>Choose Booth</h1>
         {glbFiles.map((file, index) => (
           <button
             key={index}
             onClick={() => setSelectedBooth(index + 1)}
-            style={{ display: 'block', width: '100%', padding: '10px', textAlign: 'left', border: 'none', backgroundColor: selectedBooth === index + 1 ? '#ddd' : '#fff' }}
+            style={{ 
+              display: 'block', 
+              width: '100%', 
+              padding: '10px', 
+              textAlign: 'left', 
+              border: 'none', 
+              backgroundColor: selectedBooth === index + 1 ? 'purple' : 'black', 
+              color: 'green',
+              cursor: 'pointer'
+            }}
           >
             Booth {index + 1}
           </button>
@@ -175,9 +187,9 @@ const Stands = () => {
       </div>
       <div ref={containerRef} style={{ width: '80%', position: 'relative' }}>
         {isLoading && (
-          <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 10, textAlign: 'center' }}>
-            <div style={{ width: '100px', height: '20px', border: '1px solid #000' }}>
-              <div style={{ width: `${loadingProgress}%`, height: '100%', background: '#000' }}></div>
+          <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 10, textAlign: 'center', color: 'green' }}>
+            <div style={{ width: '100px', height: '20px', border: '1px solid green' }}>
+              <div style={{ width: `${loadingProgress}%`, height: '100%', background: 'green' }}></div>
             </div>
             <p>{Math.round(loadingProgress)}%</p>
           </div>
