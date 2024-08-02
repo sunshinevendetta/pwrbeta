@@ -1,37 +1,23 @@
 'use client';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import { FaTicketAlt, FaGift, FaRegSmile, FaEthereum } from 'react-icons/fa';
+import { FaTicketAlt, FaGift, FaEthereum } from 'react-icons/fa';
 import { SiEthereum } from 'react-icons/si'; 
 import ShareModal from './shareModal'; 
 
-const CustomNextArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} custom-arrow`}
-            style={{ ...style, display: 'block', right: '10px' }}
-            onClick={onClick}
-        />
-    );
-}
-
-const CustomPrevArrow = (props) => {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={`${className} custom-arrow`}
-            style={{ ...style, display: 'block', left: '10px', zIndex: 1 }}
-            onClick={onClick}
-        />
-    );
-}
+const CustomArrow = ({ className, style, onClick, direction }) => (
+    <div
+        className={`${className} custom-arrow`}
+        style={{ ...style, display: 'block', [direction]: '10px', zIndex: 1 }}
+        onClick={onClick}
+    />
+);
 
 const ClaimSlider = ({ language }) => {
-    const steps = [
+    const slides = [
         {
             icon: FaTicketAlt,
             image: '/images/blog/tradepass.webp',
@@ -67,123 +53,49 @@ const ClaimSlider = ({ language }) => {
                 en: 'Claim 5,000 $People Tokens as a gift from us for being a part of the event.',
                 es: 'Reclama 5,000 $People Tokens como un regalo de nuestra parte por asistir al evento.'
             }
-        },
-        {
-            icon: FaRegSmile,
-            image: '/images/4.webp',
-            title: {
-                en: 'Enjoy the Event',
-                es: 'Disfruta del Evento'
-            },
-            desc: {
-                en: 'Enjoy the event and feel special with your unique medals and tokens!',
-                es: '¡Disfruta del evento y siéntete especial con tus medallas y tokens únicos!'
-            }
-        },
-        {
-            icon: FaEthereum,
-            image: '/images/5.webp',
-            title: {
-                en: 'Connect and Share',
-                es: 'Conecta y Comparte'
-            },
-            desc: {
-                en: 'Share it with friends or generate your profile.',
-                es: 'Comparte con amigos o generar tu perfil.'
-            }
         }
     ];
 
-    const [slideIndex, setSlideIndex] = useState(0);
-    const [showFinalStep, setShowFinalStep] = useState(false);
     const [isShareModalOpen, setIsShareModalOpen] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(10); // Set the initial time (in seconds)
     const sliderRef = useRef(null);
-
-    useEffect(() => {
-        if (timeLeft > 0) {
-            const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
-            return () => clearTimeout(timer);
-        }
-    }, [timeLeft]);
 
     const settings = {
         infinite: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        afterChange: (current) => setSlideIndex(current),
+        nextArrow: <CustomArrow direction="right" />,
+        prevArrow: <CustomArrow direction="left" />,
         adaptiveHeight: true,
-        nextArrow: <CustomNextArrow />,
-        prevArrow: <CustomPrevArrow />
     };
 
-    const handleConnect = () => {
-        setShowFinalStep(true);
-        sliderRef.current.slickGoTo(steps.length);
-    };
-
-    const openShareModal = () => {
-        setIsShareModalOpen(true);
-    };
-
-    const closeShareModal = () => {
-        setIsShareModalOpen(false);
-    };
+    const openShareModal = () => setIsShareModalOpen(true);
+    const closeShareModal = () => setIsShareModalOpen(false);
 
     return (
         <div className="w-full h-full">
             <Slider ref={sliderRef} {...settings}>
-                {steps.map((step, index) => {
-                    const Icon = step.icon;
-                    return (
-                        <div className="p-6" key={index}>
-                            <div className="relative h-72 w-full bg-black bg-opacity-40 rounded-lg overflow-hidden">
-                                <Image src={step.image} alt={step.title[language]} fill className="object-cover opacity-80" />
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
-                                    <Icon className="h-12 w-12 text-white mb-4" />
-                                    <h4 className="text-xl font-bold text-white mb-2">{step.title[language]}</h4>
-                                    <p className="text-white text-center">{step.desc[language]}</p>
-                                    {index === steps.length - 1 && (
-                                        <button
-                                            className="mt-4 py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg"
-                                            onClick={handleConnect}
-                                        >
-                                            {language === 'en' ? 'Invite' : 'Invitar'}
-                                        </button>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    );
-                })}
-                {showFinalStep && (
-                    <div className="p-6">
+                {slides.map((slide, index) => (
+                    <div className="p-6" key={index}>
                         <div className="relative h-72 w-full bg-black bg-opacity-40 rounded-lg overflow-hidden">
-                            <Image src="/images/6.webp" alt={language === 'en' ? 'Share with Friends' : 'Comparte con Amigos'} fill className="object-cover opacity-80" />
+                            <Image src={slide.image} alt={slide.title[language]} fill className="object-cover opacity-80" />
                             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center flex-col p-4">
-                                <FaGift className="h-12 w-12 text-white mb-4" />
-                                <h4 className="text-xl font-bold text-white mb-2">{language === 'en' ? 'Share with Friends' : 'Comparte con Amigos'}</h4>
-                                <p className="text-white text-center mb-4">{language === 'en' ? 'Share your special experience with friends or generate your profile.' : 'Comparte tu experiencia especial con amigos o genera tu perfil.'}</p>
-                                <div className="flex flex-col items-center">
-                                    <button className="py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg mb-2" onClick={openShareModal}>
-                                        {language === 'en' ? 'Send to a Friend' : 'Enviar a un Amigo'}
-                                    </button>
-                                </div>
+                                <slide.icon className="h-12 w-12 text-white mb-4" />
+                                <h4 className="text-xl font-bold text-white mb-2">{slide.title[language]}</h4>
+                                <p className="text-white text-center">{slide.desc[language]}</p>
                             </div>
                         </div>
                     </div>
-                )}
+                ))}
             </Slider>
             <div className="flex justify-center mt-4">
                 <button
                     className="py-2 px-5 bg-amber-400 hover:bg-amber-500 text-white rounded-md text-lg"
-                    onClick={() => sliderRef.current.slickNext()}
+                    onClick={openShareModal}
                 >
-                    {language === 'en' ? 'Next' : 'Siguiente'}
+                    {language === 'en' ? 'Start Quest' : 'Iniciar Misión'}
                 </button>
             </div>
-
             <ShareModal
                 language={language}
                 isOpen={isShareModalOpen}
