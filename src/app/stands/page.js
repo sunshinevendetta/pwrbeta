@@ -45,6 +45,8 @@ const Stands = () => {
       mountRef.current.appendChild(renderer.domElement);
 
       const controls = new OrbitControls(camera, renderer.domElement);
+      controls.autoRotate = true;
+      controls.autoRotateSpeed = 2.5;
       controls.enableDamping = true;
 
       const ambientLight = new THREE.AmbientLight(0xffffff, 1);
@@ -102,7 +104,7 @@ const Stands = () => {
       const animate = () => {
         requestAnimationFrame(animate);
         if (model) {
-          model.rotation.y += 0.01; // Rotate the model 360 degrees
+          model.rotation.y += 0.01; // Rotate the model continuously
         }
         controls.update();
         renderer.render(scene, camera);
@@ -181,7 +183,7 @@ const Stands = () => {
               cursor: 'pointer'
             }}
           >
-            Booth {index + 1}
+            <p className='text-left text-sm font-bold'>Booth Option {index + 1}</p>
           </button>
         ))}
       </div>
