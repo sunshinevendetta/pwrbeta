@@ -17,7 +17,6 @@ export default function AboutTwo() {
         { src: "/images/frens/nautik.webp", alt: "Crypto Nautik", link: "https://www.cryptonautik.com" },
         { src: "/images/frens/antisat.webp", alt: "Antisat", link: "https://beacons.ai/criptecmx" },
         { src: "/images/frens/criptec.webp", alt: "Criptech", link: "https://www.cryptonautik.com" },
-        { src: "/images/frens/wen.webp", alt: "Wen Lopez", link: "https://x.com/Wenlopezn" },
         { src: "/images/frens/ordinales.webp", alt: "Los Ordinales", link: "https://x.com/losordinales" },
         { src: "/images/frens/mxweb3.webp", alt: "MXWeb3", link: "https://www.mxweb3.com/" },
         { src: "/images/frens/vara.webp", alt: "Vara Network", link: "https://www.vara.network/" },
