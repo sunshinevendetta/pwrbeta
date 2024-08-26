@@ -20,6 +20,7 @@ export default function AboutTwo() {
         { src: "/images/frens/ordinales.webp", alt: "Los Ordinales", link: "https://x.com/losordinales" },
         { src: "/images/frens/mxweb3.webp", alt: "MXWeb3", link: "https://www.mxweb3.com/" },
         { src: "/images/frens/vara.webp", alt: "Vara Network", link: "https://www.vara.network/" },
+        { src: "/images/frens/unlock.webp", alt: "Unlock Protocol", link: "https://unlocksummit.io/en/home/" },
         // Add more logos as needed
     ];
 
