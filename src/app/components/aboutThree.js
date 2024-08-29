@@ -70,7 +70,10 @@ export default function AboutThree() {
           </div>
 
           <div className="rounded-xl my-8 bg-black bg-size-full bg-opacity-70 p-6 md:p-8">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">September 7-8, 2024 <br />Mexico City</h3>
+          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+  2025 <br />Mexico City
+</h3>
+
             <p className="text-slate-400 max-w-xl">Colonia Nápoles a prime territory nestled next to Mexico City most vibrant districts - Roma, Condesa, Polanco, where exclusivity meets convenience.</p>
             <h1 className="mb-4 md:text-1xl md:leading-normal text-1xl leading-normal font-semibold"><br />The Arena</h1>
             <ul className="list-none text-slate-400 mt-4">
