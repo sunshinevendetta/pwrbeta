@@ -92,7 +92,7 @@ const ShareModal = ({ isOpen, onClose, className = '', language }) => {
     };
 
     const handleProceed = () => {
-        window.open('https://ordinaleslatam.pwr2tp.mx', '_blank'); // Redirect to the specified domain
+        window.open('https://perfil.pwr2tp.mx', '_blank'); // Redirect to the specified domain
         onClose();
     };
 
@@ -101,7 +101,7 @@ const ShareModal = ({ isOpen, onClose, className = '', language }) => {
             <div className="modal glass-card">
                 <button className="modal-close" onClick={onClose}>×</button>
                 <div className="p-6 rounded-lg text-white">
-                    <h2 className="text-md font-bold mb-4">{language === 'en' ? 'Share and get 5000 $PEOPLE Tokens' : 'Comparte y obtén 5000 $PEOPLE Tokens'}</h2>
+                    <h2 className="text-md font-bold mb-4">{language === 'en' ? 'Share and get 500 $PEOPLE Tokens' : 'Comparte y obten 500 $PEOPLE Tokens'}</h2>
                     <div className="flex justify-around mb-4">
                         <button onClick={() => handleSocialShare('facebook')} className="text-white">
                             <FaFacebookF className="h-8 w-8" />
@@ -151,7 +151,7 @@ const ShareModal = ({ isOpen, onClose, className = '', language }) => {
                         </div>
                         {message && <p className="mt-4 text-sm">{message}</p>}
                         {!isEmailSent && timer > 0 && (
-                            <p className="mt-4 text-xs">{language === 'en' ? `Please wait ${timer} to claim extra tokens.` : `Espera ${timer} para reclamar tokens extra.`}</p>
+                            <p className="mt-4 text-xl">{language === 'en' ? `Please wait ${timer} to claim  tokens.` : `Espera ${timer} para reclamar tokens extra.`}</p>
                         )}
                     </div>
                 </div>
