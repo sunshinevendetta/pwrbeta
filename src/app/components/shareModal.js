@@ -101,7 +101,7 @@ const ShareModal = ({ isOpen, onClose, className = '', language }) => {
             <div className="modal glass-card">
                 <button className="modal-close" onClick={onClose}>×</button>
                 <div className="p-6 rounded-lg text-white">
-                    <h2 className="text-md font-bold mb-4">{language === 'en' ? 'Share and get 500 $PEOPLE Tokens' : 'Comparte y obten 500 $PEOPLE Tokens'}</h2>
+                    <h2 className="text-md font-bold mb-4">{language === 'en' ? 'Share and get 500 $PEOPLE Tokens' : 'Comparte para obtener 500 $PEOPLE Tokens'}</h2>
                     <div className="flex justify-around mb-4">
                         <button onClick={() => handleSocialShare('facebook')} className="text-white">
                             <FaFacebookF className="h-8 w-8" />
