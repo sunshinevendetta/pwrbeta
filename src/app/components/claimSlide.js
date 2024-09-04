@@ -26,8 +26,8 @@ const ClaimSlider = ({ language }) => {
                 es: 'Medalla + Boleto Especial'
             },
             desc: {
-                en: 'You are special! Enjoy a special badge and ticket for the Xverse event attendees.',
-                es: '¡Eres especial! Disfruta de una medalla y boleto especial para asistentes al evento Xverse.'
+                en: 'You are special! Enjoy a special badge and ticket for the Criptec event attendees.',
+                es: '¡Eres especial! Disfruta de una medalla y boleto especial para asistentes al evento de Criptec.'
             }
         },
         {
