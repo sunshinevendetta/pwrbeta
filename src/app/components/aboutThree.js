@@ -71,7 +71,7 @@ export default function AboutThree() {
 
           <div className="rounded-xl my-8 bg-black bg-size-full bg-opacity-70 p-6 md:p-8">
           <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-  7-8 February 2025 <br />Mexico City
+8-9 February 2025 <br />Mexico City
 </h3>
 
             <p className="text-slate-400 max-w-xl">Colonia Nápoles a prime territory nestled next to Mexico City most vibrant districts - Roma, Condesa, Polanco, where exclusivity meets convenience.</p>
