@@ -26,8 +26,8 @@ const ClaimSlider = ({ language }) => {
                 es: 'Medalla + Boleto Especial'
             },
             desc: {
-                en: 'You are special! Enjoy a special badge and ticket for the Xverse event attendees.',
-                es: '¡Eres especial! Disfruta de una medalla y boleto especial para asistentes al evento Xverse.'
+                en: 'You are special! Enjoy a special badge and ticket for the Criptec event attendees.',
+                es: '¡Eres especial! Disfruta de una medalla y boleto especial para asistentes al evento de Criptec.'
             }
         },
         {
@@ -50,8 +50,8 @@ const ClaimSlider = ({ language }) => {
                 es: 'Reclamar Tokens'
             },
             desc: {
-                en: 'Claim 5,000 $People Tokens as a gift from us for being a part of the event.',
-                es: 'Reclama 5,000 $People Tokens como un regalo de nuestra parte por asistir al evento.'
+                en: 'Claim 500 $People Tokens as a gift from us for being a part of the event.',
+                es: 'Reclama 500 $People Tokens como un regalo de nuestra parte por asistir al evento.'
             }
         }
     ];
