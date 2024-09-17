@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Organization//Your Product//EN
+BEGIN:VEVENT
+UID:power2thepeople2025@pwr2tp.mx
+DTSTAMP:20240208T090000Z
+DTSTART:20250208T090000Z
+DTEND:20250209T170000Z
+SUMMARY:Power 2 The People Event
+DESCRIPTION:¡Prepárate para un viaje épico al mundo de Crypto, IA, Web3 y mucho más!
+LOCATION:World Trade Center, Ciudad de México
+END:VEVENT
+END:VCALENDAR

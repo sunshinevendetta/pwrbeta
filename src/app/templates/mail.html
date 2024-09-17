@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #121212; /* Dark mode background */
+            color: #e0e0e0;
+        }
+
+        /* Container */
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(30, 30, 30, 0.9); /* Dark mode content background with transparency */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Header */
+        .header {
+            position: relative;
+        }
+
+        .header img.banner {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Content */
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #32CD32; /* Green color for highlights */
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Event Details */
+        .event-details {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .event-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .event-details li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #32CD32; /* Green color for highlights */
+        }
+
+        /* Ticket Button */
+        .ticket-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .ticket-btn a {
+            background-color: #8e44ad; /* Purple color */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        /* Add to Calendar Link */
+        .calendar-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .calendar-link a {
+            color: #32CD32; /* Green color for the link */
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #181818;
+            color: #777;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #32CD32; /* Green color for the mailto link */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header with Banner Image -->
+        <div class="header">
+            <img src="{{bannerUrl}}" alt="Banner del Evento" class="banner">
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <!-- Personalized Greeting -->
+            <h2>¡Hola {{name}}, te has registrado oficialmente en Power 2 The People!</h2>
+            <p>Nos emociona tenerte con nosotros en esta experiencia revolucionaria el 8 y 9 de febrero de 2025 en Ciudad de México. ¡Prepárate para un viaje épico al mundo de Crypto, IA, Web3 y mucho más!</p>
+
+            <!-- Ticket Claim -->
+            <div class="ticket-btn">
+                <a href="https://ticket.pwr2tp.mx" target="_blank">Reclama Tu Boleto Ahora</a>
+            </div>
+
+            <!-- Add to Calendar Link -->
+            <div class="calendar-link">
+                <a href="https://pwr2tp.mx/assets/power2thepeople2025.ics" download="power2thepeople2025.ics">Agregar al Calendario</a>
+            </div>
+
+            <!-- Event Details -->
+            <div class="event-details">
+                <h2>Detalles del Evento</h2>
+                <ul>
+                    <li><strong>Fecha:</strong> 8 y 9 de febrero de 2025</li>
+                    <li><strong>Ubicación:</strong> World Trade Center, Ciudad de México</li>
+                    <li><strong>Temas:</strong> Crypto, IA, Web3, Gaming, y más</li>
+                    <li><strong>Actividades:</strong> Talleres, Hackatones, Networking, Torneos de Trading</li>
+                </ul>
+            </div>
+
+            <!-- Additional Info -->
+            <p>¡Mantente atento para más actualizaciones a medida que nos acercamos al evento! Prepárate para ser inspirado, educado y empoderado junto a más de 10,000 personas igual a ti.</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Para cualquier consulta, contáctanos en <a href="mailto:contacto@pwr2tp.mx">contacto@pwr2tp.mx</a>. ¡Vamos a crear el futuro juntos!</p>
+        </div>
+    </div>
+</body>
+</html>
