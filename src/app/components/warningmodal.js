@@ -25,10 +25,9 @@ export default function WarningModal() {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-90">
       <div className="bg-black p-6 rounded shadow-lg max-w-md w-full text-center">
-        <h2 className="text-2xl font-bold mb-4 text-white">Epilepsy Warning</h2>
+        <h2 className="text-2xl font-bold mb-4 text-white">Warning</h2>
         <p className="mb-4 text-white">
-          This site contains flashing lights which may not be suitable for
-          people with photosensitive epilepsy or other conditions.
+          This site is sun setting for lack of payment
         </p>
         <p className="mb-4 text-white">
           Viewer discretion is advised.
